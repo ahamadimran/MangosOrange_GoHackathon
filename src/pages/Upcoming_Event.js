@@ -48,7 +48,7 @@ const Upcoming_Event = () => {
                     </div>
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
-                           <Link to=""></Link> <img src="img/courses/Aws_Devops.png" alt="" height="100%" width="100%"/>
+                           <Link to=""><img src="img/courses/Aws_Devops.png" alt="" height="100%" width="100%"/></Link>
                             <div class="card-body">
                                 <h4>Devops</h4>
                                 {/* <p>
@@ -68,7 +68,7 @@ const Upcoming_Event = () => {
         <div class="album py-5 bg-light">
             <div class="container"> 
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                    <div class="col-lg-4">
+                    <div class="col-lg-3">
                         <div class="card shadow-sm">
                         <Link to=""><img src="img/courses/cloud_computing.jpg" alt="" height="100%" width="100%"/></Link>
                             <div class="card-body">
@@ -81,11 +81,11 @@ const Upcoming_Event = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-3">
                         <div class="card shadow-sm">
                         <Link to=""><img src="img/courses/python.jpg" alt="" height="100%" width="100%"/></Link>
                             <div class="card-body">
-                            <h4>Python Programming</h4>
+                            <h4>Python</h4>
                                 {/* <p class="card-text">This is a wider card with supporting text below as a natural
                                     lead-in to additional content. This content is a little bit longer.
                                 </p>
@@ -94,11 +94,25 @@ const Upcoming_Event = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-3">
                         <div class="card shadow-sm">
                         <Link to=""><img src="img/courses/java.png" alt="" height="100%" width="100%"/></Link>
                             <div class="card-body">
                             <h4>Java Programming</h4>
+                                {/* <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.
+                                </p>
+                                <Link to=""><a class="btn btn-primary" href="contact.html" role="button">Buy Now</a></Link> &nbsp; &nbsp;
+                                <Link to=""><a class="btn btn-primary" href="contact.html" role="button">Know More</a></Link> */}
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="card shadow-sm">
+                        <Link to=""><img src="img/event/figma.png" alt="" height="100%" width="100%"/></Link>
+                            <div class="card-body">
+                            <h4>Figma Prototyping</h4>
                                 {/* <p class="card-text">This is a wider card with supporting text below as a natural
                                     lead-in to additional content. This content is a little bit longer.
                                 </p>

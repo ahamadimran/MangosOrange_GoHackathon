@@ -29,7 +29,7 @@ const training = () => {
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
-                           <Link to="ai_ml"><img src="img/courses/AI&ML.jpg" alt="" height="100%" width="100%"/></Link>
+                           <Link to="/ai_ml"><img src="img/courses/AI&ML.jpg" alt="" height="100%" width="100%"/></Link>
                             <div class="card-body">
                                 <h4>AI and Machine Learning</h4>
                                 {/* <p>

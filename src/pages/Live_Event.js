@@ -33,7 +33,7 @@ const Live_Event = () => {
                     </div>
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
-                           <Link to=""><img src="img/event/git.png" alt="" height="100%" width="100%"/></Link>
+                           <Link to="/git_github"><img src="img/event/git.png" alt="" height="100%" width="100%"/></Link>
                             <div class="card-body">
                                 <h4>Git and GitHub Workshop</h4>
                                 {/* <p>
