@@ -2,6 +2,22 @@ body{
 font-family: 'Montserrat',  'sans-serif';
 }
 
+.contactform {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  background-color: lightskyblue;
+  border-radius: 2%;
+}
+
+#contact-form {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.card-body .card-title {
+  text-align: center;
+}
+
 .home_hr {
   border-style: none;
   border-top-style: dotted;
@@ -199,12 +215,12 @@ p{
   position: absolute;
   background-color: whitesmoke;
   min-width: 160px;
-  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2);
   z-index: 11;
 }
 .dropdown-content a {
   color: black;
-  padding: 12px 16px;
+  padding: 4px 6px;
   text-decoration: none;
   display: block;
 }

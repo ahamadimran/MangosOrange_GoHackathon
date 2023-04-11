@@ -1,4 +1,5 @@
 import React, {Fragment} from 'react'
+import { Link } from 'react-router-dom'
 
 const footer = () => {
   return (
@@ -18,11 +19,11 @@ const footer = () => {
                             </div>
                             <div className="footer-social-icon">
                                 <span>Follow us</span>
-                                <a href="https://www.facebook.com/people/GoHackathon/100088250115623/"><i className="fab fa-facebook-f facebook-bg"></i></a>
-                                <a href="https://www.instagram.com/gohackathon/?igshid=YmMyMTA2M2Y%3D"><i className="fab fa-instagram instagram-bg"></i></a>
-                                <a href="https://twitter.com/GoHackathon"><i className="fab fa-twitter twitter-bg"></i></a>
-                                <a href="https://www.linkedin.com/in/go-hackathon-a082b9264/"><i className="fab fa-linkedin-in linkedin-bg"></i></a>
-                                <a href="https://www.youtube.com/@gohackathon/videos"><i className="fab fa-youtube youtube-bg"></i></a>
+                                <a href="https://www.facebook.com/people/GoHackathon/100088250115623/"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                <a href="https://www.instagram.com/gohackathon/?igshid=YmMyMTA2M2Y%3D"><i class="fab fa-instagram instagram-bg"></i></a>
+                                <a href="https://twitter.com/GoHackathon"><i class="fab fa-twitter twitter-bg"></i></a>
+                                <a href="https://www.linkedin.com/in/go-hackathon-a082b9264/"><i class="fab fa-linkedin-in linkedin-bg"></i></a>
+                                <a href="https://www.youtube.com/@gohackathon/videos"><i class="fab fa-youtube youtube-bg"></i></a>
                             </div>
                         </div>
                     </div>
@@ -33,12 +34,12 @@ const footer = () => {
                                     <h3>Quick Links</h3>
                                 </div>
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="about.html">about</a></li>
-                                    <li><a href="event.html">events</a></li>
-                                    <li><a href="leaderboard.html">Leaderboard</a></li>
-                                    <li><a href="gallery2.html">gallery</a></li>
-                                    <li><a href="contact.html">Contact us</a></li>
+                                   <Link to="/"><li><a href="index.html">Home</a></li></Link>
+                                   <Link to="/about"><li><a href="about.html">About Us</a></li></Link>
+                                   <Link to="/event"><li><a href="event.html">Events</a></li></Link>
+                                   <Link to="/training"><li><a href="training.html">Training</a></li></Link>
+                                   <Link to="/gallery"><li><a href="gallery.html">Gallery</a></li></Link>
+                                   <Link to="/contact"><li><a href="contact.html">Contact Us</a></li></Link>
                                 </ul>
                             </div>
                         </div>
@@ -59,7 +60,8 @@ const footer = () => {
                                     <div className="topic"> 
                                         
                                         <i className="fa fa-phone" style={{fontsize: "20px"}}></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><a href="tel:+91 7678476713">+91 7678476713</a></strong> <br />
-                                        <i className="fa fa-phone" style={{fontsize: "20px"}}></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong><a href="tel:+91-120-4567841">+91-120-4567841</a></strong>
+                                        <i className="fa fa-phone" style={{fontsize: "20px"}}></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong><a href="tel:+91 9910018925">+91 9910018925</a></strong> <br/>
+                                        <i className="fa fa-phone" style={{fontsize: "20px"}}></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong><a href="tel:+91 7985882599">+91 7985882599</a></strong>
                                     </div>
                                 </div> <br />
                                 <div className="email-details">

@@ -14,7 +14,7 @@ const index = () => {
                 <div className="col-lg-7  bannertext">
                     <h1>GOHACKATHON</h1>
                     <h6>Presents</h6>
-                    <h2><strong>GIT AND GITHUB WEBINAR</strong></h2>
+                    <h2><strong>GYAN GOSHTHI</strong></h2>
                     <p><strong>Collaborate, Innovate, and Hack Your Way to Success!</strong><br />
                         We are trying to build a community where everyone can connect, learn, and grow together.
                     </p> <br />
@@ -35,7 +35,7 @@ const index = () => {
     <div className="container">
         <div className="row">
             <div className="aboutsection col-lg-7">
-                <h1>About GoHackathon</h1>
+                <h2>About GoHackathon</h2>
                 <p>Go Hackathon comprises of eminent Industry professionals, educators and students meant to
                     nurture talent among budding tech professional. Industry today is looking for talented 
                     students who are equipped and experience with advanced skills, software, attitude and 
@@ -56,7 +56,7 @@ const index = () => {
     </div>
     <hr />
 
-    <section className="sponsors">
+    {/* <section className="sponsors">
         <div className="content text-center">
             <h2 text-align="center">SPONSORS AND ASSOCIATES</h2>
         </div>
@@ -75,7 +75,7 @@ const index = () => {
             </div>
         </div>
         <hr />
-    </section>
+    </section> */}
     
     <section className="section-2  p-0">
         <div className="cover">

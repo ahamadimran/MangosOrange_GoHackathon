@@ -26,18 +26,20 @@ const Menu = () => {
                     <Link to="/event">
                     <a href={URL} className="nav-link">EVENTS</a></Link>
                     <div className="dropdown-content">
-                       <Link to="/live_event"><a href={URL}>LIVE EVENTS</a></Link>
-                       <Link to="/upcoming_event"><a href={URL}>UPCOMMING EVENTS</a></Link>
-                       <Link to="/past_event"><a href={URL}>PAST EVENTS</a></Link>
+                       <Link to="/live_event"><a href={URL}>Live Events</a></Link>
+                       <Link to="/upcoming_event"><a href={URL}>Upcoming</a></Link>
+                       <Link to="/past_event"><a href={URL}>Past Events</a></Link>
+                       <Link to="/leaderboard"><a href="leaderboard.html">Leader Board</a></Link>
                     </div>
                 </div>
             </li>
             <li className="nav-item dropdown">
                 <div className="dropdown">
-                    <a href={URL} className="nav-link">HACKATHON</a>
+                    <Link to="/training">
+                    <a href={URL} className="nav-link">TRAINING</a></Link>
                     <div className="dropdown-content">
-                       <Link to="/leaderboard"><a href="leaderboard.html">LEADERBOARD</a></Link>
-                       <Link to="/practice_set"><a href="practiceset.html">PRACTICE SET</a></Link>
+                       
+                       <Link to="/practice_set"><a href="practiceset.html">Practice Test</a></Link>
                        {/* <Link to="/participants"><a href="participants.html">PARTICIPANTS</a></Link>
                        <Link to="/winner"><a href="winners.html">WINNERS</a></Link>
                         <a href="result.html">RESULT</a> */}
@@ -52,10 +54,10 @@ const Menu = () => {
                 <Link to="/contact">
                 <a className="nav-link" href={URL}>CONTACT US</a></Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
                 <Link to="/training">
                 <a className="nav-link" href={URL}>TRAINING</a></Link>
-            </li>
+            </li> */}
             <li>
                 {
                     isAuthenticated && <a className="nav-link" href={URL}>{user.name}</a>   

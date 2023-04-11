@@ -1,4 +1,4 @@
-
+import React from 'react';
 import './App.css';
 import Index from './pages/Index';
 import About from './pages/About';
@@ -18,6 +18,12 @@ import Aws_Devops from './pages/Aws_Devops';
 // import Participants from './pages/Participants';
 import Practice_Set from './pages/Practice_Set';
 import Leaderboard from './pages/Leaderboard';
+import Mentorship from './pages/Mentorship';
+import Collaborator from './pages/Collaborator';
+import Goal_Setting from './pages/Goal_Setting';
+import Git_Github from './pages/Git_Github';
+import Gyan_Goshthi from './pages/Gyan_Goshthi';
+import ContactForm from './pages/ContactForm';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
@@ -45,6 +51,12 @@ function App() {
           <Route path='/participants' element={<Participants />} /> */}
           <Route path='/practice_set' element={<Practice_Set />} />
           <Route path='/leaderboard' element={<Leaderboard />} />
+          <Route path='/mentorship' element={<Mentorship />} />
+          <Route path='/collaborator' element={<Collaborator />} />
+          <Route path='/goal_setting' element={<Goal_Setting />} />
+          <Route path='/git_github' element={<Git_Github />} />
+          <Route path='/gyan_goshthi' element={<Gyan_Goshthi />} />
+          <Route path='/contact_form' element={<ContactForm />} />
         </Routes>
       </Router>
       

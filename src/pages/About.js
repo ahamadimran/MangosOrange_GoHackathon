@@ -15,21 +15,45 @@ const about = () => {
             <div class="container">
                 <div class="row">
                     <div class="aboutsection col-lg-7">
-                        <h1>About GoHackathon</h1>
-                        <p>Go Hackathon comprises of eminent Industry professionals, educators and students meant to
-                            nurture talent among budding tech professional. Industry today is looking for talented 
-                            students who are equipped and experience with advanced skills, software, attitude and 
-                            updated industry best practices. <br />
+                        <h2>About GoHackathon: (Startup Incubator Portal of MangosOrange Group)</h2>
+                        <p>GoHackathon comprises of eminent Industry professionals, educators and students meant 
+                            to nurture talent among budding tech professionals. Industry today is looking for 
+                            talented students who are equipped and experience with advanced skills, software, 
+                            attitude and updated industry best practices. <br />
                         </p>
-                        <p>We create an eco-system of industry academia partnership and help in continuous and
-                            sustainable development of innovative ideas, which are impactful for the growing economy and
-                            society. Go hackathon thrives to provide best nurturing, mentorship, skills and professional opportunities to its members and participants.
-                            We conduct series of events, seminars, hackathons, internships and Projects.
+                        <p>We create an eco-system of industry academia partnership and help in continuous and 
+                            sustainable development of innovative ideas, which are impactful for the growing 
+                            economy and society. Go hackathon thrives to provide best nurturing, mentorship, 
+                            skills and professional opportunities to its members and participants. We conduct 
+                            series of events, seminars, hackathons, internships and Projects.
                         </p> 
                     </div>
                     <div class="imgofabout col-lg-5">
                         <img class="imgofabout" src="img/development2" alt="Dev" />
                     </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="aboutsection-bottom col-lg-12">
+                        <h2>Need of Entrepreneurship & Startup</h2>
+                        <p>At MangosOrange the task of providing Entrepreneurship opportunities to all the 
+                            professional education seekers is deeply taken care. With assistance from numerous 
+                            government organisation, and NGO, we help our students establish their own 
+                            entrepreneurial venture. This results in employment generation to our students and 
+                            also aims to empower young generation to stand ahead and join the community of job 
+                            givers not that of job seekers. SITM would stand itself ahead of the best institutes 
+                            of the world if they happen to create such facilities and conducive environment. 
+                            MANGOSORANGE proposes Student EDP Program for all the students of SITM so that after 
+                            completion of their Courses they could establish their own ventures. MangosOrange 
+                            would also help in securing opportunities in industry to deserving students through 
+                            its vast network of networks spread across the globe. <br />
+                        </p> 
+                    </div>
+                    {/* <div class="imgofabout col-lg-5">
+                        <img class="imgofabout" src="img/development2" alt="Dev" />
+                    </div> */}
                 </div>
             </div>
 
@@ -53,7 +77,7 @@ const about = () => {
                     <li>Research & Development in Agritech & Allied Program.</li>
                 </ul>
                 <a href="https://mangosorange.co.in/">
-                    <button class="btn btn-primary">Know More</button>
+                    <button class="btn btn-primary" target="new">Visit Website</button>
                 </a>
             </div>
         </div>
@@ -76,7 +100,7 @@ const about = () => {
                     <li>Educating and Consulting</li>
                 </ul>
                 <a href="https://mangosorangeagritech.in/">
-                    <button class="btn btn-primary">Know More</button>
+                    <button class="btn btn-primary">Visit Website</button>
                 </a>
             </div>
         </div>

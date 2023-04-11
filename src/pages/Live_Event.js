@@ -1,6 +1,7 @@
 import React, {Fragment} from 'react';
 import Menu from './Menu';
 import Footer from './Footer';
+import { Link } from 'react-router-dom';
 
 const Live_Event = () => {
   return (
@@ -8,55 +9,61 @@ const Live_Event = () => {
         <Menu />
         <body className="eventbody">
 
-    <div className="evebanner">
+        <div class="evebanner">
         <img src="img/banner/live_event.png" alt=""/>
-    </div>
-    
-    <div className="row row-cols-1 row-cols-md-3 g-4">
-        <div className="col">  
-          <div className="card h-100">
-            <img src="img/tech.jpg" className="card-img-top" alt="..." height="200px" width="10px"/>
-            <div className="card-body">
-               <h5 className="card-title"><strong>Hackathon</strong></h5>
-            <p className="card-text">Hackathons are popular in the tech industry and are used as a way to spur 
-                innovation, build community, and promote collaboration among developers and other tech 
-                professionals.
-            </p>
+      </div>
+
+        <div class="album py-5 bg-light">
+            <div class="container"> 
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col-lg-4">
+                        <div class="card shadow-sm">
+                           <Link to="/goal_setting"><img src="img/event/goal.jpg" alt="" height="100%" width="100%"/></Link>
+                            <div class="card-body">
+                                <h4>Goal Setting Workshop</h4>
+                                {/* <p>
+                                    This course provides students with a comprehensive introduction to data science and
+                                     machine learning. Students will learn how to extract insights and knowledge from 
+                                     large data sets using popular data analysis and machine learning techniques.  
+                                </p>
+                               <Link to=""><a class="btn btn-primary" href="ai_ml.html" role="button">Buy Now</a></Link> &nbsp; &nbsp;
+                               <Link to="/ai_ml"><a class="btn btn-primary" href="ai-ml.html" role="button">Know More</a></Link> */}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card shadow-sm">
+                           <Link to=""><img src="img/event/git.png" alt="" height="100%" width="100%"/></Link>
+                            <div class="card-body">
+                                <h4>Git and GitHub Workshop</h4>
+                                {/* <p>
+                                    Students receive a thorough introduction to database and full stack development in 
+                                    this course. With the technical understanding of front-end and back-end programming, 
+                                    students will discover the nuances of data structures and algorithms.
+                                </p>
+                               <Link to=""><a class="btn btn-primary" href="full-stack-dev.html" role="button">Buy Now</a></Link> &nbsp; &nbsp;
+                               <Link to="/full_stack_dev"><a class="btn btn-primary" href="full-stack-dev.html" role="button">Know More</a></Link> */}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card shadow-sm">
+                           <Link to="/gyan_goshthi"> <img src="img/courses/cloud_computing.jpg" alt="" height="100%" width="100%"/></Link>
+                            <div class="card-body">
+                                <h4>Gyan Goshthi</h4>
+                                {/* <p>
+                                    Develop your knowledge of containers, deployment strategies, and immutable infrastructure. 
+                                    Create a portfolio for cloud computing containing labs, projects, and a capstone project. 
+                                    Discover AWS, DevOps, and more. Gain Practical Exposure to Projects & Laboratories. 
+                                </p>
+                               <Link to=""><a class="btn btn-primary" href="aws_devops.html"role="button">Buy Now</a></Link> &nbsp; &nbsp;
+                               <Link to="/aws_devops"><a class="btn btn-primary" href="aws_devops.html" role="button">Know More</a></Link> */}
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div className="card-footer">
-              <small className="text-muted">We are live right now</small><span className="dot"></span> 
-            </div>
-          </div>
         </div>
-        <div className="col">
-            <div className="card h-100">
-              <img src="img/tech2.jpg" className="card-img-top" alt="..." height="200px" width="10px"/>
-              <div className="card-body">
-                <h5 className="card-title"><strong>Ideathon</strong></h5>
-                <p className="card-text">Ideathons are often used in the context of innovation, entrepreneurship, 
-                    and social impact, and can be a powerful way to generate new ideas and foster collaboration 
-                    among participants.</p>
-              </div>
-              <div className="card-footer">
-                <small className="text-muted">Last updated 3 mins ago</small>  
-              </div>
-            </div>
-        </div>
-        <div className="col">
-            <div className="card h-100">
-              <img src="img/tech3.jpg" className="card-img-top" alt="..." height="200px" width="10px"/>
-              <div className="card-body">
-                <h5 className="card-title"><strong>Coding Competition</strong></h5>
-                <p className="card-text">Coding competitions are popular among programmers and software developers, 
-                    and can be a fun and challenging way to improve one's coding skills and network with other 
-                    professionals in the field.</p>
-              </div>
-              <div className="card-footer">
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </div>
-            </div>
-        </div>   
-    </div>
         
 </body>
     <Footer />
