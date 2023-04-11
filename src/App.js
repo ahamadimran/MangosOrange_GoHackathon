@@ -24,6 +24,7 @@ import Goal_Setting from './pages/Goal_Setting';
 import Git_Github from './pages/Git_Github';
 import Gyan_Goshthi from './pages/Gyan_Goshthi';
 import ContactForm from './pages/ContactForm';
+import DevOps_workshop from './pages/DevOps_workshop';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
@@ -57,6 +58,7 @@ function App() {
           <Route path='/git_github' element={<Git_Github />} />
           <Route path='/gyan_goshthi' element={<Gyan_Goshthi />} />
           <Route path='/contact_form' element={<ContactForm />} />
+          <Route path='/devops_workshoop' element={<DevOps_workshop />} />
         </Routes>
       </Router>
       
