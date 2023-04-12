@@ -58,7 +58,7 @@ function App() {
           <Route path='/git_github' element={<Git_Github />} />
           <Route path='/gyan_goshthi' element={<Gyan_Goshthi />} />
           <Route path='/contact_form' element={<ContactForm />} />
-          <Route path='/devops_workshoop' element={<DevOps_workshop />} />
+          <Route path='/devops_workshop' element={<DevOps_workshop />} />
         </Routes>
       </Router>
       

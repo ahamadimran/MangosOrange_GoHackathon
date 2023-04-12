@@ -16,7 +16,7 @@ const DevOps_workshop = () => {
             <div className='container'>
               <div className='row'>
                 <div className='past-event col-lg-7'>
-                  <h6><strong>Topic:- </strong>DevOps Workshop</h6>
+                  <h4><strong>Topic:- </strong>DevOps Workshop</h4>
                   <h6><strong>Event Duration:- </strong>02 - 04 Hours</h6>
                   <h6><strong>Speaker:- </strong>Imran Ahmad - Senior Tech Lead</h6>
                   <p> <strong>Coverage:- </strong>DevOps is a set of practices that combines software development 
