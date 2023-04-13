@@ -84,7 +84,7 @@ const Full_Stack_Dev = () => {
                     <li>Debug and troubleshoot web applications using tools and techniques such as logging, debugging, and profiling.</li>
                     <li>Apply best practices for testing, performance optimization, and mobile web development to ensure the quality and scalability of web applications.</li>
                 </ul>
-                <a className="btn btn-primary" href="#" role="button">Register Now</a>
+                <a className="btn btn-primary" href={URL} role="button">Register Now</a>
             </div>
         </div>
     </div>

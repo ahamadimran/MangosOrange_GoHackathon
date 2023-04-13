@@ -14,8 +14,6 @@ import Samadhan from './pages/Samadhan';
 import AI_ML from './pages/AI_ML';
 import Full_Stack_Dev from './pages/Full_Stack_Dev';
 import Aws_Devops from './pages/Aws_Devops';
-// import Winner from './pages/Winner';
-// import Participants from './pages/Participants';
 import Practice_Set from './pages/Practice_Set';
 import Leaderboard from './pages/Leaderboard';
 import Mentorship from './pages/Mentorship';
@@ -48,8 +46,6 @@ function App() {
           <Route path='/ai_ml' element={<AI_ML />} />
           <Route path='/full_stack_dev' element={<Full_Stack_Dev />} />
           <Route path='/aws_devops' element={<Aws_Devops />} />
-          {/* <Route path='/winner' element={<Winner />} />
-          <Route path='/participants' element={<Participants />} /> */}
           <Route path='/practice_set' element={<Practice_Set />} />
           <Route path='/leaderboard' element={<Leaderboard />} />
           <Route path='/mentorship' element={<Mentorship />} />

@@ -56,10 +56,6 @@ const Menu = () => {
                         <Link to="/contact">
                             <a className="nav-link" href={URL}>CONTACT US</a></Link>
                     </li>
-                    {/* <li className="nav-item">
-                    <Link to="/training">
-                    <a className="nav-link" href={URL}>TRAINING</a></Link>
-                        </li> */}
                     <li>
                         { 
                            isAuthenticated && <a className="nav-link" href={URL}>{user.name}</a>
@@ -71,13 +67,11 @@ const Menu = () => {
                         <button className='btn btn-primary px-5 py-2 primary-btn' onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>
                             Log Out
                         </button>
-                        {/* <button className="btn btn-primary px-5 py-2 primary-btn" id="login-btn">Login/Signup</button> */}
                     </li>
                     ) : (
                     
                     <li>
                         <button className='btn btn-primary px-5 py-2 primary-btn' onClick={() => loginWithRedirect()}>Log In</button>
-                        {/* <button className="btn btn-primary px-5 py-2 primary-btn" id="login-btn">Login/Signup</button> */}
                     </li>
                     )}
             

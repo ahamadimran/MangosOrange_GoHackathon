@@ -20,9 +20,9 @@ const footer = () => {
                             <div className="footer-social-icon">
                                 <span>Follow us</span>
                                 <a href="https://www.facebook.com/people/GoHackathon/100088250115623/"><i className="fab fa-facebook-f facebook-bg"></i></a>
-                                {/* <a href="https://www.instagram.com/gohackathon/?igshid=YmMyMTA2M2Y%3D"><i class="fab fa-instagram instagram-bg"></i></a>
-                                <a href="https://twitter.com/GoHackathon"><i className="fab fa-twitter twitter-bg"></i></a> */}
-                                <a href="https://www.linkedin.com/in/go-hackathon-a082b9264/"><i class="fab fa-linkedin-in linkedin-bg"></i></a>
+                                {/* <a href="https://www.instagram.com/gohackathon/?igshid=YmMyMTA2M2Y%3D"><i className="fab fa-instagram-f instagram-bg"></i></a>
+                                <a href="https://twitter.com/GoHackathon"><i className="fab fa-twitter-t twitter-bg"></i></a> */}
+                                <a href="https://www.linkedin.com/in/go-hackathon-a082b9264/"><i className="fab fa-linkedin-in linkedin-bg"></i></a>
                                 <a href="https://www.youtube.com/@gohackathon/videos"><i className="fab fa-youtube youtube-bg"></i></a>
                             </div>
                         </div>
