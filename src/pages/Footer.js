@@ -19,11 +19,11 @@ const footer = () => {
                             </div>
                             <div className="footer-social-icon">
                                 <span>Follow us</span>
-                                <a href="https://www.facebook.com/people/GoHackathon/100088250115623/"><i class="fab fa-facebook-f facebook-bg"></i></a>
-                                <a href="https://www.instagram.com/gohackathon/?igshid=YmMyMTA2M2Y%3D"><i class="fab fa-instagram instagram-bg"></i></a>
-                                <a href="https://twitter.com/GoHackathon"><i class="fab fa-twitter twitter-bg"></i></a>
+                                <a href="https://www.facebook.com/people/GoHackathon/100088250115623/"><i className="fab fa-facebook-f facebook-bg"></i></a>
+                                {/* <a href="https://www.instagram.com/gohackathon/?igshid=YmMyMTA2M2Y%3D"><i class="fab fa-instagram instagram-bg"></i></a>
+                                <a href="https://twitter.com/GoHackathon"><i className="fab fa-twitter twitter-bg"></i></a> */}
                                 <a href="https://www.linkedin.com/in/go-hackathon-a082b9264/"><i class="fab fa-linkedin-in linkedin-bg"></i></a>
-                                <a href="https://www.youtube.com/@gohackathon/videos"><i class="fab fa-youtube youtube-bg"></i></a>
+                                <a href="https://www.youtube.com/@gohackathon/videos"><i className="fab fa-youtube youtube-bg"></i></a>
                             </div>
                         </div>
                     </div>
@@ -66,13 +66,13 @@ const footer = () => {
                                 </div> <br />
                                 <div className="email-details">
                                     <div className="topic">
-                                        <i className="fas fa-envelope"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><a href="mailto:info@gohackathon.in">info@gohackathon.in</a></strong>
-                                        
+                                        <i className="fas fa-envelope"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><a href="mailto:info@gohackathon.in">info@gohackathon.in</a></strong>  
                                     </div>   
                                 </div>
                             </div>
                         </div>
                     </div>
+                    
                     <div className="col-xl-3 col-lg-3 col-md-6 ">
                         <div className="footer-widget-subscribe">
                             <div className="footer-widget">

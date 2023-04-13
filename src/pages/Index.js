@@ -18,11 +18,12 @@ const index = () => {
                     <p><strong>Collaborate, Innovate, and Hack Your Way to Success!</strong><br />
                         We are trying to build a community where everyone can connect, learn, and grow together.
                     </p> <br />
+                    <Link to="/gyan_goshthi">
                     <a href={URL}>
                         <button className="btn btn-primary px-5 py-2 primary-btn">
                             REGISTER NOW
                         </button>
-                    </a>
+                    </a></Link>
                 </div>
                 <div className="col-lg-5 bannerimage">
                     <img src="img/development2" alt="developer2" />
