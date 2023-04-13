@@ -55,6 +55,34 @@ const index = () => {
             </div>
         </div>
     </div>
+    <hr/>
+
+    <div className="container">
+        <div className="row">
+            <div className="aboutsection col-lg-7">
+                <h2>GYAN GOSHTHI</h2>
+                <p>GYAN GOSHTHI is an event that brings together individuals from various backgrounds 
+                and industries to generate creative and innovative ideas on a specific topic or 
+                challenge. This event typically involves brainstorming sessions, workshops, and 
+                presentations, where participants are encouraged to think outside the box and come 
+                up with unique solutions to the challenge at hand. The aim of an GYAN GOSHTHI is to 
+                foster collaboration and creativity, and to generate a pool of valuable ideas that 
+                can be further developed and implemented. GYAN GOSHTHIs are often used by organizations 
+                to generate new ideas for product development, marketing campaigns, and business strategy. 
+                They are also a popular way for startups and entrepreneurs to come up with fresh, new 
+                concepts and pitch them to potential investors or partners. <br />
+                </p>
+                <p>We create an eco-system of industry academia partnership and help in continuous and
+                sustainable development of innovative ideas, which are impactful for the growing economy and
+                society. Go hackathon thrives to provide best nurturing, mentorship, skills and professional opportunities to its members and participants.
+                We conduct series of events, seminars, hackathons, internships and Projects.
+                </p>  
+            </div>
+            <div className="imgofabout-gyan col-lg-5">
+                <img className="imgofabout-gyan" src="img/event/agriculture-gyan.jpg" alt="Dev" />
+            </div>
+        </div>
+    </div>
     <hr />
 
     {/* <section className="sponsors">
