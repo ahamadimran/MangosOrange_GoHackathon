@@ -3,12 +3,12 @@ import Menu from './Menu';
 import Footer from './Footer';
 import ContactForm from './ContactForm';
 
-const Full_Stack_Dev = () => {
+const Java_Fullstack = () => {
   return (
     <Fragment>
         <Menu />
         <body id="body">
-    <div className="evebanner">
+        <div className="evebanner">
         <img src="img/banner/full-stack-development.png" alt=""/>
       </div>
         
@@ -111,11 +111,10 @@ const Full_Stack_Dev = () => {
                 <div className='col-lg-1'></div>
             </div>
     </div>
-
 </body>
         <Footer />
     </Fragment>
   )
 }
 
-export default Full_Stack_Dev
+export default Java_Fullstack

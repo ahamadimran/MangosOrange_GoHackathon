@@ -23,6 +23,27 @@ import Git_Github from './pages/Git_Github';
 import Gyan_Goshthi from './pages/Gyan_Goshthi';
 import ContactForm from './pages/ContactForm';
 import DevOps_workshop from './pages/DevOps_workshop';
+import Figma from './pages/Figma';
+import Git_hub from './pages/Git_hub';
+import HTML_CSS_Js_Tailwind_Frontend from './pages/HTML_CSS_Js_Tailwind_Frontend';
+import Python_Frontend from './pages/Python_Frontend';
+import Java_Frontend from './pages/Java_Frontend';
+import PHP_Frontend from './pages/PHP_Frontend';
+import React_Frontend from './pages/React_Frontend';
+import ASPnet_Backend from './pages/ASPnet_Backend';
+import Python_Backend from './pages/Python_Backend';
+import Java_Backend from './pages/Java_Backend';
+import PHP_backend from './pages/PHP_backend';
+import Node_Backend from './pages/Node_Backend';
+import DEVOPS from './pages/DEVOPS';
+import AI_MacineLearning from './pages/AI_MacineLearning';
+import AWS from './pages/AWS';
+import Datascience from './pages/Datascience';
+import HTML_CSS_Js_BS_AN_SQL_fullstack from './pages/HTML_CSS_Js_BS_AN_SQL_fullstack';
+import Python_Fullstack from './pages/Python_Fullstack';
+import Java_Fullstack from './pages/Java_Fullstack';
+import PHP_MySQL_Fullstack from './pages/PHP_MySQL_Fullstack';
+import React_Fullstack from './pages/React_Fullstack';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
@@ -55,6 +76,27 @@ function App() {
           <Route path='/gyan_goshthi' element={<Gyan_Goshthi />} />
           <Route path='/contact_form' element={<ContactForm />} />
           <Route path='/devops_workshop' element={<DevOps_workshop />} />
+          <Route path='/git_hub' element={<Git_hub />} />
+          <Route path='/figma' element={<Figma />} />
+          <Route path='/html_css_js_Tailwind_frontend' element={<HTML_CSS_Js_Tailwind_Frontend />} />
+          <Route path='/python_frontend' element={<Python_Frontend />} />
+          <Route path='/java_frontend' element={<Java_Frontend />} />
+          <Route path='/php_frontend' element={<PHP_Frontend />} />
+          <Route path='/react_frontend' element={<React_Frontend />} />
+          <Route path='/aspnet_backend' element={<ASPnet_Backend />} />
+          <Route path='/python_backend' element={<Python_Backend />} />
+          <Route path='/java_backend' element={<Java_Backend />} />
+          <Route path='/php_backend' element={<PHP_backend />} />
+          <Route path='/node_backend' element={<Node_Backend />} />
+          <Route path='/devops' element={<DEVOPS />} />
+          <Route path='/ai_macine_learning' element={<AI_MacineLearning />} />
+          <Route path='/aws' element={<AWS />} />
+          <Route path='/datascience' element={<Datascience />} />
+          <Route path='/html_css_js_bs_an_sql_fullstack' element={<HTML_CSS_Js_BS_AN_SQL_fullstack />} />
+          <Route path='/python_fullstack' element={<Python_Fullstack />} />
+          <Route path='/java_fullstack' element={<java_fullstack />} />
+          <Route path='/php_mysql_fullstack' element={<PHP_MySQL_Fullstack />} />
+          <Route path='/react_fullstack' element={<React_Fullstack />} />
         </Routes>
       </Router>
       
