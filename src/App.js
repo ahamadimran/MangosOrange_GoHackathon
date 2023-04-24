@@ -44,6 +44,8 @@ import Python_Fullstack from './pages/Python_Fullstack';
 import Java_Fullstack from './pages/Java_Fullstack';
 import PHP_MySQL_Fullstack from './pages/PHP_MySQL_Fullstack';
 import React_Fullstack from './pages/React_Fullstack';
+import Ideathon from './pages/Ideathon';
+import Registration_Form from './pages/Registration_Form';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
@@ -97,6 +99,8 @@ function App() {
           <Route path='/java_fullstack' element={<java_fullstack />} />
           <Route path='/php_mysql_fullstack' element={<PHP_MySQL_Fullstack />} />
           <Route path='/react_fullstack' element={<React_Fullstack />} />
+          <Route path='/ideathon' element={<Ideathon />} />
+          <Route path='/registration_form' element={<Registration_Form />} />
         </Routes>
       </Router>
       
