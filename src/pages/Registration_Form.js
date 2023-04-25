@@ -10,7 +10,7 @@ const Registration_Form = () => {
     emailjs.sendForm('service_zdasi0h', 'template_3cy6rk9', form.current, 's30AsxsMtJubgeV9B')
       .then((result) => {
           console.log(result.text);
-          alert("Message Sent");
+          alert("Registration Sent");
       }, (error) => {
           console.log(error.text);
       });
@@ -46,10 +46,6 @@ const Registration_Form = () => {
       <div className="form-group">
         <label htmlFor="query"><strong>Query/Remark:</strong></label>
         <textarea id="query" name="query" className="form-control" required />
-      </div>
-      <div className="form-group">
-        <label htmlFor="feedback"><strong>Feedback:</strong></label>
-        <textarea id="feedback" name="feedback" className="form-control" required />
       </div>
       <button className="btn btn-primary" type="submit" value="Submit">Submit</button>
     </form>

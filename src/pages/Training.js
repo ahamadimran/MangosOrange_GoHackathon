@@ -36,7 +36,7 @@ const training = () => {
                     </div>
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
-                           <Link to="figma"></Link> <img src="img/courses/figma.jpeg" alt="Figma Design Tool" height="200px" width="100%"/>
+                           <Link to="/figma"> <img src="img/courses/figma.jpeg" alt="Figma Design Tool" height="200px" width="100%"/></Link>
                             <div class="card-body">
                                 <h4>Figma Design Tool</h4>
                             </div>
@@ -65,19 +65,19 @@ const training = () => {
 
         <div class="album py-5 bg-light">
             <div class="container"> 
-            <h2 class="text-center mx-auto text-white bg-info rounded p-2 m-3">Frontend Web Development</h2>
+            <h2 class="text-center mx-auto text-white bg-info rounded p-2 m-3">Frontend Web Development</h2> <br/> <br/>
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 text-center">
                 <div class="col-lg-4">
                         <div class="card shadow-sm">
                            <Link to="/HTML_CSS_Js_Tailwind_Frontend"><img src="img/courses/html-css-js-tailwind.jpeg" alt="HTML,CSS, JavaScript, BootStrap, Tailwind" height="200px" width="100%"/></Link>
                             <div class="card-body">
-                                <h4>HTML,CSS, JavaScript, BootStrap, Tailwind</h4>
+                                <h4>HTML,CSS, JS, BootStrap</h4>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
-                        <Link to="Python_Frontend"><img src="img/courses/python.jpg" alt="Python" height="200px" width="100%"/></Link>
+                        <Link to="/Python_Frontend"><img src="img/courses/python.jpg" alt="Python" height="200px" width="100%"/></Link>
                             <div class="card-body">
                             <h4>Python</h4>
                             </div>
@@ -85,7 +85,7 @@ const training = () => {
                     </div>
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
-                           <Link to="Java_Frontend"></Link> <img src="img/courses/java.png" alt="Java" height="200px" width="100%"/>
+                           <Link to="/Java_Frontend"> <img src="img/courses/java.png" alt="Java" height="200px" width="100%"/></Link>
                             <div class="card-body">
                                 <h4>Java</h4>
                             </div>
@@ -100,7 +100,7 @@ const training = () => {
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 text-center">
                 <div class="col-lg-4">
                         <div class="card shadow-sm">
-                        <Link to="PHP_Frontend"><img src="img/courses/php.jpeg" alt="PHP" height="200px" width="100%"/></Link>
+                        <Link to="/php_frontend"><img src="img/courses/php.jpeg" alt="PHP" height="200px" width="100%"/></Link>
                             <div class="card-body">
                             <h4>PHP</h4>
                             </div>
@@ -121,7 +121,7 @@ const training = () => {
 
         <div class="album py-5 bg-light">
             <div class="container"> 
-            <h2 class="text-center mx-auto text-white bg-info rounded p-2 m-3">Backend Web Development</h2>
+            <h2 class="text-center mx-auto text-white bg-info rounded p-2 m-3">Backend Web Development</h2> <br/> <br/>
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 text-center">
                 <div class="col-lg-4">
                         <div class="card shadow-sm">
@@ -133,7 +133,7 @@ const training = () => {
                     </div>
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
-                           <Link to="Python_Backend"></Link> <img src="img/courses/python.jpg" alt="Python" height="200px" width="100%"/>
+                           <Link to="/Python_Backend"><img src="img/courses/python.jpg" alt="Python" height="200px" width="100%"/></Link>
                             <div class="card-body">
                                 <h4>Python</h4>
                             </div>
@@ -141,7 +141,7 @@ const training = () => {
                     </div>
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
-                        <Link to="Java_Backend"><img src="img/courses/cloud_computing.jpg" alt="Java" height="200px" width="100%"/></Link>
+                        <Link to="/Java_Backend"><img src="img/courses/cloud_computing.jpg" alt="Java" height="200px" width="100%"/></Link>
                             <div class="card-body">
                             <h4>Java</h4>
                             </div>
@@ -156,7 +156,7 @@ const training = () => {
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 text-center">
                 <div class="col-lg-4">
                         <div class="card shadow-sm">
-                        <Link to="PHP_backend"><img src="img/courses/php.jpeg" alt="PHP" height="200px" width="100%"/></Link>
+                        <Link to="/PHP_backend"><img src="img/courses/php.jpeg" alt="PHP" height="200px" width="100%"/></Link>
                             <div class="card-body">
                             <h4>PHP</h4>
                             </div>
@@ -164,7 +164,7 @@ const training = () => {
                     </div>
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
-                        <Link to="Node_Backend"><img src="img/courses/node.png" alt="Node JS" height="200px" width="100%"/></Link>
+                        <Link to="/Node_Backend"><img src="img/courses/node.png" alt="Node JS" height="200px" width="100%"/></Link>
                             <div class="card-body">
                             <h4>Node JS</h4>
                             </div>
@@ -176,57 +176,11 @@ const training = () => {
 
         <div class="album py-5 bg-light">
             <div class="container"> 
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 text-center">
-                <div class="col-lg-4">
-                        <div class="card shadow-sm">
-                           <Link to="/DEVOPS"><img src="img/courses/AWS_Devops.png" alt="DEV-OPS" height="200px" width="100%"/></Link>
-                            <div class="card-body">
-                                <h4>DEV-OPS</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card shadow-sm">
-                           <Link to="/AI_MacineLearning"><img src="img/courses/AI-ML.png" alt="AI & Machine Learning" height="200px" width="100%"/></Link>
-                            <div class="card-body">
-                                <h4>AI & Machine Learning</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card shadow-sm">
-                           <Link to="AWS"></Link> <img src="img/courses/Aws_Devops.png" alt="AWS(Cloud Infra)" height="200px" width="100%"/>
-                            <div class="card-body">
-                                <h4>AWS(Cloud Infra)</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="album py-5 bg-light">
-            <div class="container"> 
+                <h2 class="text-center mx-auto text-white bg-info rounded p-2 m-3">Full Stack Development</h2> <br/> <br/>
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 text-center">
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
-                        <Link to="Datascience"><img src="img/courses/datascience.jpeg" alt="DATA Science" height="200px" width="100%"/></Link>
-                            <div class="card-body">
-                            <h4>DATA Science</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="album py-5 bg-light">
-            <div class="container"> 
-                <h2 class="text-center mx-auto text-white bg-info rounded p-2 m-3">Full Stack Development</h2>
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 text-center">
-                    <div class="col-lg-4">
-                        <div class="card shadow-sm">
-                        <Link to="HTML_CSS_Js_BS_AN_SQL_fullstack"><img src="img/courses/hcjbam.jpeg" alt="HTML,CSS, JavaScript, BootStrap,  ASP.Net,  MySql" height="200px" width="100%"/></Link>
+                        <Link to="/HTML_CSS_Js_BS_AN_SQL_fullstack"><img src="img/courses/hcjbam.jpeg" alt="HTML,CSS, JavaScript, BootStrap,  ASP.Net,  MySql" height="200px" width="100%"/></Link>
                             <div class="card-body">
                             <h4>HTML,CSS, JavaScript, BootStrap,  ASP.Net,  MySql</h4>
                             </div>
@@ -234,7 +188,7 @@ const training = () => {
                     </div>
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
-                        <Link to="Python_Fullstack"><img src="img/courses/python-sql.jpeg" alt="Python,  Mongo DB/ MS Sql Server" height="200px" width="100%"/></Link>
+                        <Link to="/Python_Fullstack"><img src="img/courses/python-sql.jpeg" alt="Python,  Mongo DB/ MS Sql Server" height="200px" width="100%"/></Link>
                             <div class="card-body">
                             <h4>Python, Mongo DB/ MS Sql Server</h4>
                             </div>
@@ -242,7 +196,7 @@ const training = () => {
                     </div>
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
-                           <Link to="/Java_Fullstack"><img src="img/courses/java-mongodb.png" alt="Java,  Mongo DB/ MS Sql Server" height="200px" width="100%"/></Link>
+                           <Link to="Java_Fullstack"><img src="img/courses/java-mongodb.png" alt="Java,  Mongo DB/ MS Sql Server" height="200px" width="100%"/></Link>
                             <div class="card-body">
                                 <h4>Java,  Mongo DB/ MS Sql Server</h4>
                             </div>
@@ -265,7 +219,7 @@ const training = () => {
                     </div>
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
-                           <Link to="React_Fullstack"></Link> <img src="img/courses/react-node-mdb.jpeg" alt="React, NodeJS, Mongo DB" height="200px" width="100%"/>
+                           <Link to="/React_Fullstack"><img src="img/courses/react-node-mdb.jpeg" alt="React, NodeJS, Mongo DB" height="200px" width="100%"/></Link>
                             <div class="card-body">
                                 <h4>React, NodeJS, Mongo DB</h4>
                             </div>
@@ -274,6 +228,55 @@ const training = () => {
                 </div>
             </div>
         </div>
+
+        <div class="album py-5 bg-light">
+            <div class="container">
+            <h2 class="text-center mx-auto text-white bg-info rounded p-2 m-3">Others</h2> <br/> <br/> 
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 text-center">
+                <div class="col-lg-4">
+                        <div class="card shadow-sm">
+                           <Link to="/DEVOPS"><img src="img/courses/AWS_Devops.png" alt="DEV-OPS" height="200px" width="100%"/></Link>
+                            <div class="card-body">
+                                <h4>DEV-OPS</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card shadow-sm">
+                           <Link to="/ai_macine_learning"><img src="img/courses/AI-ML.png" alt="AI & Machine Learning" height="200px" width="100%"/></Link>
+                            <div class="card-body">
+                                <h4>AI & Machine Learning</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card shadow-sm">
+                           <Link to="/AWS"><img src="img/courses/Aws_Devops.png" alt="AWS(Cloud Infra)" height="200px" width="100%"/></Link>
+                            <div class="card-body">
+                                <h4>AWS(Cloud Infra)</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="album py-5 bg-light">
+            <div class="container"> 
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 text-center">
+                    <div class="col-lg-4">
+                        <div class="card shadow-sm">
+                        <Link to="/Datascience"><img src="img/courses/datascience.jpeg" alt="DATA Science" height="200px" width="100%"/></Link>
+                            <div class="card-body">
+                            <h4>DATA Science</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
 
         {/* <div class="album py-5 bg-light">
             <div class="container"> 

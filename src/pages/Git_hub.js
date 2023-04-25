@@ -8,69 +8,86 @@ const Git_hub = () => {
     <Fragment>
         <Menu />
         <body id="body">
-        <div className="evebanner">
-            <img src="img/banner/Github_banner.jpg" alt=""/>
-        </div>
-        
-            <div className="container">
-                <div className="row">
-                    <div className="aboutsection col-lg-2"></div>
-                    <div className="aboutsection col-lg-8">
-                        <h1 class="text-center p-3 m-2">GIT & GITHub</h1>
-                        <p>This course will teach you the basics of version control with Git and its integration with GitHub. You'll learn how to create and manage repositories, commit changes, and collaborate with others using these tools. By the end of the course, you'll have the skills to manage your projects and work effectively with other developers.<br/>
+            <div className="evebanner">
+                <img src="img/banner/Github_banner.jpg" alt=""/>
+            </div>
+            <div className='container'>
+                <div className='row'>
+                    <div className='aboutsection col-lg-7'>
+                        <h2>Git & GitHub</h2>
+                        <p>This course will teach you the basics of version control with Git and its integration 
+                            with GitHub. You'll learn how to create and manage repositories, commit changes, and 
+                            collaborate with others using these tools. By the end of the course, you'll have the 
+                            skills to manage your projects and work effectively with other developers. <br />
+                        </p>
+                        <p> On GitHub, developers can host their code repositories, collaborate with others, 
+                            track issues and bugs, and contribute to open-source projects. It's a popular 
+                            platform for software development and is used by millions of developers around the 
+                            world.
                         </p>
                     </div>
-                    <div className="aboutsection col-lg-2"></div>
+                    <div className='imgofabout col-lg-5'>
+                        <img className='imgofabout' src='img/courses/git-github.png' alt='Dev'></img>
+                    </div>
                 </div>
             </div>
 
-    <div className="container">
-        <div className="row justify-content-center">
-            <div className="m-2 col-lg-5 p-3 shadow">
-            <h2  class="text-center m-2">Coverage</h2>
-                <ul>
-                    <li>Introduction to version control systems</li>
-                    <li>Basics of Git: repository, commit, branching, merging</li>
-                    <li>Installing Git and setting up GitHub</li>
-                    <li>Collaborating with others using Git and GitHub</li>
-                    <li>Pull requests and code reviews</li>
-                    <li>Resolving conflicts and managing merges</li>
-                    <li>Advanced Git techniques: rebasing, cherry-picking</li>
-                    <li>GitHub-specific features: issues, wikis, project management</li>
-                    <li>Customizing and extending Git/GitHub with plugins and APIs</li>
-                    <li>Best practices for using Git/GitHub in a team setting</li>
-                    <li>Git/GitHub for open source projects</li>
-                    <li>Troubleshooting and debugging common Git/GitHub issues</li>
-                </ul>
-            </div>
-            <div className=" col-lg-5 m-2 shadow p-3">
-                <h2  class="text-center m-2">Learning Outcome</h2>
-                <p>Upon completion of this course, students will be able to effectively use Git and GitHub for version control and collaboration on software development projects. They will have a thorough understanding of basic Git concepts, including branching and merging, and will be able to create, clone, and manage repositories on GitHub. Additionally, students will have hands-on experience working on a real-world software development project using Git and GitHub.</p>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-lg-5 text-white text-center m-3 p-3 bg-secondary rounded"><h3>Duration: 1-2 Weeks</h3></div>
-                <div class="col-lg-5 text-white text-center m-3 p-3 bg-secondary rounded"><h3>Pricing: 1000/-</h3></div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-lg-12 text-center m-3 p-3 ">
-                    <a className="btn btn-primary text-white" href={URL} role="button">Buy Now</a>
+            <div className='container'>
+                <div className='row'>
+                    <div className='aboutsection-bottom col-lg-12'>
+                        <h2>Course Coverage</h2>
+                        <p>Git is a distributed version control system that allows developers to track changes 
+                            made to their code over time. GitHub is a web-based platform that provides hosting 
+                            for Git repositories and additional collaboration features. Version control is the 
+                            management of changes to documents, computer programs, and other collections of 
+                            information, topics that are typically covered:
+                        </p>
+                        <ul>
+                            <li>Introduction to version control systems</li>
+                            <li>Basics of Git: repository, commit, branching, merging</li>
+                            <li>Installing Git and setting up GitHub</li>
+                            <li>Collaborating with others using Git and GitHub</li>
+                            <li>Pull requests and code reviews</li>
+                            <li>Resolving conflicts and managing merges</li>
+                            <li>Advanced Git techniques: rebasing, cherry-picking</li>
+                            <li>GitHub-specific features: issues, wikis, project management</li>
+                            <li>Customizing and extending Git/GitHub with plugins and APIs</li>
+                            <li>Best practices for using Git/GitHub in a team setting</li>
+                            <li>Git/GitHub for open source projects</li>
+                            <li>Troubleshooting and debugging common Git/GitHub issues</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-            <div class="row">
-                <div className='col-lg-1'></div>
-                <div className='col-lg-10'>
-                    <h2 class="text-center">Get in Touch</h2>
-                    <ContactForm />
-                </div>
-                <div className='col-lg-1'></div>
-            </div>
-    </div>
-</body>
+
+            <div className='container'>
+                <div className='row'>
+                    <div className='aboutsection-agritech col-lg-7'>
+                        <h2>Learning Outcome</h2>
+                        <p>Upon completing Git and GitHub course, learners should be able to: <br /> </p>
+                        <ul>
+                            <li>Basic Git concepts, including repositories, commits, branches, and merges</li>
+                            <li>Creating and cloning repositories on GitHub</li>
+                            <li>Committing changes to a repository and pushing them to GitHub</li>
+                            <li>Collaborating on a project with other developers using Git and GitHub</li>
+                            <li>Resolving conflicts that arise when multiple developers work on the same code simultaneously</li>
+                            <li>Using Git branches to manage development and release cycles</li>
+                            <li>Applying best practices for Git workflows, such as using descriptive commit messages and avoiding committing large binary files</li>
+                            <li>Integrating Git with other development tools, such as Continuous Integration/Continuous Deployment (CI/CD) systems</li>
+                            <li>Understanding Git internals, including the Git object model and how Git stores and retrieves data.</li>
+                        </ul> <br/>
+                        <button className="btn btn-primary px-5 py-2 primary-btn">Dureation: 1-2 Weeks</button> &nbsp;
+                        <button className="btn btn-primary px-5 py-2 primary-btn">Buy Now</button> &nbsp;
+                        <button className="btn btn-primary px-5 py-2 primary-btn">KNow Now</button>
+                    </div>
+                    <div className='col-lg-5'>
+                        <h2>Get in Touch</h2>
+                        <ContactForm/>
+                    </div>
+                </div>    
+            </div>           
+        </body>
+
         <Footer />
     </Fragment>
   )
