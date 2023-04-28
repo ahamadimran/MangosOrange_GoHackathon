@@ -60,8 +60,8 @@ const footer = () => {
                                     <div className="topic"> 
                                         
                                         <i className="fa fa-phone" style={{fontsize: "20px"}}></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><a href="tel:+91 7678476713">+91 7678476713</a></strong> <br />
-                                        <i className="fa fa-phone" style={{fontsize: "20px"}}></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong><a href="tel:+91 9910018925">+91 9910018925</a></strong> <br/>
-                                        <i className="fa fa-phone" style={{fontsize: "20px"}}></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong><a href="tel:+91 7985882599">+91 7985882599</a></strong>
+                                        <i className="fa fa-phone" style={{fontsize: "20px"}}></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong><a href="tel:+91 9910018925">+91 9910018925</a></strong>
+                                        {/* <i className="fa fa-phone" style={{fontsize: "20px"}}></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong><a href="tel:+91 7985882599">+91 7985882599</a></strong> */}
                                     </div>
                                 </div> <br />
                                 <div className="email-details">
@@ -99,7 +99,7 @@ const footer = () => {
                 <div className="row">
                     <div className="col-xl-6 col-lg-6 text-center text-lg-left">
                         <div className="copyright-text">
-                            <p>Copyright © 2023 | <a href="https://gohackathon.in/">GOHACKATHON</a> | All Right
+                            <p>Copyright © 2023 | <a href="https://gohackathon.in/">Gohackathon</a> | All Right
                                 Reserved.</p>
                         </div>
                     </div>

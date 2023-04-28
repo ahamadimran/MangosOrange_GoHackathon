@@ -33,57 +33,7 @@ const index = () => {
         <hr className="home_hr" />
     </section>
 
-    <div className="container">
-        <div className="row">
-            <div className="aboutsection col-lg-7">
-                <h2>About GoHackathon</h2>
-                <p>Go Hackathon comprises of eminent Industry professionals, educators and students meant to
-                    nurture talent among budding tech professional. Industry today is looking for talented 
-                    students who are equipped and experience with advanced skills, software, attitude and 
-                    updated industry best practices. <br />
-                </p>
-                <p>We create an eco-system of industry academia partnership and help in continuous and sustainable 
-                    development of innovative ideas, which are impactful for the growing economy and society. 
-                    Go hackathon thrives to provide best nurturing, mentorship, skills and professional 
-                    opportunities to its members and participants.We conduct series of events, seminars, 
-                    hackathons, internships and Projects. <br />
-                <a href="about.html"><strong>Know More</strong></a>
-                </p>  
-            </div>
-            <div className="imgofabout col-lg-5">
-                <img className="imgofabout" src="img/resources/about_img.jpg" alt="Dev" />
-            </div>
-        </div>
-    </div>
-    <hr/>
-
-    <div className="container">
-        <div className="row">
-            <div className="aboutsection col-lg-7">
-                <h2>GYAN GOSHTHI</h2>
-                <p>GYAN GOSHTHI is an event that brings together individuals from various backgrounds 
-                and industries to generate creative and innovative ideas on a specific topic or 
-                challenge. This event typically involves brainstorming sessions, workshops, and 
-                presentations, where participants are encouraged to think outside the box and come 
-                up with unique solutions to the challenge at hand. The aim of an GYAN GOSHTHI is to 
-                foster collaboration and creativity, and to generate a pool of valuable ideas that 
-                can be further developed and implemented. GYAN GOSHTHIs are often used by organizations 
-                to generate new ideas for product development, marketing campaigns, and business strategy. 
-                They are also a popular way for startups and entrepreneurs to come up with fresh, new 
-                concepts and pitch them to potential investors or partners. <br />
-                </p>
-                <p>We create an eco-system of industry academia partnership and help in continuous and
-                sustainable development of innovative ideas, which are impactful for the growing economy and
-                society. Go hackathon thrives to provide best nurturing, mentorship, skills and professional opportunities to its members and participants.
-                We conduct series of events, seminars, hackathons, internships and Projects.
-                </p>  
-            </div>
-            <div className="imgofabout-gyan col-lg-5">
-                <img className="imgofabout-gyan" src="img/event/agriculture-gyan.jpg" alt="Dev" />
-            </div>
-        </div>
-    </div>
-    <hr />
+    
 
     {/* <section className="sponsors">
         <div className="content text-center">
@@ -109,7 +59,7 @@ const index = () => {
     <section className="section-2  p-0">
         <div className="cover">
             <div className="content text-center">
-                <h2>Join Our Hackathon and Change the World</h2>
+                <h2>Join Our Events to Change The World</h2>
                 <p className="text-secondary">
                     Think outside the box: Collaborate, Innovate, and Create
                 </p>
@@ -122,7 +72,7 @@ const index = () => {
                         <img src="img/event/live-event.jpg" alt="" />
                     </figure>
                     <div className="article-body">
-                        <h2>Live Event</h2>
+                        <h3>Live Event</h3>
                         <p>
                             This event typically involves brainstorming sessions, workshops, and presentations, 
                             where participants are encouraged to think outside the box and come up with unique 
@@ -138,7 +88,7 @@ const index = () => {
                         <img width="368" height="207" src="img/event/upcoming-event.avif" alt="" />
                     </figure>
                     <div className="article-body">
-                        <h2>Upcoming Events</h2>
+                        <h3>Upcoming Events</h3>
                         <p>
                             Are you seeking to solve some of the most pressing real world issues, but don’t know where to start?
                             Your idea doesn’t need to be original! You can take inspiration from others. Come join GoHackathon Events.
@@ -153,7 +103,7 @@ const index = () => {
                         <img width="368" height="207" src="img/event/past-event.jpg" alt="" />
                     </figure>
                     <div className="article-body">
-                        <h2>Past Events</h2>
+                        <h3>Past Events</h3>
                         <p>
                             Since last year, GoHackathon and its team have organised an event. 
                             <strong>SAMADHAN</strong> at BTKIT Dwarahat and 
@@ -179,7 +129,7 @@ const index = () => {
                         <img width="368" height="207" src="img/courses/AI&ML.jpg" alt="" />
                     </figure>
                     <div className="article-body">
-                        <h2>AI and Machine Learning</h2>
+                        <h3>AI and Machine Learning</h3>
                         <p>
                             This course provides students with a comprehensive introduction to data science and
                              machine learning. Students will learn how to extract insights and knowledge from 
@@ -195,7 +145,7 @@ const index = () => {
                         <img width="368" height="207" src="img/courses/FullStack.jpg" alt="" />
                     </figure>
                     <div className="article-body">
-                        <h2>Full Stack Development</h2>
+                        <h3>Full Stack Development</h3>
                         <p>
                             Students receive a thorough introduction to database and full stack development in 
                             this course. With the technical understanding of front-end and back-end programming, 
@@ -208,14 +158,46 @@ const index = () => {
             <article>
                 <div className="article-wrapper">
                     <figure>
-                        <img width="368" height="207" src="img/courses/Aws_Devops.png" alt="" />
+                        <img width="368" height="207" src="img/courses/Summer_Training.png" alt="" />
                     </figure>
                     <div className="article-body">
-                        <h2>AWS and Devops</h2>
+                        <h3>Summer Training</h3>
+                        <p>
+                        Summer training programs often provide students with exposure to industry professionals 
+                        and companies in their field of study. This can help students build professional 
+                        networks, learn about different career paths, and gain insight into the industry. 
+                        </p>
+                       <Link to="/aws_devops"><a className="btn btn-primary" href="aws_devops.html" role="button">Know More</a></Link>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div className="article-wrapper">
+                    <figure>
+                        <img width="368" height="207" src="img/courses/cloud-infra.jpg" alt="" />
+                    </figure>
+                    <div className="article-body">
+                        <h3>Cloud Infrastructures</h3>
                         <p>
                             Develop your knowledge of containers, deployment strategies, and immutable infrastructure. 
                             Create a portfolio for cloud computing containing labs, projects, and a capstone project. 
-                            Discover AWS, DevOps, and more. Gain Practical Exposure to Projects & Laboratories. 
+                            Discover AWS, DevOps, and more. 
+                        </p>
+                       <Link to="/aws_devops"><a className="btn btn-primary" href="aws_devops.html" role="button">Know More</a></Link>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div className="article-wrapper">
+                    <figure>
+                        <img width="368" height="207" src="img/courses/electric-vehicle.jpg" alt="" />
+                    </figure>
+                    <div className="article-body">
+                        <h3>Electric Vehicles Design</h3>
+                        <p>
+                            Develop your knowledge of containers, deployment strategies, and immutable infrastructure. 
+                            Create a portfolio for cloud computing containing labs, projects, and a capstone project. 
+                            Discover AWS, DevOps, and more. 
                         </p>
                        <Link to="/aws_devops"><a className="btn btn-primary" href="aws_devops.html" role="button">Know More</a></Link>
                     </div>
@@ -225,7 +207,7 @@ const index = () => {
     </section>
     <section className="section-4">
         <div className="container text-center">
-            <h1 className="text-dark">Collaborate With GoHackathon</h1>
+            <h1 className="text-dark">Institutional Partners</h1>
             <p className="text-secondary">Some of our collaborations with top colleges</p>
         </div>
         <div className="row team">
@@ -243,7 +225,7 @@ const index = () => {
                         </p>
                        
                         <p>
-                           <Link to=""><a className="btn btn-primary" href="contact.html" role="button">Know More</a></Link>
+                           <a className="btn btn-primary" href="https://kecua.ac.in/" target='_blank' role="button">Know More</a>
                         </p>
                     </div>
                 </div>
@@ -251,17 +233,17 @@ const index = () => {
             <div className="col-md-4 col-12 text-center">
                 <div className="card mr-2 d-inline-block shadow-lg">
                     <div className="card-img-top">
-                        <img src="img/resources/ssim-logo.png" className="img-fluid border-radius p-4" alt="" />
+                        <img src="img/resources/Graphic_Era.png" className="img-fluid border-radius p-4" alt="" />
                     </div>
                     <div   className="card-body">
-                        <h3 className="card-title">SSIM DELHI</h3>
+                        <h3 className="card-title">GRAPHIC ERA</h3>
                         <p className="card-text-index">
-                            GoHackathon works with SSIM to provide research platform for students, industry, alumni, 
+                            GoHackathon works with Graphic Era Hill University to provide research platform for students, industry, alumni, 
                             start-ups, small and medium enterprises, faculty and researchers by helping them 
                             technology innovations.
                         </p>
                         <p>
-                           <Link to=""><a className="btn btn-primary" href="contact.html" role="button">Know More</a></Link>
+                           <a className="btn btn-primary" href="https://graphicerauniversity.co.in/" target='_blank' role="button">Know More</a>
                         </p>
                     </div>
                 </div>
@@ -270,22 +252,74 @@ const index = () => {
             <div className="col-md-4 col-12 text-center">
                 <div className="card mr-2 d-inline-block shadow-lg">
                     <div className="card-img-top">
-                        <img src="img/WIT-LOGO-1-1.png" className="img-fluid border-radius p-4" alt="" />
+                        <img src="img/resources/coer-logo.png" className="img-fluid border-radius p-4" alt="" />
                     </div>
                     <div className="card-body">
-                        <h3 className="card-title">WIT DEHRADUN</h3>
+                        <h3 className="card-title">COER UNIVERSITY</h3>
                         <p className="card-text-index">
-                            GoHackathon works with WIT to promote and enhance skill development and employment generation 
+                            GoHackathon works with Coer University to promote and enhance skill development and employment generation 
                             activities with relevant skills & On the Job Training required for making them employable.
                         </p>
                         <p>
-                           <Link to=""><a className="btn btn-primary" href="contact.html" role="button">Know More</a></Link>
+                           <a className="btn btn-primary" href="https://coer.ac.in/" target='_blank' role="button">Know More</a>
                         </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <hr/>
+
+    <div className="container">
+        <div className="row">
+            <div className="aboutsection col-lg-7">
+                <h2>Gyan Goshthi - Learning While Traveling and Adventure</h2>
+                <p>GYAN GOSHTHI is an event that brings together individuals from various backgrounds 
+                and industries to generate creative and innovative ideas on a specific topic or 
+                challenge. This event typically involves brainstorming sessions, workshops, and 
+                presentations, where participants are encouraged to think outside the box and come 
+                up with unique solutions to the challenge at hand. The aim of an GYAN GOSHTHI is to 
+                foster collaboration and creativity, and to generate a pool of valuable ideas that 
+                can be further developed and implemented. GYAN GOSHTHIs are often used by organizations 
+                to generate new ideas for product development, marketing campaigns, and business strategy. 
+                They are also a popular way for startups and entrepreneurs to come up with fresh, new 
+                concepts and pitch them to potential investors or partners. <br />
+                </p>
+                <p>We create an eco-system of industry academia partnership and help in continuous and
+                sustainable development of innovative ideas, which are impactful for the growing economy and
+                society. Go hackathon thrives to provide best nurturing, mentorship, skills and professional opportunities to its members and participants.
+                We conduct series of events, seminars, hackathons, internships and Projects.
+                </p>  
+            </div>
+            <div className="imgofabout-gyan col-lg-5">
+                <img className="imgofabout-gyan" src="img/event/agriculture-gyan.jpg" alt="Dev" />
+            </div>
+        </div>
+    </div>
+    <hr />
+
+    <div className="container">
+        <div className="row">
+            <div className="aboutsection col-lg-7">
+                <h2>About GoHackathon</h2>
+                <p>Go Hackathon comprises of eminent Industry professionals, educators and students meant to
+                    nurture talent among budding tech professional. Industry today is looking for talented 
+                    students who are equipped and experience with advanced skills, software, attitude and 
+                    updated industry best practices. <br />
+                </p>
+                <p>We create an eco-system of industry academia partnership and help in continuous and sustainable 
+                    development of innovative ideas, which are impactful for the growing economy and society. 
+                    Go hackathon thrives to provide best nurturing, mentorship, skills and professional 
+                    opportunities to its members and participants.We conduct series of events, seminars, 
+                    hackathons, internships and Projects. <br />
+                <a href="about.html"><strong>Know More</strong></a>
+                </p>  
+            </div>
+            <div className="imgofabout col-lg-5">
+                <img className="imgofabout" src="img/resources/about_img.jpg" alt="Dev" />
+            </div>
+        </div>
+    </div>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"

@@ -6,6 +6,11 @@ font-family: 'Montserrat',  'sans-serif';
   max-width: 100%;
 }
 
+.ViewMoreButton {
+  text-align: right;
+  padding-right: 10%;
+}
+
 .contactform {
   margin-top: 10px;
   margin-bottom: 30px;
@@ -668,7 +673,7 @@ margin-right: 20px;
 }
 .footer-widget ul li {
 display: inline-block;
-width: 50%;
+width: 100%;
 margin-bottom: 12px;
 }
 .footer-widget ul li a:hover{
