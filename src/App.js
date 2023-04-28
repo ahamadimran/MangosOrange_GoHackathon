@@ -46,6 +46,12 @@ import PHP_MySQL_Fullstack from './pages/PHP_MySQL_Fullstack';
 import React_Fullstack from './pages/React_Fullstack';
 import Ideathon from './pages/Ideathon';
 import Registration_Form from './pages/Registration_Form';
+import Gigabit from './pages/Gigabit';
+import Robosync from './pages/Robosync';
+import Kurukshetra from './pages/Kurukshetra';
+import Hackathon from './pages/Hackathon';
+import Strategem from './pages/Strategem';
+import Prayog from './pages/Prayog';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
@@ -101,6 +107,12 @@ function App() {
           <Route path='/react_fullstack' element={<React_Fullstack />} />
           <Route path='/ideathon' element={<Ideathon />} />
           <Route path='/registration_form' element={<Registration_Form />} />
+          <Route path='/gigabit' element={<Gigabit />} />
+          <Route path='/robosync' element={<Robosync />} />
+          <Route path='/kurukshetra' element={<Kurukshetra />} />
+          <Route path='/hackathon' element={<Hackathon />} />
+          <Route path='/strategem' element={<Strategem />} />
+          <Route path='/prayog' element={<Prayog />} />
         </Routes>
       </Router>
       
