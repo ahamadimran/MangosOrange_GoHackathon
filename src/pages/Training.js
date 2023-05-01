@@ -2,6 +2,7 @@ import React, {Fragment} from 'react';
 import Menu from './Menu';
 import Footer from './Footer';
 import { Link } from 'react-router-dom';
+import ContactForm from './ContactForm';
 
 const training = () => {
   return (
@@ -13,14 +14,49 @@ const training = () => {
       
     <main>
 
-        <section class="py-5 text-center container">
+        <div className='container trainingheading'>
+            <h2>BUDDING TECH PROFESSIONALS</h2>
+        </div>
+        <div className='container'>
+            <div className='row'>
+                <div className='col-lg-7'>
+                    <h2>Summer Internship</h2> <br/>
+                    <p>Inviting students to work on client project for summer internship. Additionally, all the 
+                        students will be groomed on Entrepreneural Skills, and Startup Formation. Interested 
+                        Students or Student Group will be provided Mentorship for their startup IDEAS.
+                    </p>
+                    <p>Attention all aspiring students and tech enthusiasts! GoHackathon is excited to announce the 
+                        launch of our new courses on Web Development, AI/ML, and Cloud Computing. Whether you're a 
+                        beginner or an experienced coder, we've got something for everyone. With expert instructors, 
+                        hands-on projects, and cutting-edge tools, you'll gain the skills and knowledge needed to 
+                        take your career to the next level. Don't miss out on this opportunity to join the ranks of 
+                        the top tech talent. Enroll now and let's hack our way to success together. Here are some of 
+                        the most significant benefits:
+                    </p>
+                    <ul>
+                        <li>Gain practical experience</li>
+                        <li>Network with professionals</li>
+                        <li>Improve job prospects</li>
+                        <li>Learn about different company cultures</li>
+                        <li>Explore different career paths</li>
+                        <li>Earn academic credit</li>
+                    </ul>
+
+                </div>
+                <div className='col-lg-5'>
+                    <ContactForm/>
+                </div>
+            </div>
+        </div>
+
+        {/* <section class="py-5 text-center container">
             <div class="row py-lg-5">
                 <div class="col-lg-6 col-md-8 mx-auto">
                     <h1 class="fw-light">SUMMER INTERNISHIP</h1>
                     <p class="lead text-muted">Additionally, all the students will be groomed on Entrepreneural Skills, and Startup Formation. Interested Students or Student Group will be provided Mentorship for their startup IDEAS.</p>
                 </div>
             </div>
-        </section>
+        </section> */}
 
         <div class="album py-5 bg-light">
             <div class="container"> 
@@ -235,7 +271,7 @@ const training = () => {
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 text-center">
                 <div class="col-lg-4">
                         <div class="card shadow-sm">
-                           <Link to="/DEVOPS"><img src="img/courses/AWS_Devops.png" alt="DEV-OPS" height="200px" width="100%"/></Link>
+                           <Link to="/devops"><img src="img/courses/devops.png" alt="DEV-OPS" height="200px" width="100%"/></Link>
                             <div class="card-body">
                                 <h4>DEV-OPS</h4>
                             </div>

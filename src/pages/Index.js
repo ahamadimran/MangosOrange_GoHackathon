@@ -2,8 +2,10 @@ import React, { Fragment} from 'react';
 import Menu from './Menu';
 import Footer from './Footer';
 import { Link } from 'react-router-dom';
+import ReactGA from 'react-ga4';
 
 const index = () => {
+    ReactGA.initialize("G-RYHT696S35");
   return (
     <Fragment>
         <Menu />
@@ -17,12 +19,9 @@ const index = () => {
                     <h2><strong>MANTHAN</strong></h2>
                     <p><strong>Collaborate, Innovate, and Hack Your Way to Success!</strong><br />
                         We are trying to build a community where everyone can connect, learn, and grow together.
-                    </p> <br />
-                    <Link to="/ideathon">
-                    <a href={URL}>
-                        <button className="btn btn-primary px-5 py-2 primary-btn">
-                            REGISTER NOW
-                        </button>
+                    </p> <br /> 
+                    <Link to="/ideathon"><a href={URL}>
+                        <button className="btn btn-primary px-5 py-2 primary-btn">REGISTER NOW</button>
                     </a></Link>
                 </div>
                 <div className="col-lg-5 bannerimage">
@@ -329,6 +328,18 @@ const index = () => {
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
+
+    
+{/* Google tag (gtag.js) */}
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYHT696S35"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){'dataLayer.push(arguments);'}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RYHT696S35');
+</script>
+
 
    <Footer />
     </Fragment>
