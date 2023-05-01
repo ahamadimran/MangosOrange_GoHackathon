@@ -1,8 +1,11 @@
-import React, { Fragment} from 'react';
+import React, { Fragment, useState} from 'react';
 import { Link } from 'react-router-dom';
 import { useAuth0 } from "@auth0/auth0-react";
 
 const Menu = () => {
+    const [isNavCollapsed, setIsNavCollapsed] = useState(true);
+    const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
+    
     const { loginWithRedirect, isAuthenticated, logout, user } = useAuth0();
   return (
     <Fragment>
@@ -13,7 +16,8 @@ const Menu = () => {
                         <img className="logoimg" src="img/main_logo.png" alt="" /></a></Link>
 
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar"
-                                aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                                aria-controls="myNavbar" aria-expanded={!isNavCollapsed ? true : false} 
+                                onClick={handleNavCollapse} aria-label="Toggle navigation">
                             <i className="fas fa-align-right text-dark"></i>
                         </button>
                 </div>

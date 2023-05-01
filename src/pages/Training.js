@@ -141,7 +141,7 @@ const training = () => {
                     </div>
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
-                        <Link to="/Java_Backend"><img src="img/courses/cloud_computing.jpg" alt="Java" height="200px" width="100%"/></Link>
+                        <Link to="/Java_Backend"><img src="img/courses/java.png" alt="Java" height="200px" width="100%"/></Link>
                             <div class="card-body">
                             <h4>Java</h4>
                             </div>
@@ -196,7 +196,7 @@ const training = () => {
                     </div>
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
-                           <Link to="Java_Fullstack"><img src="img/courses/java-mongodb.png" alt="Java,  Mongo DB/ MS Sql Server" height="200px" width="100%"/></Link>
+                           <Link to="/java_fullstack"><img src="img/courses/java-mongodb.png" alt="Java,  Mongo DB/ MS Sql Server" height="200px" width="100%"/></Link>
                             <div class="card-body">
                                 <h4>Java,  Mongo DB/ MS Sql Server</h4>
                             </div>
@@ -251,7 +251,7 @@ const training = () => {
                     </div>
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
-                           <Link to="/AWS"><img src="img/courses/Aws_Devops.png" alt="AWS(Cloud Infra)" height="200px" width="100%"/></Link>
+                           <Link to="/AWS"><img src="img/courses/cloud-infra.jpg" alt="AWS(Cloud Infra)" height="200px" width="100%"/></Link>
                             <div class="card-body">
                                 <h4>AWS(Cloud Infra)</h4>
                             </div>

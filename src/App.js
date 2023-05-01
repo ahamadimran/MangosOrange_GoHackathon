@@ -102,7 +102,7 @@ function App() {
           <Route path='/datascience' element={<Datascience />} />
           <Route path='/html_css_js_bs_an_sql_fullstack' element={<HTML_CSS_Js_BS_AN_SQL_fullstack />} />
           <Route path='/python_fullstack' element={<Python_Fullstack />} />
-          <Route path='/java_fullstack' element={<java_fullstack />} />
+          <Route path='/java_fullstack' element={<Java_Fullstack />} />
           <Route path='/php_mysql_fullstack' element={<PHP_MySQL_Fullstack />} />
           <Route path='/react_fullstack' element={<React_Fullstack />} />
           <Route path='/ideathon' element={<Ideathon />} />

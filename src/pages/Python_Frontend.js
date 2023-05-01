@@ -26,7 +26,7 @@ const Python_Frontend = () => {
                         </p>
                     </div>
                     <div className='imgofabout col-lg-5'>
-                        <img className='imgofabout' src='img/courses/python.jpg' alt='Dev'></img>
+                        <img className='imgofabout' src='img/courses/python-01.jpg' alt='Dev'></img>
                     </div>
                 </div>
             </div>
@@ -79,7 +79,7 @@ const Python_Frontend = () => {
                         </p> <br/>
                         <button className="btn btn-primary px-5 py-2 primary-btn">Dureation: 6-8 Weeks</button> &nbsp;
                         <button className="btn btn-primary px-5 py-2 primary-btn">Buy Now</button> &nbsp;
-                        <button className="btn btn-primary px-5 py-2 primary-btn">KNow Now</button>
+                        <button className="btn btn-primary px-5 py-2 primary-btn">Know More</button>
                     </div>
                     <div className='col-lg-5'>
                         <h2>Get in Touch</h2>

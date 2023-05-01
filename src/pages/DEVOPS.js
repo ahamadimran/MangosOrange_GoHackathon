@@ -74,9 +74,9 @@ const DEVOPS = () => {
                             and be able to effectively collaborate with other developers using Git for version 
                             control.
                         </p> <br/>
-                        <button className="btn btn-primary px-5 py-2 primary-btn">Dureation: 18-20 Weeks</button> &nbsp;
+                        <button className="btn btn-primary px-5 py-2 primary-btn">Dureation: 6-8 Weeks</button> &nbsp;
                         <button className="btn btn-primary px-5 py-2 primary-btn">Buy Now</button> &nbsp;
-                        {/* <button className="btn btn-primary px-5 py-2 primary-btn">KNow Now</button> */}
+                        <button className="btn btn-primary px-5 py-2 primary-btn">Know More</button>
                     </div>
                     <div className='col-lg-5'>
                         <h2>Get in Touch</h2>
