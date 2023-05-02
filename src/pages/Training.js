@@ -3,8 +3,10 @@ import Menu from './Menu';
 import Footer from './Footer';
 import { Link } from 'react-router-dom';
 import ContactForm from './ContactForm';
+import ReactGA from 'react-ga4';
 
 const training = () => {
+    ReactGA.initialize("G-RYHT696S35");
   return (
     <Fragment>
       <Menu />
@@ -269,14 +271,6 @@ const training = () => {
             <div class="container">
             <h2 class="text-center mx-auto text-white bg-info rounded p-2 m-3">Others</h2> <br/> <br/> 
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 text-center">
-                <div class="col-lg-4">
-                        <div class="card shadow-sm">
-                           <Link to="/devops"><img src="img/courses/devops.png" alt="DEV-OPS" height="200px" width="100%"/></Link>
-                            <div class="card-body">
-                                <h4>DEV-OPS</h4>
-                            </div>
-                        </div>
-                    </div>
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
                            <Link to="/ai_macine_learning"><img src="img/courses/AI-ML.png" alt="AI & Machine Learning" height="200px" width="100%"/></Link>
@@ -290,6 +284,14 @@ const training = () => {
                            <Link to="/AWS"><img src="img/courses/cloud-infra.jpg" alt="AWS(Cloud Infra)" height="200px" width="100%"/></Link>
                             <div class="card-body">
                                 <h4>AWS(Cloud Infra)</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card shadow-sm">
+                           <Link to="/devops"><img src="img/courses/dev-ops.jpg" alt="AI & Machine Learning" height="200px" width="100%"/></Link>
+                            <div class="card-body">
+                                <h4>DevOps</h4>
                             </div>
                         </div>
                     </div>
@@ -352,6 +354,17 @@ const training = () => {
 
     </main>
       <Footer />
+
+    {/* Google tag (gtag.js) */}
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RYHT696S35"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){'dataLayer.push(arguments);'}
+        gtag('js', new Date());
+        
+        gtag('config', 'G-RYHT696S35');
+    </script>
+
     </Fragment>
   )
 }
