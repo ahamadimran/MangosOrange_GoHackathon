@@ -76,6 +76,7 @@ const Python_Backend = () => {
                             By the end of the course, students will have developed several web applications 
                             using Python and be able to effectively collaborate with other developers.
                         </p> <br/>
+                        <p><strong>Training Cost:- ₹ 6000/-</strong></p>
                         <button className="btn btn-primary px-5 py-2 primary-btn">Dureation: 6-8 Weeks</button> &nbsp;
                         <button className="btn btn-primary px-5 py-2 primary-btn">Buy Now</button> &nbsp;
                         <button className="btn btn-primary px-5 py-2 primary-btn">Know More</button>

@@ -51,6 +51,15 @@ const training = () => {
             </div>
         </div>
 
+        <div className="container">
+          <div className="">
+          <p>Registration fees is &nbsp;
+            <a href={URL}><button className="btn btn-primary px-5 py-2 primary-btn" id="contact">₹ 500</button></a>&nbsp;
+            (Except Git & Figma)     
+          </p>
+          </div>
+        </div>
+
         {/* <section class="py-5 text-center container">
             <div class="row py-lg-5">
                 <div class="col-lg-6 col-md-8 mx-auto">
@@ -82,21 +91,6 @@ const training = () => {
                     </div>
                     <div class="col-lg-2"></div>
                     
-                    {/* <div class="col-lg-4">
-                        <div class="card shadow-sm">
-                           <Link to="/ai_ml"><img src="img/courses/AI&ML.jpg" alt="" height="200px" width="100%"/></Link>
-                            <div class="card-body">
-                                <h4>AI and Machine Learning</h4>
-                                <p>
-                                    This course provides students with a comprehensive introduction to data science and
-                                     machine learning. Students will learn how to extract insights and knowledge from 
-                                     large data sets using popular data analysis and machine learning techniques.  
-                                </p>
-                               <Link to=""><a class="btn btn-primary" href="ai_ml.html" role="button">Buy Now</a></Link> &nbsp; &nbsp;
-                               <Link to="/ai_ml"><a class="btn btn-primary" href="ai-ml.html" role="button">Know More</a></Link>
-                            </div>
-                        </div>
-                    </div> */}
                 </div>
             </div>
         </div>
@@ -313,57 +307,8 @@ const training = () => {
                 </div>
             </div>
         </div>
-
-        
-
-        {/* <div class="album py-5 bg-light">
-            <div class="container"> 
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 text-center">
-                    <div class="col-lg-4">
-                        <div class="card shadow-sm">
-                        <Link to=""><img src="img/courses/cloud_computing.jpg" alt="" height="200px" width="100%"/></Link>
-                            <div class="card-body">
-                                <h4>Cloud Computing</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card shadow-sm">
-                        <Link to=""><img src="img/courses/python.jpg" alt="" height="200px" width="100%"/></Link>
-                            <div class="card-body">
-                                <h4>Python Programming</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card shadow-sm">
-                        <Link to=""><img src="img/courses/java.png" alt="" height="200px" width="100%"/></Link>
-                            <div class="card-body">
-                            <h4>Java Programming</h4>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.
-                                </p>
-                                <Link to=""><a class="btn btn-primary" href="contact.html" role="button">Buy Now</a></Link> &nbsp; &nbsp;
-                                <Link to=""><a class="btn btn-primary" href="contact.html" role="button">Know More</a></Link>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> */}
-
     </main>
       <Footer />
-
-    {/* Google tag (gtag.js) */}
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RYHT696S35"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){'dataLayer.push(arguments);'}
-        gtag('js', new Date());
-        
-        gtag('config', 'G-RYHT696S35');
-    </script>
 
     </Fragment>
   )

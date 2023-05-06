@@ -76,9 +76,11 @@ const Git_hub = () => {
                             <li>Integrating Git with other development tools, such as Continuous Integration/Continuous Deployment (CI/CD) systems</li>
                             <li>Understanding Git internals, including the Git object model and how Git stores and retrieves data.</li>
                         </ul> <br/>
+                        <p><strong>Training Cost:- ₹ 1500/-</strong></p>
                         <button className="btn btn-primary px-5 py-2 primary-btn">Dureation: 1-2 Weeks</button> &nbsp;
                         <button className="btn btn-primary px-5 py-2 primary-btn">Buy Now</button> &nbsp;
-                        <button className="btn btn-primary px-5 py-2 primary-btn">Know More</button>
+                        <button className="btn btn-primary px-5 py-2 primary-btn">Know More</button> <br/>
+                        
                     </div>
                     <div className='col-lg-5'>
                         <h2>Get in Touch</h2>

@@ -77,6 +77,7 @@ const Python_Frontend = () => {
                              students will have completed several programming assignments and projects that 
                              showcase their mastery of Python.
                         </p> <br/>
+                        <p><strong>Training Cost:- ₹ 6000/-</strong></p>
                         <button className="btn btn-primary px-5 py-2 primary-btn">Dureation: 6-8 Weeks</button> &nbsp;
                         <button className="btn btn-primary px-5 py-2 primary-btn">Buy Now</button> &nbsp;
                         <button className="btn btn-primary px-5 py-2 primary-btn">Know More</button>

@@ -42,10 +42,10 @@ const Menu = () => {
                             <div className="dropdown">
                                 <Link to="/training"><a href={URL} className="nav-link">TRAINING</a></Link>
                                 <div className="dropdown-content">
-                                    <Link to="/practice_set"><a href="practiceset.html">Practice Test</a></Link>
-                                    {/* <Link to="/participants"><a href="participants.html">PARTICIPANTS</a></Link>
-                                    <Link to="/winner"><a href="winners.html">WINNERS</a></Link>
-                                    <a href="result.html">RESULT</a> */}
+                                    <Link to=""><a href="practiceset.html">Practice Test</a></Link>
+                                    <Link to=""><a href="participants.html">Live Industrial Projects</a></Link>
+                                    <Link to=""><a href="winners.html">Winter Training</a></Link>
+                                    <a href={URL}>Summer Internship</a>
                                 </div>
                             </div>
                         </li>

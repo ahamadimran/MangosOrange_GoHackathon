@@ -66,6 +66,7 @@ const Figma = () => {
                             end of the course, students will have created several designs and prototypes using 
                             Figma.
                         </p> <br/>
+                        <p><strong>Training Cost:- ₹ 1500/-</strong></p>
                         <button className="btn btn-primary px-5 py-2 primary-btn">Dureation: 1-2 Weeks</button> &nbsp;
                         <button className="btn btn-primary px-5 py-2 primary-btn">Buy Now</button> &nbsp;
                         <button className="btn btn-primary px-5 py-2 primary-btn">Know More</button>

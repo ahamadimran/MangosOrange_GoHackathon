@@ -13,7 +13,7 @@ const Registration_Form = () => {
           alert("Registration Sent");
       }, (error) => {
           console.log(error.text);
-      });
+      });    
   };
   return (
     <div className="container contactform">     
@@ -37,11 +37,7 @@ const Registration_Form = () => {
       </div>
       <div className='form-group'>
         <label htmlFor='abstract'><strong>Abstract: </strong></label>
-        <input type='file' name='abstract' id='abstract' className="form-control" required></input>
-      </div>
-      <div className='form-group'>
-        <label htmlFor='poster'><strong>Poster: </strong></label>
-        <input type='file' name='poster' id='poster' className="form-control" required></input>
+        <input type='file' name='abstract' id='abstract' className="form-control" accept='.pdf' required></input>
       </div>
       <div className="form-group">
         <label htmlFor="query"><strong>Query/Remark:</strong></label>

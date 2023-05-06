@@ -20,8 +20,11 @@ const index = () => {
                     <p><strong>Collaborate, Innovate, and Hack Your Way to Success!</strong><br />
                         We are trying to build a community where everyone can connect, learn, and grow together.
                     </p> <br /> 
-                    <Link to="/ideathon"><a href={URL}>
+                    <Link to="/training"><a href={URL}>
                         <button className="btn btn-primary px-5 py-2 primary-btn">REGISTER NOW</button>
+                    </a></Link> <br/> <br/>
+                    <Link to="https://docs.google.com/forms/d/1qEth27RUvjjoim_0StxvBF8Zkw3Qov3_CAoJareR4P4/edit"><a href={URL}>
+                        <button className="btn btn-primary px-5 py-2 primary-btn">Submit Your Idea</button>
                     </a></Link>
                 </div>
                 <div className="col-lg-5 bannerimage">
@@ -125,10 +128,10 @@ const index = () => {
             <article>
                 <div className="article-wrapper">
                     <figure>
-                        <img width="368" height="207" src="img/courses/AI&ML.jpg" alt="" />
+                        <img width="368" height="207" src="img/courses/live-project.jpeg" alt="" />
                     </figure>
                     <div className="article-body">
-                        <h3>AI and Machine Learning</h3>
+                        <h3>Live Industrial Projects</h3>
                         <p>
                             This course provides students with a comprehensive introduction to data science and
                              machine learning. Students will learn how to extract insights and knowledge from 
@@ -144,7 +147,7 @@ const index = () => {
                         <img width="368" height="207" src="img/courses/FullStack.jpg" alt="" />
                     </figure>
                     <div className="article-body">
-                        <h3>Full Stack Development</h3>
+                        <h3>Winter Training</h3>
                         <p>
                             Students receive a thorough introduction to database and full stack development in 
                             this course. With the technical understanding of front-end and back-end programming, 
@@ -160,11 +163,43 @@ const index = () => {
                         <img width="368" height="207" src="img/courses/Summer_Training.png" alt="" />
                     </figure>
                     <div className="article-body">
-                        <h3>Summer Training</h3>
+                        <h3>Summer Internship</h3>
                         <p>
                         Summer training programs often provide students with exposure to industry professionals 
                         and companies in their field of study. This can help students build professional 
                         networks, learn about different career paths, and gain insight into the industry. 
+                        </p>
+                       <Link to="/aws_devops"><a className="btn btn-primary" href="aws_devops.html" role="button">Know More</a></Link>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div className="article-wrapper">
+                    <figure>
+                        <img width="368" height="207" src="img/courses/AI&ML.jpg" alt="" />
+                    </figure>
+                    <div className="article-body">
+                        <h3>AI and Machine Learning</h3>
+                        <p>
+                            This course provides students with a comprehensive introduction to data science and
+                             machine learning. Students will learn how to extract insights and knowledge from 
+                             large data sets using popular data analysis and machine learning techniques. 
+                        </p>
+                       <Link to="/aws_devops"><a className="btn btn-primary" href="aws_devops.html" role="button">Know More</a></Link>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div className="article-wrapper">
+                    <figure>
+                        <img width="368" height="207" src="img/courses/FullStack.jpg" alt="" />
+                    </figure>
+                    <div className="article-body">
+                        <h3>Full Stack Development</h3>
+                        <p>
+                            Students receive a thorough introduction to database and full stack development in 
+                            this course. With the technical understanding of front-end and back-end programming, 
+                            students will discover the nuances of data structures and algorithms. 
                         </p>
                        <Link to="/aws_devops"><a className="btn btn-primary" href="aws_devops.html" role="button">Know More</a></Link>
                     </div>
