@@ -128,14 +128,14 @@ const index = () => {
             <article>
                 <div className="article-wrapper">
                     <figure>
-                        <img width="368" height="207" src="img/courses/live-project.jpeg" alt="" />
+                        <img width="368" height="207" src="img/courses/live-project.jpg" alt="" />
                     </figure>
                     <div className="article-body">
                         <h3>Live Industrial Projects</h3>
                         <p>
-                            This course provides students with a comprehensive introduction to data science and
-                             machine learning. Students will learn how to extract insights and knowledge from 
-                             large data sets using popular data analysis and machine learning techniques.  
+                            Work with the company to define the scope of your project. Once you have defined the 
+                            scope of your project, start working on it. Keep in touch with the company throughout 
+                            the process to ensure that you are meeting their expectations and to ask for help if needed. 
                         </p>
                        <Link to="/ai_ml"><a className="btn btn-primary" href="ai_ml.html" role="button">Know More</a></Link>
                     </div>
@@ -149,9 +149,9 @@ const index = () => {
                     <div className="article-body">
                         <h3>Winter Training</h3>
                         <p>
-                            Students receive a thorough introduction to database and full stack development in 
-                            this course. With the technical understanding of front-end and back-end programming, 
-                            students will discover the nuances of data structures and algorithms.
+                            Remember, winter training is an excellent opportunity to gain practical experience, 
+                            enhance your skills, and expand your professional network during the winter break 
+                            from academic studies. Make the most of it by being prepared, engaged, and proactive.
                         </p>
                        <Link to="/full_stack_dev"><a className="btn btn-primary" href="full_stack_dev.html" role="button">Know More</a></Link>
                     </div>
