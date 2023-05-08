@@ -15,6 +15,11 @@
   margin-top: 80px; 
 }
 
+.paymentsection {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
 .aboutsection p {
   text-align: justify;
 }

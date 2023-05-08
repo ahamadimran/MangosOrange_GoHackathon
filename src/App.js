@@ -52,6 +52,7 @@ import Kurukshetra from './pages/Kurukshetra';
 import Hackathon from './pages/Hackathon';
 import Strategem from './pages/Strategem';
 import Prayog from './pages/Prayog';
+import Payment from './pages/Payment';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
@@ -113,6 +114,7 @@ function App() {
           <Route path='/hackathon' element={<Hackathon />} />
           <Route path='/strategem' element={<Strategem />} />
           <Route path='/prayog' element={<Prayog />} />
+          <Route path='/payment' element={<Payment />} />
         </Routes>
       </Router>
       
