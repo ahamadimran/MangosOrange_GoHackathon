@@ -267,7 +267,7 @@ const training = () => {
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 text-center">
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
-                           <Link to="/ai_macine_learning"><img src="img/courses/AI-ML.png" alt="AI & Machine Learning" height="200px" width="100%"/></Link>
+                           <Link to="/ai_machine_learning"><img src="img/courses/AI-ML.png" alt="AI & Machine Learning" height="200px" width="100%"/></Link>
                             <div class="card-body">
                                 <h4>AI & Machine Learning</h4>
                             </div>
@@ -275,7 +275,7 @@ const training = () => {
                     </div>
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
-                           <Link to="/AWS"><img src="img/courses/cloud-infra.jpg" alt="AWS(Cloud Infra)" height="200px" width="100%"/></Link>
+                           <Link to="/aws"><img src="img/courses/cloud-infra.jpg" alt="AWS(Cloud Infra)" height="200px" width="100%"/></Link>
                             <div class="card-body">
                                 <h4>AWS(Cloud Infra)</h4>
                             </div>
@@ -283,7 +283,7 @@ const training = () => {
                     </div>
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
-                           <Link to="/devops"><img src="img/courses/dev-ops.jpg" alt="AI & Machine Learning" height="200px" width="100%"/></Link>
+                           <Link to="/devops"><img src="img/courses/dev-ops.jpg" alt="Devops" height="200px" width="100%"/></Link>
                             <div class="card-body">
                                 <h4>DevOps</h4>
                             </div>

@@ -28,7 +28,7 @@ import Java_Backend from './pages/Java_Backend';
 import PHP_backend from './pages/PHP_backend';
 import Node_Backend from './pages/Node_Backend';
 import DEVOPS from './pages/DEVOPS';
-import AI_MacineLearning from './pages/AI_MacineLearning';
+import AI_Machine_Learning from './pages/AI_Machine_Learning';
 import AWS from './pages/AWS';
 import Datascience from './pages/Datascience';
 import HTML_CSS_Js_BS_AN_SQL_fullstack from './pages/HTML_CSS_Js_BS_AN_SQL_fullstack';
@@ -98,7 +98,7 @@ function App() {
           <Route path='/php_backend' element={<PHP_backend />} />
           <Route path='/node_backend' element={<Node_Backend />} />
           <Route path='/devops' element={<DEVOPS />} />
-          <Route path='/ai_macine_learning' element={<AI_MacineLearning />} />
+          <Route path='/ai_machine_learning' element={<AI_Machine_Learning />} />
           <Route path='/aws' element={<AWS />} />
           <Route path='/datascience' element={<Datascience />} />
           <Route path='/html_css_js_bs_an_sql_fullstack' element={<HTML_CSS_Js_BS_AN_SQL_fullstack />} />

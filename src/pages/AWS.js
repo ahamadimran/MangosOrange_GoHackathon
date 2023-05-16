@@ -28,7 +28,7 @@ const AWS = () => {
                         </p>
                     </div>
                     <div className='imgofabout col-lg-5'>
-                        <img className='imgofabout' src='img/courses/Aws_Devops.png' alt='Dev'></img>
+                        <img className='imgofabout' src='img/courses/awscloudinfra.jpeg' alt='Dev'></img>
                     </div>
                 </div>
             </div>
