@@ -78,9 +78,9 @@ const Git_hub = () => {
                             <li>Understanding Git internals, including the Git object model and how Git stores and retrieves data.</li>
                         </ul> <br/>
                         <p><strong>Training Cost:- ₹ 1500/-</strong></p>
-                        <button className="btn btn-primary px-5 py-2 primary-btn">Dureation: 1-2 Weeks</button> &nbsp;
-                        <Link to="/payment"><button className="btn btn-primary px-5 py-2 primary-btn">Buy Now</button></Link> &nbsp;
-                        <button className="btn btn-primary px-5 py-2 primary-btn">Know More</button> <br/>
+                        <button className="btn btn-primary">Duration: 1-2 Weeks</button> &nbsp;
+                        <Link to="/payment"><button className="btn btn-primary">Buy Now</button></Link> &nbsp;
+                        <Link to="/contact"><button className="btn btn-primary">Know More</button></Link>
                         
                     </div>
                     <div className='col-lg-5'>

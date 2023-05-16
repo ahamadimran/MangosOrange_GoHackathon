@@ -34,7 +34,6 @@ const Menu = () => {
                                     <Link to="/live_event"><a href={URL}>Live Events</a></Link>
                                     <Link to="/upcoming_event"><a href={URL}>Upcoming</a></Link>
                                     <Link to="/past_event"><a href={URL}>Past Events</a></Link>
-                                    <Link to="/leaderboard"><a href="leaderboard.html">Leader Board</a></Link>
                                 </div>
                             </div>
                         </li>

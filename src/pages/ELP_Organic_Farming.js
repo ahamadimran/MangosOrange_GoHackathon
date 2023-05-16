@@ -92,9 +92,9 @@ const ELP_Organic_Farming = () => {
                             </li>
                         </ul>
                         {/* <p><strong>Training Cost:- ₹ 6000/-</strong></p> */}
-                        <button className="btn btn-primary px-5 py-2 primary-btn">Dureation: 6-8 Weeks</button> &nbsp;
-                        {/* <Link to="/payment"><button className="btn btn-primary px-5 py-2 primary-btn">Buy Now</button></Link> &nbsp; */}
-                        <Link to="/contact"><button className="btn btn-primary px-5 py-2 primary-btn">Know More</button></Link>
+                        <button className="btn btn-primary">Duration: 6-8 Weeks</button> &nbsp;
+                        <Link to="/payment"><button className="btn btn-primary">Buy Now</button></Link> &nbsp;
+                        <Link to="/contact"><button className="btn btn-primary">Know More</button></Link>
                     </div>
                     <div className='col-lg-5'>
                         <h2>Get in Touch</h2>
