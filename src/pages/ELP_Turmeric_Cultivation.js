@@ -76,7 +76,7 @@ const ELP_Turmeric_Cultivation = () => {
                         </ul>
                         {/* <p><strong>Training Cost:- ₹ 6000/-</strong></p> */}
                         <button className="btn btn-primary">Duration: 6-8 Weeks</button> &nbsp;
-                        <Link to="/payment"><button className="btn btn-primary">Buy Now</button></Link> &nbsp;
+                        <Link to="/payment-agritech"><button className="btn btn-primary">Buy Now</button></Link> &nbsp;
                         <Link to="/contact"><button className="btn btn-primary">Know More</button></Link>
                     </div>
                     <div className='col-lg-5'>

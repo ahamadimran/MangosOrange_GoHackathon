@@ -40,6 +40,7 @@ import Ideathon from './pages/Ideathon';
 import Registration_Form from './pages/Registration_Form';
 import Hackathon from './pages/Hackathon';
 import Payment from './pages/Payment';
+import Payment_Agitech from './pages/Payment_Agitech';
 import Tech_Assistance from './pages/Tech_Assistance';
 import Agritech_Training from './pages/Agritech_Training';
 import Navbar from './pages/Navbar';
@@ -110,6 +111,7 @@ function App() {
           <Route path='/registration_form' element={<Registration_Form />} />
           <Route path='/hackathon' element={<Hackathon />} />
           <Route path='/payment' element={<Payment />} />
+          <Route path='/payment-agritech' element={<Payment_Agitech />} />
           <Route path='/tech-assistance' element={<Tech_Assistance />} />
           <Route path='/agritech-training' element={<Agritech_Training />} />
           <Route path='/navbar' element={<Navbar />} />
