@@ -1,5 +1,5 @@
 import React, { Fragment, useState} from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { useAuth0 } from "@auth0/auth0-react";
 
 const Menu = () => {
@@ -9,7 +9,7 @@ const Menu = () => {
     const { loginWithRedirect, isAuthenticated, logout, user } = useAuth0();
   return (
     <Fragment>
-        <nav className="navbar navbar-collapse navbar-expand-lg">
+        <NavLink className="navbar navbar-collapse navbar-expand-lg">
             <div className="container-fluid">
                 <div className='navbar-header'>
                     <Link to="/"><a className="navbar-brand" href={URL}>
@@ -42,10 +42,11 @@ const Menu = () => {
                             <div className="dropdown">
                                 <Link to="/training"><a href={URL} className="nav-link">TRAINING</a></Link>
                                 <div className="dropdown-content">
-                                    <Link to=""><a href="practiceset.html">Practice Test</a></Link>
-                                    <Link to=""><a href="participants.html">Live Industrial Projects</a></Link>
-                                    <Link to=""><a href="winners.html">Winter Training</a></Link>
-                                    <a href={URL}>Summer Internship</a>
+                                    <Link to=""><a href={URL}>Project Based Training</a></Link>
+                                    <Link to=""><a href={URL}>Summer Internship</a></Link>
+                                    <Link to=""><a href={URL}>Winter Training</a></Link>
+                                    <Link to=""><a href={URL}>Industrial Projects</a></Link>
+                                    <Link to="/agritech-training"><a href={URL}>Agritech Training</a></Link>
                                 </div>
                             </div>
                         </li>
@@ -79,7 +80,7 @@ const Menu = () => {
                     </ul>
                 </div>
             </div>
-        </nav>
+        </NavLink>
     </Fragment>
   )
 }

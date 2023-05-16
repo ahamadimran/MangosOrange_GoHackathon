@@ -53,6 +53,19 @@ import Hackathon from './pages/Hackathon';
 import Strategem from './pages/Strategem';
 import Prayog from './pages/Prayog';
 import Payment from './pages/Payment';
+import Tech_Assistance from './pages/Tech_Assistance';
+import Agritech_Training from './pages/Agritech_Training';
+import Navbar from './pages/Navbar';
+import RAWE_Apiculture from './pages/RAWE_Apiculture';
+import RAWE_Organic_Farming from './pages/RAWE_Organic_Farming';
+import RAWE_Turmeric_Cultivation from './pages/RAWE_Turmeric_Cultivation';
+import RAWE_Mushroom_Cultivation from './pages/RAWE_Mushroom_Cultivation';
+import RAWE_Hydroponics from './pages/RAWE_Hydroponics';
+import ELP_Apiculture from './pages/ELP_Apiculture';
+import ELP_Organic_Farming from './pages/ELP_Organic_Farming';
+import ELP_Turmeric_Cultivation from './pages/ELP_Turmeric_Cultivation';
+import ELP_Mushroom_Cultivation from './pages/ELP_Mushroom_Cultivation';
+import ELP_Hydroponics from './pages/ELP_Hydroponics';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
@@ -123,6 +136,19 @@ function App() {
           <Route path='/strategem' element={<Strategem />} />
           <Route path='/prayog' element={<Prayog />} />
           <Route path='/payment' element={<Payment />} />
+          <Route path='/tech-assistance' element={<Tech_Assistance />} />
+          <Route path='/agritech-training' element={<Agritech_Training />} />
+          <Route path='/navbar' element={<Navbar />} />
+          <Route path='/rawe-apiculture' element={<RAWE_Apiculture />} />
+          <Route path='/rawe-organic-farming' element={<RAWE_Organic_Farming />} />
+          <Route path='/rawe-turmeric-cultivation' element={<RAWE_Turmeric_Cultivation />} />
+          <Route path='/rawe-mushroom-cultivation' element={<RAWE_Mushroom_Cultivation />} />
+          <Route path='/rawe-hydroponics' element={<RAWE_Hydroponics />} />
+          <Route path='/elp-apiculture' element={<ELP_Apiculture />} />
+          <Route path='/elp-organic-farming' element={<ELP_Organic_Farming />} />
+          <Route path='/elp-turmeric-cultivation' element={<ELP_Turmeric_Cultivation />} />
+          <Route path='/elp-mushroom-cultivation' element={<ELP_Mushroom_Cultivation />} />
+          <Route path='/elp-hydroponics' element={<ELP_Hydroponics />} />
         </Routes>
       </Router>
       

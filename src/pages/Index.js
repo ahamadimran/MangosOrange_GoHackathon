@@ -16,7 +16,7 @@ const index = () => {
                 <div className="col-lg-7  bannertext">
                     <h1>GOHACKATHON</h1>
                     <h6>Presents</h6>
-                    <h2><strong>MANTHAN</strong></h2>
+                    <h2><strong>Project Based Summer Internship</strong></h2>
                     <p><strong>Collaborate, Innovate, and Hack Your Way to Success!</strong><br />
                         We are trying to build a community where everyone can connect, learn, and grow together.
                     </p> <br /> 
@@ -28,7 +28,7 @@ const index = () => {
                     </a></Link>
                 </div>
                 <div className="col-lg-5 bannerimage">
-                    <img src="img/development2" alt="developer2" />
+                    <img src="img/resources/summer-internship.png" alt="Summer Internship" />
                 </div>
             </div>
         </div>
@@ -212,22 +212,6 @@ const index = () => {
                     </figure>
                     <div className="article-body">
                         <h3>Cloud Infrastructures</h3>
-                        <p>
-                            Develop your knowledge of containers, deployment strategies, and immutable infrastructure. 
-                            Create a portfolio for cloud computing containing labs, projects, and a capstone project. 
-                            Discover AWS, DevOps, and more. 
-                        </p>
-                       <Link to="/aws_devops"><a className="btn btn-primary" href="aws_devops.html" role="button">Know More</a></Link>
-                    </div>
-                </div>
-            </article>
-            <article>
-                <div className="article-wrapper">
-                    <figure>
-                        <img width="368" height="207" src="img/courses/electric-vehicle.jpg" alt="" />
-                    </figure>
-                    <div className="article-body">
-                        <h3>Electric Vehicles Design</h3>
                         <p>
                             Develop your knowledge of containers, deployment strategies, and immutable infrastructure. 
                             Create a portfolio for cloud computing containing labs, projects, and a capstone project. 

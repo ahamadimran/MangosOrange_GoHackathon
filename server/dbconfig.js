@@ -1,12 +1,15 @@
 const config = {
-    server: "DESKTOP-E3PR7GQ",
+    server: "DESKTOP-E3PR7GQ\\SQLEXPRESS",
     database: "gohackathon",
     options: {
         trustedConnection: false,
         trustedServerCertificate: true,
         enableArithAbort: true,
-        instancename: "SQLEXPRESS"
-    }
+        
+    },
+    port:1443
 }
 
-module.exports = config;
+module.exports = {
+    config
+}
