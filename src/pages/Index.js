@@ -1,7 +1,7 @@
 import React, { Fragment} from 'react';
 import Menu from './Menu';
 import Footer from './Footer';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import ReactGA from 'react-ga4';
 
 const index = () => {
@@ -20,9 +20,10 @@ const index = () => {
                     <p><strong>Collaborate, Innovate, and Hack Your Way to Success!</strong><br />
                         We are trying to build a community where everyone can connect, learn, and grow together.
                     </p> <br /> 
-                    <Link to="/training"><a href={URL}>
+                    <NavLink to="https://forms.gle/DRSMSzoRDhKqxQ8X7"><button className="btn btn-primary px-5 py-2 primary-btn">REGISTER NOW</button></NavLink>
+                    {/* <Link to="/https://forms.gle/DRSMSzoRDhKqxQ8X7"><a href="#">
                         <button className="btn btn-primary px-5 py-2 primary-btn">REGISTER NOW</button>
-                    </a></Link>
+                    </a></Link> */}
                 </div>
                 <div className="col-lg-5 bannertext">
                     <img src="img/resources/summer-training.jpg" alt="Summer Internship" />
