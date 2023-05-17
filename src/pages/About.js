@@ -15,17 +15,18 @@ const about = () => {
             <div class="container">
                 <div class="row">
                     <div class="aboutsection col-lg-7">
-                        <h2>About GoHackathon: (Startup Incubator Portal of MangosOrange Group)</h2>
-                        <p>GoHackathon comprises of eminent Industry professionals, educators and students meant 
+                        <h2>About GoHackathon:</h2>
+                        <h5>Startup Incubation and Mentoring Portal of MangosOrange Agritech India, Which is a group company of MangosOrange Group.</h5> <br/>
+                        <p>GoHackathon comprises of eminent Industry professionals and educators, meant 
                             to nurture talent among budding tech professionals. Industry today is looking for 
-                            talented students who are equipped and experience with advanced skills, software, 
+                            talented students who are equipped and experienced with advance skills, software, 
                             attitude and updated industry best practices. <br />
                         </p>
                         <p>We create an eco-system of industry academia partnership and help in continuous and 
                             sustainable development of innovative ideas, which are impactful for the growing 
                             economy and society. Go hackathon thrives to provide best nurturing, mentorship, 
-                            skills and professional opportunities to its members and participants. We conduct 
-                            series of events, seminars, hackathons, internships and Projects.
+                            skills and professional opportunities to its students, interns, members and participants. 
+                            We conduct series of events, seminars, hackathons, internships and Projects to bring out the best talent.
                         </p> 
                     </div>
                     <div class="imgofabout col-lg-5">

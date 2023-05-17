@@ -1,32 +1,89 @@
-import React from 'react';
-import { useRef } from 'react';
-import { FaBars, FaTimes } from 'react-icons/fa';
-import "react-toggle/style.css";
+import React, { useState } from "react"
+import { useAuth0 } from "@auth0/auth0-react";
+import { GiHamburgerMenu } from "react-icons/gi";
 
-function Navbar() {
-  const navRef = useRef();
+const Navbar = () => {
+  const [showMediaIcons, setShowMediaIcons] = useState(false);
 
-  const showNavbar = () => {
-    navRef.current.classList.toggle("responsive_nav");
-  }
+  const { loginWithRedirect, isAuthenticated, logout, user } = useAuth0();
   return (
-    <header>
-      <h3>LOGO</h3>
-      <nav ref={navRef}>
-        <a href="/#">About Us</a>
-        <a href="/#">Events</a>
-        <a href="/#">Training</a>
-        <a href="/#">Gallery</a>
-        <a href="/#">Contact Us</a>
-        <button className='nav-btn nav-close-btn' onClick={showNavbar}>
-          <FaTimes/>
-        </button>
+    <>
+      <nav className="main-nav">
+        {/* 1st logo part  */}
+        <div className="logo">
+          <a href="/"><img className="logoimg" src="img/main_logo.png" alt=""/></a>
+        </div>
+
+        {/* 2nd menu part  */}
+        <div className={showMediaIcons ? "menu-link mobile-menu-link" : "menu-link"}>
+          <ul>
+            <li className="nav-item">
+              <a className="nav-link active" href="/about">ABOUT US</a>
+            </li>
+            
+            <li className="nav-item dropdown">
+              <div className="dropdown">
+                <a href="/event" className="nav-link">EVENTS</a>
+                <div className="dropdown-content">
+                  <a href="/past_event">Past Events</a>
+                  <a href="/upcoming_event">Upcoming</a>
+                  <a href="/past_event">Past Events</a>
+                 </div>
+              </div>
+            </li>
+            
+            <li className="nav-item dropdown">
+              <div className="dropdown">
+                <a href="/training" className="nav-link">TRAINING</a>
+                <div className="dropdown-content">
+                  <a href="/training">Project Based Internship</a>
+                  <a href="/agritech-training">Agritech Training</a>
+                </div>
+              </div>
+            </li>
+            
+            <li className="nav-item">
+              <a className="nav-link" href="/gallery">GALLERY</a>
+            </li>
+            
+            <li className="nav-item">
+              <a className="nav-link" href="/contact">CONTACT US</a>
+            </li>
+            
+            <li>
+              {
+                  isAuthenticated && <a className="nav-link" href={URL}>{user.name}</a>
+              }
+            </li>
+            
+            {
+                isAuthenticated ? (
+                <li>
+                  <button className='btn btn-primary' onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>
+                    Log Out
+                  </button>
+                </li>
+                ) : (
+                <li>
+                  <button className='btn btn-primary' onClick={() => loginWithRedirect()}>Log In</button>
+                </li>
+                )
+            }
+          </ul>
+        </div>
+        
+        {/* 3rd social media links */}
+        <div className="social-media">
+          {/* hamburget menu start  */}
+          <div className="hamburger-menu">
+            <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
+              <GiHamburgerMenu />
+            </a>
+          </div>
+        </div>
       </nav>
-      <button className='nav-btn' onClick={showNavbar}>
-        <FaBars/>
-      </button>
-    </header>
+    </>
   );
-}
+};
 
 export default Navbar;

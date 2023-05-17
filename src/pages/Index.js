@@ -22,17 +22,13 @@ const index = () => {
                     </p> <br /> 
                     <Link to="/training"><a href={URL}>
                         <button className="btn btn-primary px-5 py-2 primary-btn">REGISTER NOW</button>
-                    </a></Link> <br/> <br/>
-                    <Link to="https://docs.google.com/forms/d/1qEth27RUvjjoim_0StxvBF8Zkw3Qov3_CAoJareR4P4/edit"><a href={URL}>
-                        <button className="btn btn-primary px-5 py-2 primary-btn">Submit Your Idea</button>
                     </a></Link>
                 </div>
-                <div className="col-lg-5 bannerimage">
-                    <img src="img/resources/summer-internship.png" alt="Summer Internship" />
+                <div className="col-lg-5 bannertext">
+                    <img src="img/resources/summer-training.jpg" alt="Summer Internship" />
                 </div>
             </div>
         </div>
-        <hr className="home_hr" />
     </section>
 
     
@@ -350,14 +346,14 @@ const index = () => {
 
     
 {/* Google tag (gtag.js) */}
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYHT696S35"></script>
+{/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-RYHT696S35"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){'dataLayer.push(arguments);'}
   gtag('js', new Date());
 
   gtag('config', 'G-RYHT696S35');
-</script>
+</script> */}
 
 
    <Footer />

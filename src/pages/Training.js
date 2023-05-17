@@ -253,7 +253,7 @@ const training = () => {
                         <div class="card shadow-sm">
                            <Link to="/React_Fullstack"><img src="img/courses/react-node-mdb.jpeg" alt="React, NodeJS, Mongo DB" height="200px" width="100%"/></Link>
                             <div class="card-body">
-                                <h4>React, NodeJS, Mongo DB</h4>
+                                <h5>React, NodeJS, Mongo DB</h5>
                             </div>
                         </div>
                     </div>
