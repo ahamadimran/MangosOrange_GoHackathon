@@ -52,7 +52,7 @@ const index = () => {
                         and companies in their field. This can help students build professional 
                         networks, learn about different career paths, and gain insight into the industry. 
                         </p>
-                       <Link to="/aws_devops"><a className="btn btn-primary" href="aws_devops.html" role="button">Know More</a></Link>
+                       <a className="btn btn-primary" href="/training" role="button">Know More</a>
                     </div>
                 </div>
             </article>
@@ -68,7 +68,7 @@ const index = () => {
                             enhance your skills, and expand your professional network during the winter break 
                             from academic studies. Make the most of it by being prepared, engaged, and proactive.
                         </p>
-                       <Link to="/full_stack_dev"><a className="btn btn-primary" href="full_stack_dev.html" role="button">Know More</a></Link>
+                       <a className="btn btn-primary" href="/training" role="button">Know More</a>
                     </div>
                 </div>
             </article>
@@ -84,7 +84,7 @@ const index = () => {
                             scope of your project, start working on it. Keep in touch with the company throughout 
                             the process to ensure that you are meeting their expectations and to ask for help if needed. 
                         </p>
-                       <Link to="/ai_ml"><a className="btn btn-primary" href="ai_ml.html" role="button">Know More</a></Link>
+                       <a className="btn btn-primary" href="/training" role="button">Know More</a>
                     </div>
                 </div>
             </article>
@@ -111,7 +111,7 @@ const index = () => {
                              machine learning. Students will learn how to extract insights and knowledge from 
                              large data sets using popular data analysis and machine learning techniques. 
                         </p>
-                       <Link to="/aws_devops"><a className="btn btn-primary" href="aws_devops.html" role="button">Know More</a></Link>
+                       <a className="btn btn-primary" href="/ai_machine_learning" role="button">Know More</a>
                     </div>
                 </div>
             </article>
@@ -127,7 +127,7 @@ const index = () => {
                             this course. With the technical understanding of front-end and back-end programming, 
                             students will discover the nuances of data structures and algorithms. 
                         </p>
-                       <Link to="/aws_devops"><a className="btn btn-primary" href="aws_devops.html" role="button">Know More</a></Link>
+                       <a className="btn btn-primary" href="/React_Fullstack" role="button">Know More</a>
                     </div>
                 </div>
             </article>
@@ -143,7 +143,7 @@ const index = () => {
                             Create a portfolio for cloud computing containing labs, projects, and a capstone project. 
                             Discover AWS, DevOps, and more. 
                         </p>
-                       <Link to="/aws_devops"><a className="btn btn-primary" href="aws_devops.html" role="button">Know More</a></Link>
+                       <a className="btn btn-primary" href="/aws" role="button">Know More</a>
                     </div>
                 </div>
             </article>
@@ -170,7 +170,7 @@ const index = () => {
                         </p>
                        
                         <p>
-                           <a className="btn btn-primary" href="https://www.appsquadz.com/" target='_blank' role="button">Know More</a>
+                           {/* <a className="btn btn-primary" href="#" role="button">Know More</a> */}
                         </p>
                     </div>
                 </div>
@@ -188,7 +188,7 @@ const index = () => {
                             eye-catching web-designs and most innovative web development solutions for you.
                         </p>
                         <p>
-                           <a className="btn btn-primary" href="https://migratech.in/" target='_blank' role="button">Know More</a>
+                           {/* <a className="btn btn-primary" href="#" target='_blank' role="button">Know More</a> */}
                         </p>
                     </div>
                 </div>
@@ -207,7 +207,7 @@ const index = () => {
                             Technology And Industry Solutions. We Leverage Our Domain Expertise To Deliver.
                         </p>
                         <p>
-                           <a className="btn btn-primary" href="https://www.gennextit.com/" target='_blank' role="button">Know More</a>
+                           {/* <a className="btn btn-primary" href="#" target='_blank' role="button">Know More</a> */}
                         </p>
                     </div>
                 </div>
