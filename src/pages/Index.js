@@ -26,102 +26,52 @@ const index = () => {
                     </a></Link> */}
                 </div>
                 <div className="col-lg-5 bannertext">
-                    <img src="img/resources/summer-training.jpg" alt="Summer Internship" />
+                    <img src="img/development2" alt="Internship" />
                 </div>
             </div>
         </div>
     </section>
-
-    
-
-    {/* <section className="sponsors">
-        <div className="content text-center">
-            <h2 text-align="center">SPONSORS AND ASSOCIATES</h2>
-        </div>
-        <div className="images">
-            <div className="img1">
-                <img className="simg" src="img/sponsorsimg/SSIM-LOGO-1.png" alt="ssim" />
-            </div>
-            <div className="img2">
-                <img className="simg" src="img/sponsorsimg/tp-agri-logo.png" alt="agritech" />
-            </div>
-            <div className="img3">
-                <img className="simg" src="img/sponsorsimg/Skyfield-Agritech.png" alt="Skyfield-Agritech" />
-            </div>
-            <div className="img4">
-                <img className="simg" src="img/sponsorsimg/MOLogo.png" alt="Mangosorange" />
-            </div>
-        </div>
-        <hr />
-    </section> */}
     
     <section className="section-2  p-0">
-        <div className="cover">
-            <div className="content text-center">
-                <h2>Join Our Events to Change The World</h2>
-                <p className="text-secondary">
-                    Think outside the box: Collaborate, Innovate, and Create
-                </p>
-            </div>
-        </div>
-        <section className="articles">
-            <article>
-                <div className="article-wrapper">
-                    <figure>
-                        <img src="img/event/live-event.jpg" alt="" />
-                    </figure>
-                    <div className="article-body">
-                        <h3>Live Event</h3>
-                        <p>
-                            This event typically involves brainstorming sessions, workshops, and presentations, 
-                            where participants are encouraged to think outside the box and come up with unique 
-                            solutions to the challenge at hand
-                        </p>
-                       <Link to="/live_event"><a className="btn btn-primary" href="live_event.html" role="button">Know More</a></Link>
-                    </div>
-                </div>
-            </article>
-            <article>
-                <div className="article-wrapper">
-                    <figure>
-                        <img width="368" height="207" src="img/event/upcoming-event.avif" alt="" />
-                    </figure>
-                    <div className="article-body">
-                        <h3>Upcoming Events</h3>
-                        <p>
-                            Are you seeking to solve some of the most pressing real world issues, but don’t know where to start?
-                            Your idea doesn’t need to be original! You can take inspiration from others. Come join GoHackathon Events.
-                        </p>
-                       <Link to="/upcoming_event"><a className="btn btn-primary" href="upcoming_events.html" role="button">Know More</a></Link>
-                    </div>
-                </div>
-            </article>
-            <article>
-                <div className="article-wrapper">
-                    <figure>
-                        <img width="368" height="207" src="img/event/past-event.jpg" alt="" />
-                    </figure>
-                    <div className="article-body">
-                        <h3>Past Events</h3>
-                        <p>
-                            Since last year, GoHackathon and its team have organised an event. 
-                            <strong>SAMADHAN</strong> at BTKIT Dwarahat and 
-                            <strong>KRISHI-VIKALP</strong> at SSIM New Delhi 
-                            are two events that have previously taken place.
-                        </p>
-                       <Link to="/past_event"><a className="btn btn-primary" href="past_events.html" role="button">Know More</a></Link>
-                    </div>
-                </div>
-            </article>
-        </section>
-       
         <div className="purchase text-center">
-            <h1>Sharpen Your Skills</h1>
+            <h1>Budding Tech Professional</h1>
             <p className="text-secondary">
-                Learn, Practice, and Test Your Skills with Our Courses.
+                Learn, Practice, and Test Your Skills with Our Training.
             </p>
         </div>
         <section className="articles">
+            <article>
+                <div className="article-wrapper">
+                    <figure>
+                        <img width="368" height="207" src="img/courses/Summer_Training.png" alt="" />
+                    </figure>
+                    <div className="article-body">
+                        <h3>Project Based Summer Internship</h3>
+                        <p>
+                        Summer training programs often provide students with exposure to industry professionals 
+                        and companies in their field. This can help students build professional 
+                        networks, learn about different career paths, and gain insight into the industry. 
+                        </p>
+                       <Link to="/aws_devops"><a className="btn btn-primary" href="aws_devops.html" role="button">Know More</a></Link>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div className="article-wrapper">
+                    <figure>
+                        <img width="368" height="207" src="img/courses/FullStack.jpg" alt="" />
+                    </figure>
+                    <div className="article-body">
+                        <h3>Project Based Winter Training</h3>
+                        <p>
+                            Remember, winter training is an excellent opportunity to gain practical experience, 
+                            enhance your skills, and expand your professional network during the winter break 
+                            from academic studies. Make the most of it by being prepared, engaged, and proactive.
+                        </p>
+                       <Link to="/full_stack_dev"><a className="btn btn-primary" href="full_stack_dev.html" role="button">Know More</a></Link>
+                    </div>
+                </div>
+            </article>
             <article>
                 <div className="article-wrapper">
                     <figure>
@@ -138,38 +88,17 @@ const index = () => {
                     </div>
                 </div>
             </article>
-            <article>
-                <div className="article-wrapper">
-                    <figure>
-                        <img width="368" height="207" src="img/courses/FullStack.jpg" alt="" />
-                    </figure>
-                    <div className="article-body">
-                        <h3>Winter Training</h3>
-                        <p>
-                            Remember, winter training is an excellent opportunity to gain practical experience, 
-                            enhance your skills, and expand your professional network during the winter break 
-                            from academic studies. Make the most of it by being prepared, engaged, and proactive.
-                        </p>
-                       <Link to="/full_stack_dev"><a className="btn btn-primary" href="full_stack_dev.html" role="button">Know More</a></Link>
-                    </div>
-                </div>
-            </article>
-            <article>
-                <div className="article-wrapper">
-                    <figure>
-                        <img width="368" height="207" src="img/courses/Summer_Training.png" alt="" />
-                    </figure>
-                    <div className="article-body">
-                        <h3>Summer Internship</h3>
-                        <p>
-                        Summer training programs often provide students with exposure to industry professionals 
-                        and companies in their field of study. This can help students build professional 
-                        networks, learn about different career paths, and gain insight into the industry. 
-                        </p>
-                       <Link to="/aws_devops"><a className="btn btn-primary" href="aws_devops.html" role="button">Know More</a></Link>
-                    </div>
-                </div>
-            </article>
+        </section>
+    </section>
+
+    <section className="section-2  p-0">
+        <div className="purchase text-center">
+            <h1>Popular Courses</h1>
+            <p className="text-secondary">
+                Learn, Practice, and Test Your Skills with Our courses.
+            </p>
+        </div>
+        <section className="articles">
             <article>
                 <div className="article-wrapper">
                     <figure>
@@ -220,23 +149,24 @@ const index = () => {
             </article>
         </section>
     </section>
+
     <section className="section-4">
         <div className="container text-center">
-            <h1 className="text-dark">Institutional Partners</h1>
-            <p className="text-secondary">Some of our collaborations with top colleges</p>
+            <h1 className="text-dark">Industrial Partners</h1>
+            <p className="text-secondary">Some of our collaborations with top Industry</p>
         </div>
         <div className="row team">
             <div className="col-md-4 col-12 text-center">
-                <div className="card mr-2 d-inline-block shadow-lg">
+                <div className="card d-inline-block shadow-lg">
                     <div className="card-img-top">
-                        <img src="img/collaborator1.png" className="img-fluid border-radius p-4" alt="" />
+                        <img src="img/resources/appsquadz-logo.png" className="img-fluid p-4" alt="" />
                     </div>
                     <div   className="card-body">
-                        <h3 className="card-title">BTKIT DWARAHAT</h3>
+                        <h3 className="card-title">AppSquadz</h3>
                         <p className="card-text-index">
-                            GoHackathon works with BTKIT's Training and Placement cell to provide technical and 
-                            professional exposure, enhance student skills and bring better job opportunities to 
-                            the institute.
+                            As a leading Mobile & Web App Development Company, our professional expertise lies 
+                            in IoT, Blockchain, web app development, AR/VR, cross-platform. Our dedication and 
+                            commitment to 100% client satisfaction is the chief reason for our global presence
                         </p>
                        
                         <p>
@@ -246,16 +176,16 @@ const index = () => {
                 </div>
             </div>
             <div className="col-md-4 col-12 text-center">
-                <div className="card mr-2 d-inline-block shadow-lg">
+                <div className="card d-inline-block shadow-lg">
                     <div className="card-img-top">
-                        <img src="img/resources/Graphic_Era.png" className="img-fluid border-radius p-4" alt="" />
+                        <img src="img/resources/MTS.png" className="img-fluid p-4" alt="" />
                     </div>
                     <div   className="card-body">
-                        <h3 className="card-title">GRAPHIC ERA</h3>
+                        <h3 className="card-title">Migratech</h3>
                         <p className="card-text-index">
-                            GoHackathon works with Graphic Era Hill University to provide research platform for students, industry, alumni, 
-                            start-ups, small and medium enterprises, faculty and researchers by helping them 
-                            technology innovations.
+                            we been delivering software development and related IT services.Our professional team 
+                            works closely with you to understand your exact requirement and respond with the best 
+                            eye-catching web-designs and most innovative web development solutions for you.
                         </p>
                         <p>
                            <a className="btn btn-primary" href="https://graphicerauniversity.co.in/" target='_blank' role="button">Know More</a>
@@ -265,15 +195,16 @@ const index = () => {
             </div>
             
             <div className="col-md-4 col-12 text-center">
-                <div className="card mr-2 d-inline-block shadow-lg">
+                <div className="card d-inline-block shadow-lg">
                     <div className="card-img-top">
-                        <img src="img/resources/coer-logo.png" className="img-fluid border-radius p-4" alt="" />
+                        <img src="img/resources/gennext-logo.png" className="img-fluid p-4" alt="" />
                     </div>
                     <div className="card-body">
-                        <h3 className="card-title">COER UNIVERSITY</h3>
+                        <h3 className="card-title">GenNext</h3>
                         <p className="card-text-index">
-                            GoHackathon works with Coer University to promote and enhance skill development and employment generation 
-                            activities with relevant skills & On the Job Training required for making them employable.
+                            Gennext Is An Emerging Leader Of Next-Generation Information Technology Services 
+                            And Solutions. To Provide Innovative Solutions To Our Customers Through Best-In-Class 
+                            Technology And Industry Solutions. We Leverage Our Domain Expertise To Deliver.
                         </p>
                         <p>
                            <a className="btn btn-primary" href="https://coer.ac.in/" target='_blank' role="button">Know More</a>
@@ -284,34 +215,6 @@ const index = () => {
         </div>
     </section>
     <hr/>
-
-    <div className="container">
-        <div className="row">
-            <div className="aboutsection col-lg-7">
-                <h2>Gyan Goshthi - Learning While Traveling and Adventure</h2>
-                <p>GYAN GOSHTHI is an event that brings together individuals from various backgrounds 
-                and industries to generate creative and innovative ideas on a specific topic or 
-                challenge. This event typically involves brainstorming sessions, workshops, and 
-                presentations, where participants are encouraged to think outside the box and come 
-                up with unique solutions to the challenge at hand. The aim of an GYAN GOSHTHI is to 
-                foster collaboration and creativity, and to generate a pool of valuable ideas that 
-                can be further developed and implemented. GYAN GOSHTHIs are often used by organizations 
-                to generate new ideas for product development, marketing campaigns, and business strategy. 
-                They are also a popular way for startups and entrepreneurs to come up with fresh, new 
-                concepts and pitch them to potential investors or partners. <br />
-                </p>
-                <p>We create an eco-system of industry academia partnership and help in continuous and
-                sustainable development of innovative ideas, which are impactful for the growing economy and
-                society. Go hackathon thrives to provide best nurturing, mentorship, skills and professional opportunities to its members and participants.
-                We conduct series of events, seminars, hackathons, internships and Projects.
-                </p>  
-            </div>
-            <div className="imgofabout-gyan col-lg-5">
-                <img className="imgofabout-gyan" src="img/event/agriculture-gyan.jpg" alt="Dev" />
-            </div>
-        </div>
-    </div>
-    <hr />
 
     <div className="container">
         <div className="row">
@@ -335,6 +238,71 @@ const index = () => {
             </div>
         </div>
     </div>
+    <hr/>
+
+    <section className="section-4">
+        <div className="container text-center">
+            <h1 className="text-dark">Institutional Partners</h1>
+            <p className="text-secondary">Some of our collaborations with top colleges</p>
+        </div>
+        <div className="row team">
+            <div className="col-md-4 col-12 text-center">
+                <div className="card d-inline-block shadow-lg">
+                    <div className="card-img-top">
+                        <img src="img/collaborator1.png" className="img-fluid p-4" alt="" />
+                    </div>
+                    <div   className="card-body">
+                        <h3 className="card-title">BTKIT DWARAHAT</h3>
+                        <p className="card-text-index">
+                            GoHackathon works with BTKIT's Training and Placement cell to provide technical and 
+                            professional exposure, enhance student skills and bring better job opportunities to 
+                            the institute.
+                        </p>
+                       
+                        <p>
+                           <a className="btn btn-primary" href="https://kecua.ac.in/" target='_blank' role="button">Know More</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div className="col-md-4 col-12 text-center">
+                <div className="card d-inline-block shadow-lg">
+                    <div className="card-img-top">
+                        <img src="img/resources/graphic-era-logo.png" className="img-fluid p-4" alt="" />
+                    </div>
+                    <div   className="card-body">
+                        <h3 className="card-title">GRAPHIC ERA</h3>
+                        <p className="card-text-index">
+                            GoHackathon works with Graphic Era Hill University to provide research platform for students, industry, alumni, 
+                            start-ups, small and medium enterprises, faculty and researchers by helping them 
+                            technology innovations.
+                        </p>
+                        <p>
+                           <a className="btn btn-primary" href="https://graphicerauniversity.co.in/" target='_blank' role="button">Know More</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div className="col-md-4 col-12 text-center">
+                <div className="card d-inline-block shadow-lg">
+                    <div className="card-img-top">
+                        <img src="img/resources/coer-logo.png" className="img-fluid p-4" alt="" />
+                    </div>
+                    <div className="card-body">
+                        <h3 className="card-title">COER UNIVERSITY</h3>
+                        <p className="card-text-index">
+                            GoHackathon works with Coer University to promote and enhance skill development and employment generation 
+                            activities with relevant skills & On the Job Training required for making them employable.
+                        </p>
+                        <p>
+                           <a className="btn btn-primary" href="https://coer.ac.in/" target='_blank' role="button">Know More</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
