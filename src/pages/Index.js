@@ -170,7 +170,7 @@ const index = () => {
                         </p>
                        
                         <p>
-                           <a className="btn btn-primary" href="https://kecua.ac.in/" target='_blank' role="button">Know More</a>
+                           <a className="btn btn-primary" href="https://www.appsquadz.com/" target='_blank' role="button">Know More</a>
                         </p>
                     </div>
                 </div>
@@ -188,7 +188,7 @@ const index = () => {
                             eye-catching web-designs and most innovative web development solutions for you.
                         </p>
                         <p>
-                           <a className="btn btn-primary" href="https://graphicerauniversity.co.in/" target='_blank' role="button">Know More</a>
+                           <a className="btn btn-primary" href="https://migratech.in/" target='_blank' role="button">Know More</a>
                         </p>
                     </div>
                 </div>
@@ -207,7 +207,7 @@ const index = () => {
                             Technology And Industry Solutions. We Leverage Our Domain Expertise To Deliver.
                         </p>
                         <p>
-                           <a className="btn btn-primary" href="https://coer.ac.in/" target='_blank' role="button">Know More</a>
+                           <a className="btn btn-primary" href="https://www.gennextit.com/" target='_blank' role="button">Know More</a>
                         </p>
                     </div>
                 </div>
