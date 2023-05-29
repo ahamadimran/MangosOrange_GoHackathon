@@ -10,7 +10,7 @@ const React_Frontend = () => {
         <Menu />
         <body id="body">
             <div className="evebanner">
-                <img src="img/banner/react.jpg" alt=""/>
+                <img src="img/banner/React.png" alt=""/>
             </div>
             <div className='container'>
                 <div className='row'>

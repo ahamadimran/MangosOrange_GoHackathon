@@ -10,7 +10,7 @@ const Java_Frontend = () => {
         <Menu />
         <body id="body">
             <div className="evebanner">
-                <img src="img/banner/java.jpg" alt=""/>
+                <img src="img/banner/java.png" alt=""/>
             </div>
             <div className='container'>
                 <div className='row'>

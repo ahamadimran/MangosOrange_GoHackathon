@@ -9,7 +9,7 @@ const Goal_Setting = () => {
         <Menu />
         <body className="body">
             <div className="evebanner">
-                <img src="img/banner/Goal-Setting.png" alt=""/>
+                <img src="img/banner/goal-setting.png" alt=""/>
             </div>
 
             <div className='container'>

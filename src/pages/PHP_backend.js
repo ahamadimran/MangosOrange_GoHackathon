@@ -10,7 +10,7 @@ const PHP_backend = () => {
         <Menu />
         <body id="body">
             <div className="evebanner">
-                <img src="img/banner/php.jpg" alt=""/>
+                <img src="img/banner/php.png" alt=""/>
             </div>
             <div className='container'>
                 <div className='row'>

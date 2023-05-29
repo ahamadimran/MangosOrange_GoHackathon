@@ -10,7 +10,7 @@ const HTML_CSS_Js_Tailwind_Frontend = () => {
         <Menu />
         <body id="body">
             <div className="evebanner">
-                <img src="img/banner/fullstack-1.jpg" alt=""/>
+                <img src="img/banner/html-css-js.png" alt=""/>
             </div>
             <div className='container'>
                 <div className='row'>

@@ -210,19 +210,11 @@ const training = () => {
             <div class="container"> 
                 <h2 class="text-center mx-auto text-white bg-info rounded p-2 m-3">Full Stack Development</h2> <br/> <br/>
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 text-center">
-                    <div class="col-lg-4">
+                <div class="col-lg-4">
                         <div class="card shadow-sm">
-                        <Link to="/HTML_CSS_Js_BS_AN_SQL_fullstack"><img src="img/courses/hcjbam.jpeg" alt="HTML,CSS, JavaScript, BootStrap,  ASP.Net,  MySql" height="200px" width="100%"/></Link>
+                           <Link to="/React_Fullstack"><img src="img/courses/react-node-mdb.jpeg" alt="React, NodeJS, Mongo DB" height="200px" width="100%"/></Link>
                             <div class="card-body">
-                            <h4>HTML,CSS, JavaScript, BootStrap,  ASP.Net,  MySql</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card shadow-sm">
-                        <Link to="/Python_Fullstack"><img src="img/courses/python-sql.jpeg" alt="Python,  Mongo DB/ MS Sql Server" height="200px" width="100%"/></Link>
-                            <div class="card-body">
-                            <h4>Python, Mongo DB/ MS Sql Server</h4>
+                                <h4>HTML, CSS, JS, React, Node Js, Sql Server</h4>
                             </div>
                         </div>
                     </div>
@@ -230,7 +222,15 @@ const training = () => {
                         <div class="card shadow-sm">
                            <Link to="/java_fullstack"><img src="img/courses/java-mongodb.png" alt="Java,  Mongo DB/ MS Sql Server" height="200px" width="100%"/></Link>
                             <div class="card-body">
-                                <h4>Java,  Mongo DB/ MS Sql Server</h4>
+                                <h4>HTML, CSS, JS, Java, Sql Server</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card shadow-sm">
+                        <Link to="/HTML_CSS_Js_BS_AN_SQL_fullstack"><img src="img/courses/hcjbam.jpeg" alt="HTML,CSS, JavaScript, BootStrap,  ASP.Net,  MySql" height="200px" width="100%"/></Link>
+                            <div class="card-body">
+                            <h4>HTML, CSS, JavaScript, ASP.Net, Sql Server</h4>
                             </div>
                         </div>
                     </div>
@@ -241,19 +241,19 @@ const training = () => {
         <div class="album py-5 bg-light">
             <div class="container"> 
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 text-center">
-                    <div class="col-lg-4">
+                <div class="col-lg-4">
                         <div class="card shadow-sm">
-                           <Link to="/PHP_MySQL_Fullstack"><img src="img/courses/php-ms-sql-server.jpeg" alt="PHP, MS Sql Server" height="200px" width="100%"/></Link>
+                        <Link to="/Python_Fullstack"><img src="img/courses/python-sql.jpeg" alt="Python,  Mongo DB/ MS Sql Server" height="200px" width="100%"/></Link>
                             <div class="card-body">
-                                <h4>PHP, MS Sql Server</h4>
+                            <h4>HTML, CSS, Javascript, Python, Postgres</h4>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
-                           <Link to="/React_Fullstack"><img src="img/courses/react-node-mdb.jpeg" alt="React, NodeJS, Mongo DB" height="200px" width="100%"/></Link>
+                           <Link to="/PHP_MySQL_Fullstack"><img src="img/courses/php-ms-sql-server.jpeg" alt="PHP, MS Sql Server" height="200px" width="100%"/></Link>
                             <div class="card-body">
-                                <h5>React, NodeJS, Mongo DB</h5>
+                                <h4>HTML, CSS, JS, PHP, MySql</h4>
                             </div>
                         </div>
                     </div>

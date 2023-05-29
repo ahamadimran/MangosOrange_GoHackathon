@@ -10,7 +10,7 @@ const AWS = () => {
         <Menu />
         <body id="body">
             <div className="evebanner">
-                <img src="img/banner/aws.jpg" alt=""/>
+                <img src="img/banner/cloud-infra.png" alt=""/>
             </div>
             <div className='container'>
                 <div className='row'>

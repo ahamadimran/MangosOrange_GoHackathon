@@ -10,7 +10,7 @@ const Python_Fullstack = () => {
         <Menu />
         <body id="body">
             <div className="evebanner">
-                <img src="img/banner/python-mongodb.jpg" alt=""/>
+                <img src="img/banner/python-postgres.png" alt=""/>
             </div>
             <div className='container'>
                 <div className='row'>

@@ -10,7 +10,7 @@ const React_Fullstack = () => {
         <Menu />
         <body id="body">
             <div className="evebanner">
-                <img src="img/banner/react-node-mongo.jpg" alt=""/>
+                <img src="img/banner/react-node-mssql.png" alt=""/>
             </div>
             <div className='container'>
                 <div className='row'>

@@ -10,7 +10,7 @@ const Datascience = () => {
         <Menu />
         <body id="body">
             <div className="evebanner">
-                <img src="img/banner/datascience.jpg" alt=""/>
+                <img src="img/banner/data-science.png" alt=""/>
             </div>
             <div className='container'>
                 <div className='row'>

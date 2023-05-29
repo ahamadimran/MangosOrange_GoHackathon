@@ -10,7 +10,7 @@ const HTML_CSS_Js_BS_AN_SQL_fullstack = () => {
         <Menu />
         <body id="body">
             <div className="evebanner">
-                <img src="img/banner/fullstack-1.jpg" alt=""/>
+                <img src="img/banner/aspnet-mssql.png" alt=""/>
             </div>
             <div className='container'>
                 <div className='row'>

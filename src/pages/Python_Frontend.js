@@ -10,7 +10,7 @@ const Python_Frontend = () => {
         <Menu />
         <body id="body">
             <div className="evebanner">
-                <img src="img/banner/Python.jpg" alt=""/>
+                <img src="img/banner/Python.png" alt=""/>
             </div>
             <div className='container'>
                 <div className='row'>
