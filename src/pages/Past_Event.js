@@ -81,8 +81,8 @@ const Past_Event = () => {
                       <strong>Event Date:- </strong>25th Feb 2023 <br />
                       <strong>Event Venue:- </strong>Sri Sukhmani Institute of Management, Dwarka, New Delhi <br/>
                       </p>
-                      <Link to="/krishi_vikalp">
-                      <a className="btn btn-primary" href="krishi-vikalp.html" role="button">Know More</a></Link>
+                      <Link to="/krishi-vikalp">
+                      <a className="btn btn-primary" href="#" role="button">Know More</a></Link>
                     </div>
                   </div>
                 </div>

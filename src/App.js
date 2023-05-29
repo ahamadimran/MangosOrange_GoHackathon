@@ -10,6 +10,7 @@ import Live_Event from './pages/Live_Event';
 import Upcoming_Event from './pages/Upcoming_Event';
 import Past_Event from './pages/Past_Event';
 import Samadhan from './pages/Samadhan';
+import Krishi_Vikalp from './pages/Krishi_Vikalp';
 import Mentorship from './pages/Mentorship';
 import Goal_Setting from './pages/Goal_Setting';
 import Git_Github from './pages/Git_Github';
@@ -81,6 +82,7 @@ function App() {
           <Route path='/upcoming_event' element={<Upcoming_Event />} />
           <Route path='/past_event' element={<Past_Event />} />
           <Route path='/samadhan' element={<Samadhan />} />
+          <Route path='/krishi-vikalp' element={<Krishi_Vikalp />} />
           <Route path='/mentorship' element={<Mentorship />} />
           <Route path='/goal_setting' element={<Goal_Setting />} />
           <Route path='/git_github' element={<Git_Github />} />
