@@ -2,6 +2,10 @@ body{
 font-family: 'Montserrat',  'sans-serif';
 }
 
+.coursecoverage {
+  margin-top: 20px;
+}
+
 .container-fluid {
   max-width: 100%;
 }

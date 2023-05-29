@@ -15,7 +15,7 @@ const Java_Fullstack = () => {
             <div className='container'>
                 <div className='row'>
                     <div className='aboutsection col-lg-7'>
-                        <h2>Full Stack Development</h2>
+                        <h2>HTML, CSS, JS, JAVA, SQL SERVER</h2>
                         <p>Full stack development is a complex and rapidly evolving field that requires a 
                             broad range of skills and knowledge. However, it can also be a rewarding and 
                             lucrative career path for those who are passionate about web development and enjoy 
@@ -33,33 +33,83 @@ const Java_Fullstack = () => {
             </div>
 
             <div className='container'>
-            <h2>Course Coverage</h2>
-            <p>Full Stack Development is a comprehensive course that covers all aspects of web development, 
-                    from front-end to back-end, to equip learners with the skills required to build end-to-end 
-                    web applications. This course aims to provide learners with an understanding of the 
-                    technologies, tools, and frameworks used in full stack development and hands-on experience 
-                    in building web applications, topics that are typically covered: <br/>
-                </p>
+                <h2 className='coursecoverage'>Course Coverage</h2>
                 <div className='row'>
                     <div className='aboutsection-bottom col-lg-6'>
+                        <strong>1. Introduction to Web Development:</strong>
                         <ul>
-                            <li>Introduction to DevOps: goals, benefits, and challenges</li>
-                            <li>Culture and collaboration: Agile, Lean, and ITIL principles</li>
-                            <li>Continuous Integration and Continuous Deployment (CI/CD) pipeline</li>
-                            <li>Building a CI/CD pipeline: Jenkins, CircleCI, GitLab CI/CD, and Travis CI</li>
-                            <li>Containerization and orchestration: Docker, Kubernetes, and Docker Swarm</li>
-                            <li>Infrastructure as Code (IaC): Ansible, Chef, Puppet, and Terraform</li>
+                            <li>Overview of web development technologies and concepts</li>
+                            <li>Client-side vs. server-side development</li>
+                            <li>Introduction to the three-tier architecture (front end, back end, and database)</li>
+                        </ul>
+                        <strong>2. Front-End Development:</strong>
+                        <ul>
+                            <li>HTML5: Semantic markup, forms, multimedia, and APIs</li>
+                            <li>CSS3: Styling, layout techniques, responsive design, and CSS frameworks</li>
+                            <li>JavaScript: Basics, DOM manipulation, event handling, AJAX, and JSON</li>
+                            <li>Introduction to front-end frameworks like React</li>
+                            <li>JavaServer Pages (JSP) or JavaServer Faces (JSF)</li>
+                            <li>Java-based front-end frameworks</li>
+                        </ul>
+                        <strong>3. Back-End Development:</strong>
+                        <ul>
+                            <li>Introduction to server-side programming languages like Java</li>
+                            <li>Server-side frameworks like Spring Boot or Java EE (Enterprise Edition)</li>
+                            <li>Building RESTful APIs</li>
+                            <li>Authentication and authorization</li>
+                            <li>Java Database Connectivity (JDBC): Establishing connections between the Java application and the SQL Server</li>
+                            <li>Database management with SQL (e.g., MS-SQL)</li>
+                            <li>Server deployment and hosting</li>
+                        </ul>
+                        <strong>4. Database Management:</strong>
+                        <ul>
+                            <li>Relational databases: SQL, data modeling, and querying with SQL</li>
+                            <li>Database integration with the back-end</li>
+                        </ul>
+                        <strong>5. Version Control and Collaboration:</strong>
+                        <ul>
+                            <li>Git and GitHub/GitLab: Version control, branching, merging, and collaboration workflows</li>
+                            <li>Working with remote repositories</li>
+                            <li>Collaborative development using Git</li>
                         </ul>
                     </div>
 
                     <div className='aboutsection-bottom col-lg-6'>
+                        <strong>6. Web Security:</strong>
                         <ul>
-                            <li>Cloud computing platforms: AWS, Azure, and Google Cloud Platform</li>
-                            <li>Serverless computing: AWS Lambda, Azure Functions, and Google Cloud Functions</li>
-                            <li>Monitoring and logging: ELK stack, Prometheus, Grafana, and Splunk</li>
-                            <li>Security and compliance: OWASP, DevSecOps, and compliance frameworks</li>
-                            <li>Best practices for DevOps: automation, standardization, and collaboration</li>
-                            <li>DevOps toolchain integration: Git, GitHub, Jira, and Slack</li>
+                            <li>Common web security threats and vulnerabilities</li>
+                            <li>Implementing secure authentication and authorization mechanisms</li>
+                            <li>Input validation and sanitization</li>
+                            <li>Security best practices for handling user data</li>
+                        </ul>
+                        <strong>7. Web Application Testing:</strong>
+                        <ul>
+                            <li>Introduction to testing methodologies and techniques</li>
+                            <li>Unit testing, integration testing, and end-to-end testing</li>
+                            <li>Testing frameworks</li>
+                            <li>Test-driven development (TDD) and behavior-driven development (BDD)</li>
+                        </ul>
+                        <strong>8. Deployment and DevOps:</strong>
+                        <ul>
+                            <li>Deployment strategies and environments</li>
+                            <li>Containerization using Docker</li>
+                            <li>Continuous Integration and Continuous Deployment (CI/CD)</li>
+                            <li>Cloud platforms (e.g., AWS, Azure, Google Cloud)</li>
+                            <li>Monitoring and logging</li>
+                        </ul>
+                        <strong>9. Project Development:</strong>
+                        <ul>
+                            <li>Building a full stack web application from scratch</li>
+                            <li>Applying the learned concepts and technologies to develop a real-world project</li>
+                            <li>Project planning, architecture, and development methodologies</li>
+                            <li>Collaborative project management tools</li>
+                        </ul>
+                        <strong>10. Emerging Technologies:</strong>
+                        <ul>
+                            <li>Introduction to emerging technologies and trends in web development</li>
+                            <li>Mobile development and responsive design</li>
+                            <li>Progressive Web Apps (PWAs)</li>
+                            <li>Serverless architecture and microservices</li>
                         </ul>
                     </div> 
                 </div>
@@ -69,16 +119,18 @@ const Java_Fullstack = () => {
                 <div className='row'>
                     <div className='aboutsection-agritech col-lg-7'>
                         <h2>Learning Outcome</h2>
-                        <p>Upon completion of this course, students will be able to implement DevOps practices 
-                            and tools to improve software delivery and deployment. They will have a solid 
-                            understanding of agile methodologies, continuous integration and delivery, and 
-                            automation tools such as Jenkins, Docker, Kubernetes, and Ansible. Additionally, 
-                            students will have experience working with cloud providers such as AWS and Azure, 
-                            and be able to configure and manage infrastructure using Infrastructure as Code (IaC) 
-                            principles. By the end of the course, students will have developed several projects 
-                            and be able to effectively collaborate with other developers using Git for version 
-                            control.
-                        </p> <br/>
+                        <ul>
+                            <li>Ability to create interactive and responsive user interfaces using HTML, CSS, and JavaScript.</li>
+                            <li>Understanding of front-end frameworks and libraries like React</li>
+                            <li>Strong grasp of server-side programming languages like JavaScript (Node.js)</li>
+                            <li>Experience in building server-side applications and APIs using frameworks</li>
+                            <li>Proficiency in working with databases, including designing data models, writing queries</li>
+                            <li>Competence in using Git for version control, including creating branches, merging changes, and collaborating with other developers.</li>
+                            <li>Knowledge of best practices for securing web applications, including authentication, authorization, and input validation.</li>
+                            <li>Understanding of different types of testing, including unit testing, integration testing, and end-to-end testing.</li>
+                            <li>Knowledge of different deployment strategies and environments.</li>
+                            <li>Ability to deploy web applications to cloud platforms like AWS, Azure, or Google Cloud.</li>
+                        </ul><br/>
                         <p><strong>Training Cost:- ₹ 10,000/-</strong></p>
                         <button className="btn btn-primary">Duration: 6-8 Weeks</button> &nbsp;
                         <Link to="/payment"><button className="btn btn-primary">Buy Now</button></Link> &nbsp;

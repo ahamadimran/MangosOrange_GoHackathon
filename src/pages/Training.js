@@ -117,12 +117,20 @@ const training = () => {
                     </div>
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
+                        <Link to="/php_frontend"><img src="img/courses/php.jpeg" alt="PHP" height="200px" width="100%"/></Link>
+                            <div class="card-body">
+                            <h4>PHP</h4>
+                            </div>
+                        </div>
+                    </div>
+                    {/* <div class="col-lg-4">
+                        <div class="card shadow-sm">
                            <Link to="/Java_Frontend"> <img src="img/courses/java.png" alt="Java" height="200px" width="100%"/></Link>
                             <div class="card-body">
                                 <h4>Java</h4>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
@@ -130,14 +138,7 @@ const training = () => {
         <div class="album py-5 bg-light">
             <div class="container"> 
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 text-center">
-                <div class="col-lg-4">
-                        <div class="card shadow-sm">
-                        <Link to="/php_frontend"><img src="img/courses/php.jpeg" alt="PHP" height="200px" width="100%"/></Link>
-                            <div class="card-body">
-                            <h4>PHP</h4>
-                            </div>
-                        </div>
-                    </div>
+                    
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
                            <Link to="/React_Frontend"><img src="img/courses/react.png" alt="React" height="200px" width="100%"/></Link>
@@ -212,7 +213,7 @@ const training = () => {
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 text-center">
                 <div class="col-lg-4">
                         <div class="card shadow-sm">
-                           <Link to="/React_Fullstack"><img src="img/courses/react-node-mdb.jpeg" alt="React, NodeJS, Mongo DB" height="200px" width="100%"/></Link>
+                           <Link to="/React_Fullstack"><img src="img/courses/FullStack.jpg" alt="React, NodeJS, Mongo DB" height="200px" width="100%"/></Link>
                             <div class="card-body">
                                 <h4>HTML, CSS, JS, React, Node Js, Sql Server</h4>
                             </div>
@@ -220,7 +221,7 @@ const training = () => {
                     </div>
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
-                           <Link to="/java_fullstack"><img src="img/courses/java-mongodb.png" alt="Java,  Mongo DB/ MS Sql Server" height="200px" width="100%"/></Link>
+                           <Link to="/java_fullstack"><img src="img/courses/fullstack.jpeg" alt="Java,  Mongo DB/ MS Sql Server" height="200px" width="100%"/></Link>
                             <div class="card-body">
                                 <h4>HTML, CSS, JS, Java, Sql Server</h4>
                             </div>
