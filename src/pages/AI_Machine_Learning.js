@@ -36,9 +36,10 @@ const AI_MachineLearning = () => {
             </div>
 
             <div className='container'>
-            <h2>Course Coverage</h2>
+            
                 <div className='row'>
                     <div className='aboutsection-bottom col-lg-6'>
+                    <h2>Course Coverage</h2>
                         <ul>
                         <li>Introduction to AI and ML: history, applications, and challenges</li>
                         <li>Machine learning basics: supervised, unsupervised, and reinforcement learning</li>

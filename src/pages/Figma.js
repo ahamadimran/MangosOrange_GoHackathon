@@ -29,7 +29,7 @@ const Figma = () => {
             </div>
 
             <div className='container'>
-            <h2>Course Coverage</h2>
+            <h2 className='coursecoverage'>Course Coverage</h2>
                 <div className='row'>
                     <div className='aboutsection-bottom col-lg-6'>
                         <ul>
