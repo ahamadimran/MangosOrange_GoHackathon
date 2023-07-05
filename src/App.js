@@ -55,6 +55,7 @@ import ELP_Organic_Farming from './pages/ELP_Organic_Farming';
 import ELP_Turmeric_Cultivation from './pages/ELP_Turmeric_Cultivation';
 import ELP_Mushroom_Cultivation from './pages/ELP_Mushroom_Cultivation';
 import ELP_Hydroponics from './pages/ELP_Hydroponics';
+import Expert_Team from './pages/Expert_Team';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
@@ -127,6 +128,7 @@ function App() {
           <Route path='/elp-turmeric-cultivation' element={<ELP_Turmeric_Cultivation />} />
           <Route path='/elp-mushroom-cultivation' element={<ELP_Mushroom_Cultivation />} />
           <Route path='/elp-hydroponics' element={<ELP_Hydroponics />} />
+          <Route path='/expert-team' element={<Expert_Team/>} />
         </Routes>
       </Router>
       
