@@ -42,6 +42,10 @@ const Menu = () => {
                 </div>
               </div>
             </li>
+
+            <li className="nav-item">
+              <Link to="/expert-team"><a className="nav-link" href="">OUR TEAM</a></Link>
+            </li>
             
             <li className="nav-item">
               <Link to="/gallery"><a className="nav-link" href="">GALLERY</a></Link>

@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react';
 import Menu from './Menu';
 import Footer from './Footer';
-import { Link } from 'react-router-dom';
 
 const Expert_Team = () => {
   return (
@@ -21,7 +20,7 @@ const Expert_Team = () => {
                   <div className="card">
                     <img src="img/event/" alt=""/>
                     <div className="card-body">
-                      <p className="card-text"><strong>Expert Name:- </strong>Mr. Rana<br/>
+                      <p className="card-text"><strong>Expert Name:- </strong>Mr. Ram Singh Rana<br/>
                       <strong>Profile:- </strong>Senior <br />
                       <strong>Experience:- </strong>10 Years <br/>
                       </p>
@@ -51,7 +50,7 @@ const Expert_Team = () => {
                   <div className="card">
                     <img src="img/event/" alt=""/>
                     <div className="card-body">
-                      <p className="card-text"><strong>Expert Name:- </strong>Mr. Praveen Sharma<br/>
+                      <p className="card-text"><strong>Expert Name:- </strong>Dr. Vishal Kumar<br/>
                       <strong>Profile:- </strong>Senior <br />
                       <strong>Experience:- </strong>10 Years <br/>
                       </p>
@@ -78,7 +77,7 @@ const Expert_Team = () => {
                   <div className="card">
                     <img src="img/event/" alt=""/>
                     <div className="card-body">
-                      <p className="card-text"><strong>Expert Name:- </strong>Mr. Ravi Rautela<br/>
+                      <p className="card-text"><strong>Expert Name:- </strong>Mr. Praveen Sharma<br/>
                       <strong>Profile:- </strong>Senior <br />
                       <strong>Experience:- </strong>10 Years <br/>
                       </p>
@@ -93,7 +92,7 @@ const Expert_Team = () => {
                   <div className="card shadow-sm">
                     <img src="img/event/" alt=""/>
                     <div className="card-body">
-                      <p className="card-text"><strong>Expert Name:- </strong>Mr. Manoj Singh<br/>
+                      <p className="card-text"><strong>Expert Name:- </strong>Mr. Mahesh Sharma<br/>
                       <strong>Profile:- </strong>Senior <br />
                       <strong>Experience:- </strong>10 Years <br/>
                       </p>
@@ -106,9 +105,9 @@ const Expert_Team = () => {
 
                 <div className="col-lg-4">
                   <div className="card">
-                    <img src="img/event/" alt=""/>
+                    <img src="img/faculty/" alt=""/>
                     <div className="card-body">
-                      <p className="card-text"><strong>Expert Name:- </strong>Mr. Vishal<br/>
+                      <p className="card-text"><strong>Expert Name:- </strong>Mr. Ravi Rautela<br/>
                       <strong>Profile:- </strong>Senior <br />
                       <strong>Experience:- </strong>10 Years <br/>
                       </p>
