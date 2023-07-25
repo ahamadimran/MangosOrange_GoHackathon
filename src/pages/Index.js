@@ -1,7 +1,7 @@
 import React, { Fragment} from 'react';
 import Menu from './Menu';
 import Footer from './Footer';
-import { Link, NavLink } from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 import ReactGA from 'react-ga4';
 
 const index = () => {
@@ -21,9 +21,6 @@ const index = () => {
                         We are trying to build a community where everyone can connect, learn, and grow together.
                     </p> <br /> 
                     <NavLink to="https://forms.gle/DRSMSzoRDhKqxQ8X7"><button className="btn btn-primary px-5 py-2 primary-btn">REGISTER NOW</button></NavLink>
-                    {/* <Link to="/https://forms.gle/DRSMSzoRDhKqxQ8X7"><a href="#">
-                        <button className="btn btn-primary px-5 py-2 primary-btn">REGISTER NOW</button>
-                    </a></Link> */}
                 </div>
                 <div className="col-lg-5 bannertext">
                     <img src="img/development2" alt="Internship" />
@@ -230,7 +227,7 @@ const index = () => {
                     Go hackathon thrives to provide best nurturing, mentorship, skills and professional 
                     opportunities to its members and participants.We conduct series of events, seminars, 
                     hackathons, internships and Projects. <br />
-                <a href="about.html"><strong>Know More</strong></a>
+                <a href="/about"><strong>Know More</strong></a>
                 </p>  
             </div>
             <div className="imgofabout col-lg-5">
@@ -260,7 +257,7 @@ const index = () => {
                         </p>
                        
                         <p>
-                           <a className="btn btn-primary" href="https://kecua.ac.in/" target='_blank' role="button">Know More</a>
+                           <a className="btn btn-primary" href="https://kecua.ac.in/" role="button">Know More</a>
                         </p>
                     </div>
                 </div>
@@ -278,7 +275,7 @@ const index = () => {
                             technology innovations.
                         </p>
                         <p>
-                           <a className="btn btn-primary" href="https://graphicerauniversity.co.in/" target='_blank' role="button">Know More</a>
+                           <a className="btn btn-primary" href="https://graphicerauniversity.co.in/" role="button">Know More</a>
                         </p>
                     </div>
                 </div>
@@ -296,7 +293,7 @@ const index = () => {
                             activities with relevant skills & On the Job Training required for making them employable.
                         </p>
                         <p>
-                           <a className="btn btn-primary" href="https://coer.ac.in/" target='_blank' role="button">Know More</a>
+                           <a className="btn btn-primary" href="https://coer.ac.in/" role="button">Know More</a>
                         </p>
                     </div>
                 </div>

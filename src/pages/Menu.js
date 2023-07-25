@@ -1,7 +1,6 @@
 import React, { useState } from "react"
 import { useAuth0 } from "@auth0/auth0-react";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { Link } from "react-router-dom";
 
 const Menu = () => {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
@@ -19,40 +18,40 @@ const Menu = () => {
         <div className={showMediaIcons ? "menu-link mobile-menu-link" : "menu-link"}>
           <ul>
             <li className="nav-item">
-              <Link to="/about"><a className="nav-link active" href="#">ABOUT US</a></Link>
+              <a className="nav-link active" href="/">HOME</a>
+            </li>
+
+            <li className="nav-item">
+              <a className="nav-link active" href="/about">ABOUT US</a>
             </li>
             
             <li className="nav-item dropdown">
               <div className="dropdown">
-                <Link to="/event"><a href="#" className="nav-link">EVENTS</a></Link>
+                <a href="/event" className="nav-link">EVENTS</a>
                 <div className="dropdown-content">
-                  <Link to="/live_event"><a href="#">Live Events</a></Link>
-                  <Link to="/upcoming_event"><a href="#">Upcoming</a></Link>
-                  <Link to="/past_event"><a href="#">Past Events</a></Link>
+                  <a href="/live_event">Live Events</a>
+                  <a href="/upcoming_event">Upcoming</a>
+                  <a href="/past_event">Past Events</a>
                  </div>
               </div>
             </li>
             
             <li className="nav-item dropdown">
               <div className="dropdown">
-                <Link to="/training"><a href="#" className="nav-link">TRAINING</a></Link>
+                <a href="/training" className="nav-link">TRAINING</a>
                 <div className="dropdown-content">
-                  <Link to="/training"><a href="">Project Based Internship</a></Link>
-                  <Link to="/agritech-training"><a href="#">Agritech Training</a></Link>
+                  <a href="/training">Project Based Internship</a>
+                  <a href="/agritech-training">Agritech Training</a>
                 </div>
               </div>
             </li>
-
+            
             <li className="nav-item">
-              <Link to="/expert-team"><a className="nav-link" href="">OUR TEAM</a></Link>
+              <a className="nav-link" href="/gallery">GALLERY</a>
             </li>
             
             <li className="nav-item">
-              <Link to="/gallery"><a className="nav-link" href="">GALLERY</a></Link>
-            </li>
-            
-            <li className="nav-item">
-              <Link to="/contact"><a className="nav-link" href="#">CONTACT US</a></Link>
+              <a className="nav-link" href="/contact">CONTACT US</a>
             </li>
             
             <li>
@@ -81,7 +80,7 @@ const Menu = () => {
         <div className="social-media">
           {/* hamburget menu start  */}
           <div className="hamburger-menu">
-            <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
+            <a href={URL} onClick={() => setShowMediaIcons(!showMediaIcons)}>
               <GiHamburgerMenu />
             </a>
           </div>

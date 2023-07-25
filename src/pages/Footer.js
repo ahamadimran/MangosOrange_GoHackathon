@@ -1,5 +1,4 @@
 import React, {Fragment} from 'react'
-import { Link } from 'react-router-dom'
 
 const footer = () => {
   return (
@@ -11,7 +10,7 @@ const footer = () => {
                     <div className="col-xl-3 col-lg-3 footer-about">
                         <div className="footer-widget">
                             <div className="footer-logo">
-                                <a href="index.html"><img src="img/footer_logo.jpg" className="img-fluid" alt="logo" /></a>
+                                <a href="/"><img src="img/footer_logo.jpg" className="img-fluid" alt="logo" /></a>
                             </div>
                             <div className="footer-text">
                                 <p>Go Hackathon comprises eminent Industry professionals, educators, and students meant
@@ -23,7 +22,7 @@ const footer = () => {
                                 {/* <a href="https://www.instagram.com/gohackathon/?igshid=YmMyMTA2M2Y%3D"><i className="fab fa-instagram-f instagram-bg"></i></a>
                                 <a href="https://twitter.com/GoHackathon"><i className="fab fa-twitter-t twitter-bg"></i></a> */}
                                 <a href="https://www.linkedin.com/in/go-hackathon-a082b9264/"><i className="fab fa-linkedin-in linkedin-bg"></i></a>
-                                <a href="https://www.youtube.com/@gohackathon/videos"><i className="fab fa-youtube youtube-bg"></i></a>
+                                <a href="https://www.youtube.com/@gohackathon/"><i className="fab fa-youtube youtube-bg"></i></a>
                             </div>
                         </div>
                     </div>
@@ -34,12 +33,12 @@ const footer = () => {
                                     <h3>Quick Links</h3>
                                 </div>
                                 <ul>
-                                   <Link to="/"><li><a href="index.html">Home</a></li></Link>
-                                   <Link to="/about"><li><a href="about.html">About Us</a></li></Link>
-                                   <Link to="/event"><li><a href="event.html">Events</a></li></Link>
-                                   <Link to="/training"><li><a href="training.html">Training</a></li></Link>
-                                   <Link to="/gallery"><li><a href="gallery.html">Gallery</a></li></Link>
-                                   <Link to="/contact"><li><a href="contact.html">Contact Us</a></li></Link>
+                                   <li><a href="/">Home</a></li>
+                                   <li><a href="/about">About Us</a></li>
+                                   <li><a href="/event">Events</a></li>
+                                   <li><a href="/training">Training</a></li>
+                                   <li><a href="/gallery">Gallery</a></li>
+                                   <li><a href="/contact">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>

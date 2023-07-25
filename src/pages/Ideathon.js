@@ -1,8 +1,7 @@
 import React, {Fragment} from 'react';
 import Menu from './Menu';
 import Footer from './Footer';
-import ContactForm from './ContactForm';
-import Registration_Form from './Registration_Form';
+import RegistrationForm from './RegistrationForm';
 
 const Ideathon = () => {
   return (
@@ -53,7 +52,7 @@ const Ideathon = () => {
 
                 <div className=' past-event col-lg-5'>
                   <h2>Register Now</h2>
-                  <Registration_Form/>
+                  <RegistrationForm />
                 </div>
               </div>
             </div> 

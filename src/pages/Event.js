@@ -29,7 +29,7 @@ const event = () => {
                       where participants are encouraged to think outside the box and come up with unique 
                       solutions to the challenge at hand
                   </p>
-                    <a className="btn btn-primary" href="live_event.html" role="button">Know More</a>
+                    <a className="btn btn-primary" href="/live_event" role="button">Know More</a>
                 </div>
             </div>
         </article>
@@ -45,7 +45,7 @@ const event = () => {
                       healthcare, or sustainability, and are often organized by companies, universities, 
                       or other organizations looking to stimulate innovation.
                   </p>
-                    <a className="btn btn-primary" href="upcoming_events.html" role="button">Know More</a>
+                    <a className="btn btn-primary" href="/upcoming_event" role="button">Know More</a>
                 </div>
             </div>
         </article>
@@ -61,7 +61,7 @@ const event = () => {
                       as a way to give students experience working on real-world software projects to engage 
                       with the tech community and innovation.
                   </p>
-                    <a className="btn btn-primary" href="past_events.html" role="button">Know More</a>
+                    <a className="btn btn-primary" href="/past_event" role="button">Know More</a>
                 </div>
             </div>
         </article>

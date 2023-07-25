@@ -52,9 +52,6 @@ const about = () => {
                             its vast network of networks spread across the globe. <br />
                         </p> 
                     </div>
-                    {/* <div class="imgofabout col-lg-5">
-                        <img class="imgofabout" src="img/development2" alt="Dev" />
-                    </div> */}
                 </div>
             </div>
 
