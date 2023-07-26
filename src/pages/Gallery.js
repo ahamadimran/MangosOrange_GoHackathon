@@ -22,9 +22,6 @@ const gallery = () => {
           <div className="col-md-4">
             <div className="thumbnail">
                 <img src="img/SSIMEventPics/SSIM-01.JPG" alt="Lights" style={{width: "100%"}}/>
-                {/* <div className="caption">
-                  <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
-                </div>  */}
             </div>
           </div>
           <div className="col-md-4">
@@ -166,9 +163,6 @@ const gallery = () => {
           <div className="col-md-4">
             <div className="thumbnail">
                 <img src="img/EventPics/Hackathon-1st-Prize.jpg" alt="Lights" style={{width: "100%"}}/>
-                {/* <div className="caption">
-                  <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
-                </div> */}
             </div>
           </div>
           <div className="col-md-4">

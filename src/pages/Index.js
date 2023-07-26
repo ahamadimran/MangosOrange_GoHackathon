@@ -165,10 +165,6 @@ const index = () => {
                             in IoT, Blockchain, web app development, AR/VR, cross-platform. Our dedication and 
                             commitment to 100% client satisfaction is the chief reason for our global presence
                         </p>
-                       
-                        <p>
-                           {/* <a className="btn btn-primary" href="#" role="button">Know More</a> */}
-                        </p>
                     </div>
                 </div>
             </div>
@@ -183,9 +179,6 @@ const index = () => {
                             we been delivering software development and related IT services.Our professional team 
                             works closely with you to understand your exact requirement and respond with the best 
                             eye-catching web-designs and most innovative web development solutions for you.
-                        </p>
-                        <p>
-                           {/* <a className="btn btn-primary" href="#" target='_blank' role="button">Know More</a> */}
                         </p>
                     </div>
                 </div>
@@ -202,9 +195,6 @@ const index = () => {
                             Gennext Is An Emerging Leader Of Next-Generation Information Technology Services 
                             And Solutions. To Provide Innovative Solutions To Our Customers Through Best-In-Class 
                             Technology And Industry Solutions. We Leverage Our Domain Expertise To Deliver.
-                        </p>
-                        <p>
-                           {/* <a className="btn btn-primary" href="#" target='_blank' role="button">Know More</a> */}
                         </p>
                     </div>
                 </div>
@@ -309,19 +299,7 @@ const index = () => {
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
-
     
-{/* Google tag (gtag.js) */}
-{/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-RYHT696S35"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){'dataLayer.push(arguments);'}
-  gtag('js', new Date());
-
-  gtag('config', 'G-RYHT696S35');
-</script> */}
-
-
    <Footer />
     </Fragment>
   )

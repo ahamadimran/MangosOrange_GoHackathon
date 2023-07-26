@@ -53,18 +53,6 @@ const Gyan_Goshthi = () => {
                     journey at an early stage. During the stay along with intellectual interaction, fun 
                     activities, campfire, etc. will also be a part of the entire experience.  <br />
                 </p>
-                {/* <ul>
-                    <li>Work Integrated Skill Training & Apprenticeship (WISTA)</li>
-                    <li>Staffing Solutions including Contract Labour & Payroll Services.</li>
-                    <li>Integrated Facility Management Services.</li>
-                    <li>Vocational & Skill Development Projects (NAPS, Flexi-MoU, B. Voc., DDU-GKY & PMKVY)</li>
-                    <li>Design and Deliver impactful CSR initiatives.</li>
-                    <li>Catering Services in Industries, Hospitals, Skill Development Centers, Hostels & other Establishments.</li>
-                    <li>Research & Development in Agritech & Allied Program.</li>
-                </ul>
-                <a href="https://mangosorange.co.in/">
-                    <button class="btn btn-primary" target="new">Know More</button>
-                </a> */}
             </div>
         </div>
     </div>
@@ -97,42 +85,6 @@ const Gyan_Goshthi = () => {
             </div>
         </div>
     </div>
-
-    {/* <div class="container">
-        <div class="row">
-            <div class="aboutsection-agritech col-lg-7">
-                <h3>GYAN GOSHTHI – Action Plan</h3>
-                <p>Selected team will undergo internship on specified idea under the guidance of industry 
-                    experts. Their training and project guidance will be handled by gohackathon.in as per 
-                    the need. Once the project is ready to go to market it will be presented in front of the 
-                    investors and pitched for funding. Successful projects will be rolled into the market. <br />
-                </p> <br/>
-                <h3>GYAN GOSHTHI- Remuneration</h3>
-                <p>The interested students would first invest on travel food and accommodation for 3 days 
-                    2 nights Workshop. However, the training during these 3 days will be free of cost.  
-                    Once the team is finalized the investment on the project (training on specific technology, 
-                    material, product, equipment, travelling etc.) will be borne by the students Mentorship, 
-                    guidance and support will be free of cost. <br />
-                </p>
-            </div>
-            
-        </div>
-    </div> */}
-
-    {/* <div class="container">
-        <div class="row">
-            <div class="aboutsection-agritech col-lg-12">
-                <h3>GYAN GOSHTHI- Remuneration</h3>
-                <p>The interested students would first invest on travel food and accommodation for 3 days 
-                    2 nights Workshop. However, the training during these 3 days will be free of cost.  
-                    Once the team is finalized the investment on the project (training on specific technology, 
-                    material, product, equipment, travelling etc.) will be borne by the students Mentorship, 
-                    guidance and support will be free of cost. <br />
-                </p>
-            </div>
-        </div>
-    </div> */}
-
 </body>
         <Footer/>
     </Fragment>

@@ -46,14 +46,6 @@ const ELP_Turmeric_Cultivation = () => {
                             <li>Full setup and business plan of a turmeric farm.</li>
                         </ul>
                     </div>
-
-                    {/* <div className='aboutsection-bottom col-lg-6'>
-                        <ul>
-                            <li>Undertaking a small-scale hydroponics project</li>
-                            <li>Documentation of project activities and outcomes</li>
-                            <li>Data collection and analysis related to the project</li>    
-                        </ul>
-                    </div> */}
                 </div>
             </div>
 

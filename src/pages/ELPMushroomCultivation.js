@@ -45,14 +45,6 @@ const ELP_Mushroom_Cultivation = () => {
                             <li>Packaging and Marketing</li>
                         </ul>
                     </div>
-
-                    {/* <div className='aboutsection-bottom col-lg-6'>
-                        <ul>
-                            <li>Undertaking a small-scale mushroom project</li>
-                            <li>Documentation of project activities and outcomes</li>
-                            <li>Data collection and analysis related to the project</li>    
-                        </ul>
-                    </div> */}
                 </div>
             </div>
 

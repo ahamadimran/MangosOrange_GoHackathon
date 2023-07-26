@@ -52,7 +52,7 @@ const event = () => {
         <article>
             <div className="article-wrapper">
                 <figure>
-                    <img width="368" height="207" src="img/event/past-event.jpg" alt="" />
+                    <img width="368" height="207" src="img/event/past-event.avif" alt="" />
                 </figure>
                 <div className="article-body">
                     <h2>Past Events</h2>

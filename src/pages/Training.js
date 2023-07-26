@@ -60,15 +60,6 @@ const training = () => {
           </div>
         </div>
 
-        {/* <section class="py-5 text-center container">
-            <div class="row py-lg-5">
-                <div class="col-lg-6 col-md-8 mx-auto">
-                    <h1 class="fw-light">SUMMER INTERNISHIP</h1>
-                    <p class="lead text-muted">Additionally, all the students will be groomed on Entrepreneural Skills, and Startup Formation. Interested Students or Student Group will be provided Mentorship for their startup IDEAS.</p>
-                </div>
-            </div>
-        </section> */}
-
         <div class="album py-5 bg-light">
             <div class="container"> 
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 text-center">
@@ -123,14 +114,6 @@ const training = () => {
                             </div>
                         </div>
                     </div>
-                    {/* <div class="col-lg-4">
-                        <div class="card shadow-sm">
-                           <Link to="/Java_Frontend"> <img src="img/courses/java.png" alt="Java" height="200px" width="100%"/></Link>
-                            <div class="card-body">
-                                <h4>Java</h4>
-                            </div>
-                        </div>
-                    </div> */}
                 </div>
             </div>
         </div>
