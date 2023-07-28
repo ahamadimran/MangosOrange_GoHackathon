@@ -10,7 +10,7 @@ const DEVOPS = () => {
         <Menu />
         <body id="body">
             <div className="evebanner">
-                <img src="img/banner/dev-ops.png" alt=""/>
+                <img src="img/banner/dev-ops.png" alt="DevOps Banner"/>
             </div>
             <div className='container'>
                 <div className='row'>
@@ -29,7 +29,7 @@ const DEVOPS = () => {
                         </p>
                     </div>
                     <div className='imgofabout col-lg-5'>
-                        <img className='imgofabout' src='img/courses/devops.jpg' alt='Dev'></img>
+                        <img className='imgofabout' src='img/courses/devops.jpg' alt='DevOps'></img>
                     </div>
                 </div>
             </div>

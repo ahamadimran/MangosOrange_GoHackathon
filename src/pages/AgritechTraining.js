@@ -9,7 +9,7 @@ const Agritech_Training = () => {
     <Fragment>
         <Menu/>
         <div class="evebanner">
-            <img src="img/banner/agritech.png" alt=""/>
+            <img src="img/banner/agritech.png" alt="Agitech Banner"/>
         </div>
 
         <div className='container trainingheading'>
@@ -46,7 +46,7 @@ const Agritech_Training = () => {
                 <div class="col-lg-2"></div>
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
-                           <Link to="/Git_hub"><img src="img/courses/ppt.jpg" alt="GiT & GiTHub" height="200px" width="100%"/></Link>
+                           <Link to="/Git_hub"><img src="img/courses/ppt.jpg" alt="PPT Making" height="200px" width="100%"/></Link>
                             <div class="card-body">
                                 <h4>PPT Making</h4>
                             </div>
@@ -72,7 +72,7 @@ const Agritech_Training = () => {
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 text-center">
                 <div class="col-lg-4">
                         <div class="card shadow-sm">
-                           <Link to="/rawe-apiculture"><img src="img/courses/apiculture.jpg" alt="Apiculture" height="200px" width="100%"/></Link>
+                           <Link to="/rawe-apiculture"><img src="img/courses/apiculture.jpg" alt="Apiculture Farming" height="200px" width="100%"/></Link>
                             <div class="card-body">
                                 <h4>Apiculture</h4>
                             </div>
@@ -88,7 +88,7 @@ const Agritech_Training = () => {
                     </div>
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
-                           <Link to="/rawe-turmeric-cultivation"> <img src="img/courses/turmeric-cultivation.jpg" alt="Turmeric Cultivation" height="200px" width="100%"/></Link>
+                           <Link to="/rawe-turmeric-cultivation"> <img src="img/courses/turmeric-cultivation.jpg" alt="Turmeric Cultivation Farming" height="200px" width="100%"/></Link>
                             <div class="card-body">
                                 <h4>Turmeric Cultivation</h4>
                             </div>
@@ -103,7 +103,7 @@ const Agritech_Training = () => {
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 text-center">
                 <div class="col-lg-4">
                         <div class="card shadow-sm">
-                        <Link to="/rawe-mushroom-cultivation"><img src="img/courses/mushroom-cultivation.jpg" alt="Mushroom Cultivation" height="200px" width="100%"/></Link>
+                        <Link to="/rawe-mushroom-cultivation"><img src="img/courses/mushroom-cultivation.jpg" alt="Mushroom Cultivation Farming" height="200px" width="100%"/></Link>
                             <div class="card-body">
                             <h4>Mushroom Cultivation</h4>
                             </div>
@@ -111,7 +111,7 @@ const Agritech_Training = () => {
                     </div>
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
-                           <Link to="/rawe-hydroponics"><img src="img/courses/hydroponics.jpg" alt="Hydroponics" height="200px" width="100%"/></Link>
+                           <Link to="/rawe-hydroponics"><img src="img/courses/hydroponics.jpg" alt="Hydroponics Farming" height="200px" width="100%"/></Link>
                             <div class="card-body">
                                 <h4>Hydroponics</h4>
                             </div>
@@ -128,7 +128,7 @@ const Agritech_Training = () => {
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 text-center">
                 <div class="col-lg-4">
                         <div class="card shadow-sm">
-                           <Link to="/elp-apiculture"><img src="img/courses/elp-apiculture.jpg" alt="Apiculture" height="200px" width="100%"/></Link>
+                           <Link to="/elp-apiculture"><img src="img/courses/elp-apiculture.jpg" alt="Apiculture ELP Farming" height="200px" width="100%"/></Link>
                             <div class="card-body">
                                 <h4>Apiculture</h4>
                             </div>
@@ -136,7 +136,7 @@ const Agritech_Training = () => {
                     </div>
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
-                        <Link to="/elp-organic-farming"><img src="img/courses/elp-organic-farming.jpg" alt="Organic Farming" height="200px" width="100%"/></Link>
+                        <Link to="/elp-organic-farming"><img src="img/courses/elp-organic-farming.jpg" alt="Organic ELP Farming" height="200px" width="100%"/></Link>
                             <div class="card-body">
                             <h4>Organic Farming</h4>
                             </div>
@@ -144,7 +144,7 @@ const Agritech_Training = () => {
                     </div>
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
-                           <Link to="/elp-turmeric-cultivation"> <img src="img/courses/elp-turmeric-cultivation.jpg" alt="Turmeric Cultivation" height="200px" width="100%"/></Link>
+                           <Link to="/elp-turmeric-cultivation"> <img src="img/courses/elp-turmeric-cultivation.jpg" alt="Turmeric Cultivation ELP Farming" height="200px" width="100%"/></Link>
                             <div class="card-body">
                                 <h4>Turmeric Cultivation</h4>
                             </div>
@@ -159,7 +159,7 @@ const Agritech_Training = () => {
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 text-center">
                 <div class="col-lg-4">
                         <div class="card shadow-sm">
-                        <Link to="/elp-mushroom-cultivation"><img src="img/courses/elp-mushroom-cultivation.jpg" alt="Mushroom Cultivation" height="200px" width="100%"/></Link>
+                        <Link to="/elp-mushroom-cultivation"><img src="img/courses/elp-mushroom-cultivation.jpg" alt="Mushroom Cultivation ELP Farming" height="200px" width="100%"/></Link>
                             <div class="card-body">
                             <h4>Mushroom Cultivation</h4>
                             </div>
@@ -167,7 +167,7 @@ const Agritech_Training = () => {
                     </div>
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
-                           <Link to="/elp-hydroponics"><img src="img/courses/elp-hydroponics.jpg" alt="Hydroponics" height="200px" width="100%"/></Link>
+                           <Link to="/elp-hydroponics"><img src="img/courses/elp-hydroponics.jpg" alt="Hydroponics Farming" height="200px" width="100%"/></Link>
                             <div class="card-body">
                                 <h4>Hydroponics</h4>
                             </div>

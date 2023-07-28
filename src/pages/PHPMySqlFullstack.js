@@ -10,7 +10,7 @@ const PHP_MYSQL_Fullstack = () => {
         <Menu />
         <body id="body">
             <div className="evebanner">
-                <img src="img/banner/php-mysql.png" alt=""/>
+                <img src="img/banner/php-mysql.png" alt="PHP Banner"/>
             </div>
             <div className='container'>
                 <div className='row'>
@@ -28,7 +28,7 @@ const PHP_MYSQL_Fullstack = () => {
                         </p>
                     </div>
                     <div className='imgofabout col-lg-5'>
-                        <img className='imgofabout' src='img/courses/php-mysql.png' alt='Dev'></img>
+                        <img className='imgofabout' src='img/courses/php-mysql.png' alt='PHP Development'></img>
                     </div>
                 </div>
             </div>

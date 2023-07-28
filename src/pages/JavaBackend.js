@@ -10,7 +10,7 @@ const Java_Backend = () => {
         <Menu />
         <body id="body">
             <div className="evebanner">
-                <img src="img/banner/java.png" alt=""/>
+                <img src="img/banner/java.png" alt="Java Backend Banner"/>
             </div>
             <div className='container'>
                 <div className='row'>
@@ -30,7 +30,7 @@ const Java_Backend = () => {
                         </p>
                     </div>
                     <div className='imgofabout col-lg-5'>
-                        <img className='imgofabout' src='img/courses/java-01.jpg' alt='Dev'></img>
+                        <img className='imgofabout' src='img/courses/java-01.jpg' alt='Java Backend'></img>
                     </div>
                 </div>
             </div>

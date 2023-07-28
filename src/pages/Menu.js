@@ -11,7 +11,7 @@ const Menu = () => {
       <nav className="main-nav">
         {/* 1st logo part  */}
         <div className="logo">
-          <a href="/"><img className="logoimg" src="img/main_logo.png" alt=""/></a>
+          <a href="/"><img className="logoimg" src="img/main_logo.png" alt="Gohackathon Logo"/></a>
         </div>
 
         {/* 2nd menu part  */}

@@ -8,14 +8,14 @@ const Krishi_Vikalp = () => {
         <Menu />
         <body className="body">
             <div className="evebanner">
-                <img src="img/banner/krishi-vikalp.png" alt=""/>
+                <img src="img/banner/krishi-vikalp.png" alt="Krishi Vikalp Banner"/>
             </div>
                 
                     <div className="container containereventdetail">
                         <div className="past-event">
                             <div>
                                 <h6><strong>Event Name:- </strong>KRISHI-VIKALP</h6>
-                                <h6><strong>Event Mascot:- <img src="img/Krishi.jpg" alt=""/></strong></h6>
+                                <h6><strong>Event Mascot:- <img src="img/Krishi.jpg" alt="Mascot"/></strong></h6>
                                 <h6><strong>Event Date:- </strong>25th feb 2023</h6>
                                 <h6><strong>Event Duration:- </strong>2-4 Hours</h6>
                                 <h6><strong>Event Venue:- </strong>Sri Sukhmani Institute of Management, Dwarka, New Delhi <a href="https://goo.gl/maps/4gtb1MFV8qjh2vqaA">https://goo.gl/maps/4gtb1MFV8qjh2vqaA</a> </h6>
@@ -51,7 +51,7 @@ const Krishi_Vikalp = () => {
         <div className="row">
           <div className="col-md-3">
             <div className="thumbnail">
-                <img src="img/SSIMEventPics/team-01.png" alt="Lights" style={{width: "100%"}}/>
+                <img src="img/SSIMEventPics/team-01.png" alt="SSIM Event Team-01" style={{width: "100%"}}/>
                 <div className="caption">
                   <p><strong>Team 01</strong></p>
                 </div>
@@ -59,7 +59,7 @@ const Krishi_Vikalp = () => {
           </div>
           <div className="col-md-3">
             <div className="thumbnail">
-                <img src="img/SSIMEventPics/team-02.png" alt="Nature" style={{width: "100%"}}/>
+                <img src="img/SSIMEventPics/team-02.png" alt="SSIM Event Team-02" style={{width: "100%"}}/>
                 <div className="caption">
                   <p><strong>Team 02</strong></p>
                 </div>
@@ -67,7 +67,7 @@ const Krishi_Vikalp = () => {
           </div>
           <div className="col-md-3">
             <div className="thumbnail">
-                <img src="img/SSIMEventPics/team-03.png" alt="Fjords" style={{width: "100%"}}/>
+                <img src="img/SSIMEventPics/team-03.png" alt="SSIM Event Team-03" style={{width: "100%"}}/>
                 <div className="caption">
                   <p><strong>Team 03</strong></p>
                 </div>
@@ -75,7 +75,7 @@ const Krishi_Vikalp = () => {
           </div>
           <div className="col-md-3">
             <div className="thumbnail">
-                <img src="img/SSIMEventPics/team-04.png" alt="Fjords" style={{width: "100%"}}/>
+                <img src="img/SSIMEventPics/team-04.png" alt="SSIM Event Team-04" style={{width: "100%"}}/>
                 <div className="caption">
                   <p><strong>Team 04</strong></p>
                 </div>

@@ -8,7 +8,7 @@ const contact = () => {
       <body>
  <Menu />
 <div className="evebanner">
-    <img src="img/banner/Contact.png" alt="" />
+    <img src="img/banner/Contact.png" alt="Contact Banner" />
   </div>
 
 <main className="contact-main">

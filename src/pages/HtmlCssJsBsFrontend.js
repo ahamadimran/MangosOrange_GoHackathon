@@ -10,7 +10,7 @@ const HTML_CSS_Js_Tailwind_Frontend = () => {
         <Menu />
         <body id="body">
             <div className="evebanner">
-                <img src="img/banner/html-css-js.png" alt=""/>
+                <img src="img/banner/html-css-js.png" alt="HTML Banner"/>
             </div>
             <div className='container'>
                 <div className='row'>
@@ -27,7 +27,7 @@ const HTML_CSS_Js_Tailwind_Frontend = () => {
                         
                     </div>
                     <div className='imgofabout col-lg-5'>
-                        <img className='imgofabout' src='img/courses/html-css-js.jpg' alt='Dev'></img>
+                        <img className='imgofabout' src='img/courses/html-css-js.jpg' alt='HTML CSS JS Frontend'></img>
                     </div>
                 </div>
             </div>

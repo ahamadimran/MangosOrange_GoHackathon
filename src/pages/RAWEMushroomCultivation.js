@@ -10,7 +10,7 @@ const RAWE_Mushroom_Cultivation = () => {
         <Menu/>
         <body id="body">
             <div className="evebanner">
-                <img src="img/banner/mushroom-cultivation.png" alt=""/>
+                <img src="img/banner/mushroom-cultivation.png" alt="Mushroom Cultivation Banner"/>
             </div>
             <div className='container'>
                 <div className='row'>
@@ -23,7 +23,7 @@ const RAWE_Mushroom_Cultivation = () => {
                         
                     </div>
                     <div className='imgofabout col-lg-5'>
-                        <img className='imgofabout' src='img/courses/mushroom-cultivation.jpg' alt='Dev'></img>
+                        <img className='imgofabout' src='img/courses/mushroom-cultivation.jpg' alt='Mashroom Farming'></img>
                     </div>
                 </div>
             </div>

@@ -9,7 +9,7 @@ const Upcoming_Event = () => {
 
             <body className="body">
                 <div className="evebanner">
-                    <img src="img/banner/upcoming_event.png" alt="" />
+                    <img src="img/banner/upcoming_event.png" alt="Upcoming Event Banner" />
                 </div>
 
                 <div className='container'>
@@ -22,7 +22,7 @@ const Upcoming_Event = () => {
                             <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                                 <div className="col-lg-6">
                                     <div className="card">
-                                        <img src="img/resources/FDP.png" alt=""/>
+                                        <img src="img/resources/FDP.png" alt="Upcoming Event"/>
                                         <div className="card-body">
                                             <p className="card-text"><strong>Event Name:- </strong>2 Days FDP Program<br/>
                                             <strong>Event Date:- </strong>24th -25th June, 2023<br />

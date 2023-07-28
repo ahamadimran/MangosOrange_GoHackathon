@@ -10,7 +10,7 @@ const Figma = () => {
         <Menu />
         <body id="body">
             <div className="evebanner">
-                <img src="img/banner/Figma.png" alt=""/>
+                <img src="img/banner/Figma.png" alt="Figma Banner"/>
             </div>
             <div className='container'>
                 <div className='row'>
@@ -23,7 +23,7 @@ const Figma = () => {
                         </p>
                     </div>
                     <div className='imgofabout col-lg-5'>
-                        <img className='imgofabout' src='img/courses/figma-01.jpeg' alt='Dev'></img>
+                        <img className='imgofabout' src='img/courses/figma-01.jpeg' alt='Figma Design'></img>
                     </div>
                 </div>
             </div>

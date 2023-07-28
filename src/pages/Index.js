@@ -23,7 +23,7 @@ const index = () => {
                     <NavLink to="https://forms.gle/DRSMSzoRDhKqxQ8X7"><button className="btn btn-primary px-5 py-2 primary-btn">REGISTER NOW</button></NavLink>
                 </div>
                 <div className="col-lg-5 bannertext">
-                    <img src="img/development2" alt="Internship" />
+                    <img src="img/development2" alt="Fullstack Web Development" />
                 </div>
             </div>
         </div>
@@ -40,7 +40,7 @@ const index = () => {
             <article>
                 <div className="article-wrapper">
                     <figure>
-                        <img width="368" height="207" src="img/courses/Summer_Training.png" alt="" />
+                        <img width="368" height="207" src="img/courses/Summer_Training.png" alt="Summer Internship Training" />
                     </figure>
                     <div className="article-body">
                         <h3>Project Based Summer Internship</h3>
@@ -56,7 +56,7 @@ const index = () => {
             <article>
                 <div className="article-wrapper">
                     <figure>
-                        <img width="368" height="207" src="img/courses/FullStack.jpg" alt="" />
+                        <img width="368" height="207" src="img/courses/FullStack.jpg" alt="Project Based Winter Training" />
                     </figure>
                     <div className="article-body">
                         <h3>Project Based Winter Training</h3>
@@ -72,7 +72,7 @@ const index = () => {
             <article>
                 <div className="article-wrapper">
                     <figure>
-                        <img width="368" height="207" src="img/courses/live-project.jpg" alt="" />
+                        <img width="368" height="207" src="img/courses/live-project.jpg" alt="Live Project Training" />
                     </figure>
                     <div className="article-body">
                         <h3>Live Industrial Projects</h3>
@@ -99,7 +99,7 @@ const index = () => {
             <article>
                 <div className="article-wrapper">
                     <figure>
-                        <img width="368" height="207" src="img/courses/AI&ML.jpg" alt="" />
+                        <img width="368" height="207" src="img/courses/datascience.jpeg" alt="AI and ML Training" />
                     </figure>
                     <div className="article-body">
                         <h3>AI and Machine Learning</h3>
@@ -115,7 +115,7 @@ const index = () => {
             <article>
                 <div className="article-wrapper">
                     <figure>
-                        <img width="368" height="207" src="img/courses/FullStack.jpg" alt="" />
+                        <img width="368" height="207" src="img/courses/FullStack.jpg" alt="Fullstack Web Development Training" />
                     </figure>
                     <div className="article-body">
                         <h3>Full Stack Development</h3>
@@ -131,7 +131,7 @@ const index = () => {
             <article>
                 <div className="article-wrapper">
                     <figure>
-                        <img width="368" height="207" src="img/courses/cloud-infra.jpg" alt="" />
+                        <img width="368" height="207" src="img/courses/cloud-infra.jpg" alt="Cloud Infrastructure Training" />
                     </figure>
                     <div className="article-body">
                         <h3>Cloud Infrastructures</h3>
@@ -156,7 +156,7 @@ const index = () => {
             <div className="col-md-4 col-12 text-center">
                 <div className="card d-inline-block shadow-lg">
                     <div className="card-img-top">
-                        <img src="img/resources/appsquadz-logo.png" className="img-fluid p-4" alt="" />
+                        <img src="img/resources/appsquadz-logo.png" className="img-fluid p-4" alt="Appsquadz Logo" />
                     </div>
                     <div   className="card-body">
                         <h3 className="card-title">AppSquadz</h3>
@@ -171,7 +171,7 @@ const index = () => {
             <div className="col-md-4 col-12 text-center">
                 <div className="card d-inline-block shadow-lg">
                     <div className="card-img-top">
-                        <img src="img/resources/MTS.png" className="img-fluid p-4" alt="" />
+                        <img src="img/resources/MTS.png" className="img-fluid p-4" alt="Migratech Logo" />
                     </div>
                     <div   className="card-body">
                         <h3 className="card-title">Migratech</h3>
@@ -187,7 +187,7 @@ const index = () => {
             <div className="col-md-4 col-12 text-center">
                 <div className="card d-inline-block shadow-lg">
                     <div className="card-img-top">
-                        <img src="img/resources/gennext-logo.png" className="img-fluid p-4" alt="" />
+                        <img src="img/resources/gennext-logo.png" className="img-fluid p-4" alt="Gennext Logo" />
                     </div>
                     <div className="card-body">
                         <h3 className="card-title">GenNext</h3>
@@ -221,7 +221,7 @@ const index = () => {
                 </p>  
             </div>
             <div className="imgofabout col-lg-5">
-                <img className="imgofabout" src="img/resources/about_img.jpg" alt="Dev" />
+                <img className="imgofabout" src="img/resources/about_img.jpg" alt="Web Development Training" />
             </div>
         </div>
     </div>
@@ -236,7 +236,7 @@ const index = () => {
             <div className="col-md-4 col-12 text-center">
                 <div className="card d-inline-block shadow-lg">
                     <div className="card-img-top">
-                        <img src="img/collaborator1.png" className="img-fluid p-4" alt="" />
+                        <img src="img/collaborator1.png" className="img-fluid p-4" alt="BTKIT Logo" />
                     </div>
                     <div   className="card-body">
                         <h3 className="card-title">BTKIT DWARAHAT</h3>
@@ -255,7 +255,7 @@ const index = () => {
             <div className="col-md-4 col-12 text-center">
                 <div className="card d-inline-block shadow-lg">
                     <div className="card-img-top">
-                        <img src="img/resources/graphic-era-logo.png" className="img-fluid p-4" alt="" />
+                        <img src="img/resources/graphic-era-logo.png" className="img-fluid p-4" alt="Graphic Era Logo" />
                     </div>
                     <div   className="card-body">
                         <h3 className="card-title">GRAPHIC ERA</h3>
@@ -274,7 +274,7 @@ const index = () => {
             <div className="col-md-4 col-12 text-center">
                 <div className="card d-inline-block shadow-lg">
                     <div className="card-img-top">
-                        <img src="img/resources/coer-logo.png" className="img-fluid p-4" alt="" />
+                        <img src="img/resources/coer-logo.png" className="img-fluid p-4" alt="Coer Logo" />
                     </div>
                     <div className="card-body">
                         <h3 className="card-title">COER UNIVERSITY</h3>

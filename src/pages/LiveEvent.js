@@ -10,7 +10,7 @@ const Live_Event = () => {
         <body className="eventbody">
 
         <div class="evebanner">
-        <img src="img/banner/live_event.png" alt=""/>
+        <img src="img/banner/live_event.png" alt="Live Event Banner"/>
       </div>
 
         <div class="album py-5 bg-light">
@@ -18,7 +18,7 @@ const Live_Event = () => {
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
-                           <Link to="/goal_setting"><img src="img/event/goal.jpg" alt="" height="100%" width="100%"/></Link>
+                           <Link to="/goal_setting"><img src="img/event/goal.jpg" alt="Goal Setting" height="100%" width="100%"/></Link>
                             <div class="card-body">
                                 <h4>Goal Setting Workshop</h4>
                             </div>
@@ -26,7 +26,7 @@ const Live_Event = () => {
                     </div>
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
-                           <Link to="/git_github"><img src="img/event/git.png" alt="" height="100%" width="100%"/></Link>
+                           <Link to="/git_github"><img src="img/event/git.png" alt="Git and GitHub Training" height="100%" width="100%"/></Link>
                             <div class="card-body">
                                 <h4>Git and GitHub Workshop</h4>
                                 
@@ -35,7 +35,7 @@ const Live_Event = () => {
                     </div>
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
-                           <Link to="/gyan_goshthi"> <img src="img/courses/cloud_computing.jpg" alt="" height="100%" width="100%"/></Link>
+                           <Link to="/gyan_goshthi"> <img src="img/courses/cloud_computing.jpg" alt="Gyan Goshthi" height="100%" width="100%"/></Link>
                             <div class="card-body">
                                 <h4>Gyan Goshthi</h4>
                                 

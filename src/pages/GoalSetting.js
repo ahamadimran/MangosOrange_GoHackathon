@@ -9,7 +9,7 @@ const Goal_Setting = () => {
         <Menu />
         <body className="body">
             <div className="evebanner">
-                <img src="img/banner/goal-setting.png" alt=""/>
+                <img src="img/banner/goal-setting.png" alt="Goal Setting Banner"/>
             </div>
 
             <div className='container'>
@@ -25,7 +25,7 @@ const Goal_Setting = () => {
                   <h6><strong>Requirements:- </strong>White Board, Marker,  Chart Paper (8-10 sheets) 
                               Crayons ( 8-10 packets) or sketch pens (8-10 packets)
                   </h6>
-                  <img src="img/EventPics/Goal_Event-01.jpg" alt="Lights" style={{width: "100%"}}/>
+                  <img src="img/EventPics/Goal_Event-01.jpg" alt="Goal Setting" style={{width: "100%"}}/>
                 </div>
 
                 <div className=' past-event col-lg-5'>

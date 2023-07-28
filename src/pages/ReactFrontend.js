@@ -10,7 +10,7 @@ const React_Frontend = () => {
         <Menu />
         <body id="body">
             <div className="evebanner">
-                <img src="img/banner/React.png" alt=""/>
+                <img src="img/banner/React.png" alt="React Frontend Banner"/>
             </div>
             <div className='container'>
                 <div className='row'>
@@ -28,7 +28,7 @@ const React_Frontend = () => {
                         </p>
                     </div>
                     <div className='imgofabout col-lg-5'>
-                        <img className='imgofabout' src='img/courses/react-js.png' alt='Dev'></img>
+                        <img className='imgofabout' src='img/courses/react-js.png' alt='React Development'></img>
                     </div>
                 </div>
             </div>

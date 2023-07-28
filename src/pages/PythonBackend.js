@@ -10,7 +10,7 @@ const Python_Backend = () => {
         <Menu />
         <body id="body">
             <div className="evebanner">
-                <img src="img/banner/python.png" alt=""/>
+                <img src="img/banner/python.png" alt="Python Backend Banner"/>
             </div>
             <div className='container'>
                 <div className='row'>
@@ -29,7 +29,7 @@ const Python_Backend = () => {
                         </p>
                     </div>
                     <div className='imgofabout col-lg-5'>
-                        <img className='imgofabout' src='img/courses/python.jpeg' alt='Dev'></img>
+                        <img className='imgofabout' src='img/courses/python.jpeg' alt='Python Development'></img>
                     </div>
                 </div>
             </div>

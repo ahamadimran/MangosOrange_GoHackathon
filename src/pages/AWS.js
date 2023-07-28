@@ -10,7 +10,7 @@ const AWS = () => {
         <Menu />
         <body id="body">
             <div className="evebanner">
-                <img src="img/banner/cloud-infra.png" alt=""/>
+                <img src="img/banner/cloud-infra.png" alt="AWS Banner"/>
             </div>
             <div className='container'>
                 <div className='row'>
@@ -28,7 +28,7 @@ const AWS = () => {
                         </p>
                     </div>
                     <div className='imgofabout col-lg-5'>
-                        <img className='imgofabout' src='img/courses/awscloudinfra.jpeg' alt='Dev'></img>
+                        <img className='imgofabout' src='img/courses/awscloudinfra.jpeg' alt='AWS Architecture'></img>
                     </div>
                 </div>
             </div>

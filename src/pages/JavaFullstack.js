@@ -10,7 +10,7 @@ const Java_Fullstack = () => {
         <Menu />
         <body id="body">
             <div className="evebanner">
-                <img src="img/banner/java-mssql.png" alt=""/>
+                <img src="img/banner/java-mssql.png" alt="Java Banner"/>
             </div>
             <div className='container'>
                 <div className='row'>
@@ -27,7 +27,7 @@ const Java_Fullstack = () => {
                         </p> 
                     </div>
                     <div className='imgofabout col-lg-5'>
-                        <img className='imgofabout' src='img/courses/java-mongodb.png' alt='Dev'></img>
+                        <img className='imgofabout' src='img/courses/java-mongodb.png' alt='Java Fullstack'></img>
                     </div>
                 </div>
             </div>

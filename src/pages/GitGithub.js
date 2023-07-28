@@ -9,7 +9,7 @@ const Git_Github = () => {
         <Menu />
         <body className="body">
             <div className="evebanner">
-                <img src="img/banner/Git_Github.png" alt=""/>
+                <img src="img/banner/Git_Github.png" alt="Git and GitHub Banner"/>
             </div>
 
             <div className='container'>

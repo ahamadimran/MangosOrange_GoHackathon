@@ -10,7 +10,7 @@ const ELP_Turmeric_Cultivation = () => {
         <Menu/>
         <body id="body">
             <div className="evebanner">
-                <img src="img/banner/turmeric-cultivation.png" alt=""/>
+                <img src="img/banner/turmeric-cultivation.png" alt="Turmeric Cultivation Banner"/>
             </div>
             <div className='container'>
                 <div className='row'>
@@ -26,7 +26,7 @@ const ELP_Turmeric_Cultivation = () => {
                         
                     </div>
                     <div className='imgofabout col-lg-5'>
-                        <img className='imgofabout' src='img/courses/elp-turmeric-cultivation.jpg' alt='Dev'></img>
+                        <img className='imgofabout' src='img/courses/elp-turmeric-cultivation.jpg' alt='Turmeric Cultivation'></img>
                     </div>
                 </div>
             </div>

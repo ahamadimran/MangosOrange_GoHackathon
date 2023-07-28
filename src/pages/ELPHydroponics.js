@@ -10,7 +10,7 @@ const ELP_Hydroponics = () => {
         <Menu/>
         <body id="body">
             <div className="evebanner">
-                <img src="img/banner/hydroponics.png" alt=""/>
+                <img src="img/banner/hydroponics.png" alt="Hydroponics Banner"/>
             </div>
             <div className='container'>
                 <div className='row'>
@@ -25,7 +25,7 @@ const ELP_Hydroponics = () => {
                         
                     </div>
                     <div className='imgofabout col-lg-5'>
-                        <img className='imgofabout' src='img/courses/elp-hydroponics.jpg' alt='Dev'></img>
+                        <img className='imgofabout' src='img/courses/elp-hydroponics.jpg' alt='Hydroponics Process'></img>
                     </div>
                 </div>
             </div>

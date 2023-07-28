@@ -8,7 +8,7 @@ const Payment_Agitech = () => {
         <Menu/>
 
         <div class="evebanner">
-            <img src="img/banner/Payment.png" alt=""/>
+            <img src="img/banner/Payment.png" alt="Agritech Payment Banner"/>
         </div>
 
         <div class="container">
@@ -21,7 +21,7 @@ const Payment_Agitech = () => {
                         </p> 
                     </div>
                     <div class="col-lg-4">
-                        <img class="paymentsection" src="img/resources/agritech-qrcode.jpg" alt="Dev" />
+                        <img class="paymentsection" src="img/resources/agritech-qrcode.jpg" alt="Agritech QR Code" />
                     </div>
                 </div>
             </div>

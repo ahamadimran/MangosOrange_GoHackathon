@@ -10,7 +10,7 @@ const React_Fullstack = () => {
         <Menu />
         <body id="body">
             <div className="evebanner">
-                <img src="img/banner/react-node-mssql.png" alt=""/>
+                <img src="img/banner/react-node-mssql.png" alt="React Fullstack Banner"/>
             </div>
             <div className='container'>
                 <div className='row'>
@@ -28,7 +28,7 @@ const React_Fullstack = () => {
                         </p>
                     </div>
                     <div className='imgofabout col-lg-5'>
-                        <img className='imgofabout' src='img/courses/Full-Stack-Dev.png' alt='Dev'></img>
+                        <img className='imgofabout' src='img/courses/Full-Stack-Dev.png' alt='React Development'></img>
                     </div>
                 </div>
             </div>

@@ -9,7 +9,7 @@ const Ideathon = () => {
         <Menu />
         <body className="body">
             <div className="evebanner">
-                <img src="img/banner/Ideathon.png" alt=""/>
+                <img src="img/banner/Ideathon.png" alt="Ideathon Banner"/>
             </div>
 
             <div className='container'>

@@ -8,7 +8,7 @@ const Login = () => {
                 <div class="forms-container">
                     <div class="signin-signup">
                         <form class="sign-in-form" action="index.html">
-                            <img src="img/main_logo.png" class="image" alt="" />
+                            <img src="img/main_logo.png" class="image" alt="GoHackathon Logo" />
                             <br/>
 
                             <h2 class="title">SIGN IN</h2>
@@ -33,7 +33,7 @@ const Login = () => {
                         </form>
                         
                         <form  class="sign-up-form" action="index.html">
-                            <img src="img/main_logo.png" class="image" alt="" />
+                            <img src="img/main_logo.png" class="image" alt="Logo" />
                             <br/>
                             
                             <h2 class="title">SIGN UP</h2>
@@ -82,7 +82,7 @@ const Login = () => {
                             <button class="btn transparent" id="sign-up-btn">Sign up</button>
             
                         </div>
-                        <img src="img/log.svg" class="image" alt="" />
+                        <img src="img/log.svg" class="image" alt="Logo" />
                     </div>
                     
                     <div class="panel right-panel">
@@ -95,7 +95,7 @@ const Login = () => {
                             
                             <button class="btn transparent" id="sign-in-btn">Sign in</button>
                         </div>
-                        <img src="img/register.svg" class="image" alt="" />
+                        <img src="img/register.svg" class="image" alt="Registration Logo" />
                     </div>
                 </div>
 

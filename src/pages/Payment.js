@@ -8,7 +8,7 @@ const Payment = () => {
         <Menu/>
 
         <div class="evebanner">
-            <img src="img/banner/Payment.png" alt=""/>
+            <img src="img/banner/Payment.png" alt="Payment Banner"/>
         </div>
 
         <div class="container">
@@ -21,7 +21,7 @@ const Payment = () => {
                         </p> 
                     </div>
                     <div class="col-lg-4">
-                        <img class="paymentsection" src="img/resources/qrcode.jpg" alt="Dev" />
+                        <img class="paymentsection" src="img/resources/qrcode.jpg" alt="QR Code" />
                     </div>
                 </div>
             </div>

@@ -10,7 +10,7 @@ const ELP_Apiculture = () => {
         <Menu/>
         <body id="body">
             <div className="evebanner">
-                <img src="img/banner/apiculture.png" alt=""/>
+                <img src="img/banner/apiculture.png" alt="Apiculture Banner"/>
             </div>
             <div className='container'>
                 <div className='row'>
@@ -26,7 +26,7 @@ const ELP_Apiculture = () => {
                         
                     </div>
                     <div className='imgofabout col-lg-5'>
-                        <img className='imgofabout' src='img/courses/elp-apiculture.jpg' alt='Dev'></img>
+                        <img className='imgofabout' src='img/courses/elp-apiculture.jpg' alt='ELP Apiculture'></img>
                     </div>
                 </div>
             </div>

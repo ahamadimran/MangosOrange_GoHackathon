@@ -10,7 +10,7 @@ const AI_MachineLearning = () => {
         <Menu />
         <body id="body">
             <div className="evebanner">
-                <img src="img/banner/AI-ML.png" alt=""/>
+                <img src="img/banner/AI-ML.png" alt="AI and ML Banner"/>
             </div>
             <div className='container'>
                 <div className='row'>
@@ -30,7 +30,7 @@ const AI_MachineLearning = () => {
                         </p>
                     </div>
                     <div className='imgofabout col-lg-5'>
-                        <img className='imgofabout' src='img/courses/AI-ML.png' alt='Dev'></img>
+                        <img className='imgofabout' src='img/courses/AI-ML.png' alt='AI & ML'></img>
                     </div>
                 </div>
             </div>

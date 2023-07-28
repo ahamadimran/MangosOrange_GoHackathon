@@ -10,7 +10,7 @@ const Java_Frontend = () => {
         <Menu />
         <body id="body">
             <div className="evebanner">
-                <img src="img/banner/java.png" alt=""/>
+                <img src="img/banner/java.png" alt="Java Frontend Banner"/>
             </div>
             <div className='container'>
                 <div className='row'>
@@ -28,7 +28,7 @@ const Java_Frontend = () => {
                         </p>
                     </div>
                     <div className='imgofabout col-lg-5'>
-                        <img className='imgofabout' src='img/courses/java-01.jpg' alt='Dev'></img>
+                        <img className='imgofabout' src='img/courses/java-01.jpg' alt='Java Frontend'></img>
                     </div>
                 </div>
             </div>

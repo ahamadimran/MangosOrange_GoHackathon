@@ -10,7 +10,7 @@ const ELP_Organic_Farming = () => {
         <Menu/>
         <body id="body">
             <div className="evebanner">
-                <img src="img/banner/organic-farming.png" alt=""/>
+                <img src="img/banner/organic-farming.png" alt="Organic Farming Banner"/>
             </div>
             <div className='container'>
                 <div className='row'>
@@ -24,7 +24,7 @@ const ELP_Organic_Farming = () => {
                         
                     </div>
                     <div className='imgofabout col-lg-5'>
-                        <img className='imgofabout' src='img/courses/elp-organic-farming.jpg' alt='Dev'></img>
+                        <img className='imgofabout' src='img/courses/elp-organic-farming.jpg' alt='Organic Farming'></img>
                     </div>
                 </div>
             </div>

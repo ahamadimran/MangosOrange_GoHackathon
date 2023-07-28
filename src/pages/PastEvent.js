@@ -7,7 +7,7 @@ const Past_Event = () => {
     <Fragment>
       <Menu />
       <div className="evebanner">
-        <img src="img/banner/past_event.png" alt=""/>
+        <img src="img/banner/past_event.png" alt="Samadhan Banner"/>
       </div>
 
       <main>
@@ -20,7 +20,7 @@ const Past_Event = () => {
 
                 <div className="col-lg-6">
                   <div className="card">
-                    <img src="img/event/git.png" alt=""/>
+                    <img src="img/event/git.png" alt="Git Workshop Event"/>
                     <div className="card-body">
                       <p className="card-text"><strong>Event Name:- </strong>Git and GitHub Workshop<br/>
                       <strong>Event Date:- </strong>06th April 2023 <br />
@@ -34,7 +34,7 @@ const Past_Event = () => {
 
                 <div className="col-lg-6">
                   <div className="card shadow-sm">
-                    <img src="img/event/goal.jpg" alt="" />
+                    <img src="img/event/goal.jpg" alt="Goal Setting Event" />
                     <div className="card-body">
                       <p className="card-text"><strong>Event Name:- </strong>Goal Setting Workshop<br/>
                       <strong>Event Date:- </strong>29th March 2023 <br/>
@@ -59,7 +59,7 @@ const Past_Event = () => {
 
                 <div className="col-lg-6">
                   <div className="card">
-                    <img src="img/event/krishi-vikalp.jpg" alt=""/>
+                    <img src="img/event/krishi-vikalp.jpg" alt="Agriculture Event"/>
                     <div className="card-body">
                       <p className="card-text"><strong>Event Name:- </strong>KRISHI-VIKALP<br/>
                       <strong>Event Date:- </strong>25th Feb 2023 <br />
@@ -73,7 +73,7 @@ const Past_Event = () => {
 
                 <div className="col-lg-6">
                   <div className="card shadow-sm">
-                    <img src="img/event/samadhan.png" alt="" />
+                    <img src="img/event/samadhan.png" alt="Samadhan Event" />
                     <div className="card-body">
                       <p className="card-text"><strong>Event Name:- </strong>SAMADHAN<br/>
                       <strong>Event Date:- </strong>17th and 18th Dec 2022 <br/>

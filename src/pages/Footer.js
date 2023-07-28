@@ -10,7 +10,7 @@ const footer = () => {
                     <div className="col-xl-3 col-lg-3 footer-about">
                         <div className="footer-widget">
                             <div className="footer-logo">
-                                <a href="/"><img src="img/footer_logo.jpg" className="img-fluid" alt="logo" /></a>
+                                <a href="/"><img src="img/footer_logo.jpg" className="img-fluid" alt="Footer Logo" /></a>
                             </div>
                             <div className="footer-text">
                                 <p>Go Hackathon comprises eminent Industry professionals, educators, and students meant

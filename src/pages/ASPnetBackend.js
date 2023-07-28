@@ -10,7 +10,7 @@ const ASPnet_Backend = () => {
         <Menu />
         <body id="body">
             <div className="evebanner">
-                <img src="img/banner/asp-net.png" alt=""/>
+                <img src="img/banner/asp-net.png" alt="ASP.Net Banner"/>
             </div>
             <div className='container'>
                 <div className='row'>
@@ -28,7 +28,7 @@ const ASPnet_Backend = () => {
                         </p>
                     </div>
                     <div className='imgofabout col-lg-5'>
-                        <img className='imgofabout' src='img/courses/asp-net.jpg' alt='Dev'></img>
+                        <img className='imgofabout' src='img/courses/asp-net.jpg' alt='Asp.Net Training'></img>
                     </div>
                 </div>
             </div>

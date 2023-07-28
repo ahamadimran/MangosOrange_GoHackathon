@@ -9,7 +9,7 @@ const event = () => {
       <body className="eventbody">
 
   <div className="evebanner">
-    <img src="img/banner/Events.png" alt=""/>
+    <img src="img/banner/Events.png" alt="Events Banner"/>
   </div>
   <br/>
   <h2 className="text-center">Join Our Hackathon and Change the World</h2>
@@ -20,7 +20,7 @@ const event = () => {
         <article>
             <div className="article-wrapper">
                 <figure>
-                    <img src="img/event/live-event.jpg" alt="" />
+                    <img src="img/event/live-event.jpg" alt="Live Event" />
                 </figure>
                 <div className="article-body">
                     <h2>Live Event</h2>
@@ -36,7 +36,7 @@ const event = () => {
         <article>
             <div className="article-wrapper">
                 <figure>
-                    <img width="368" height="207" src="img/event/upcoming-event.avif" alt="" />
+                    <img width="368" height="207" src="img/event/upcoming-event.avif" alt="Upcoming Event" />
                 </figure>
                 <div className="article-body">
                     <h2>Upcoming Events</h2>
@@ -52,7 +52,7 @@ const event = () => {
         <article>
             <div className="article-wrapper">
                 <figure>
-                    <img width="368" height="207" src="img/event/past-event.avif" alt="" />
+                    <img width="368" height="207" src="img/event/past-event.avif" alt="Past Event" />
                 </figure>
                 <div className="article-body">
                     <h2>Past Events</h2>

@@ -10,7 +10,7 @@ const Node_Backend = () => {
         <Menu />
         <body id="body">
             <div className="evebanner">
-                <img src="img/banner/Node.png" alt=""/>
+                <img src="img/banner/Node.png" alt="Node Js Banner"/>
             </div>
             <div className='container'>
                 <div className='row'>
@@ -29,7 +29,7 @@ const Node_Backend = () => {
                         </p>
                     </div>
                     <div className='imgofabout col-lg-5'>
-                        <img className='imgofabout' src='img/courses/node-01.jpg' alt='Dev'></img>
+                        <img className='imgofabout' src='img/courses/node-01.jpg' alt='Node Development'></img>
                     </div>
                 </div>
             </div>

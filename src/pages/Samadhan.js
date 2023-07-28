@@ -8,14 +8,14 @@ const Samadhan = () => {
         <Menu />
         <body className="body">
             <div className="evebanner">
-                <img src="img/banner/samadhan.png" alt=""/>
+                <img src="img/banner/samadhan.png" alt="Samadhan Banner"/>
             </div>
                 
                     <div className="container containereventdetail">
                         <div className="past-event">
                             <div>
                                 <h6><strong>Event Name:- </strong>SAMADHAN</h6>
-                                <h6><strong>Event Mascot:- <img src="img/samadhan.png" alt=""/></strong></h6>
+                                <h6><strong>Event Mascot:- <img src="img/samadhan.png" alt="Mascot"/></strong></h6>
                                 <h6><strong>Event Date:- </strong>17th and 18th December 2022</h6>
                                 <h6><strong>Event Duration:- </strong>24hrs (Split over 2 Days)</h6>
                                 <h6><strong>Event Venue:- </strong>BTKIT Dwarahat <a href="https://goo.gl/maps/1UNyqo5NwR8kTsTVA" >https://goo.gl/maps/1UNyqo5NwR8kTsTVA</a> </h6>
@@ -60,7 +60,7 @@ const Samadhan = () => {
         <div className="row">
           <div className="col-md-4">
             <div className="thumbnail">
-                <img src="img/EventPics/Hackathon-1st-Prize.jpg" alt="Lights" style={{width: "100%"}}/>
+                <img src="img/EventPics/Hackathon-1st-Prize.jpg" alt="Samadhan Hackathon 1st Prize Winner" style={{width: "100%"}}/>
                 <div className="caption">
                   <p><strong>Hackathon 1st Prize</strong></p>
                 </div>
@@ -68,7 +68,7 @@ const Samadhan = () => {
           </div>
           <div className="col-md-4">
             <div className="thumbnail">
-                <img src="img/EventPics/Hackathon-2nd-Prize.jpg" alt="Nature" style={{width: "100%"}}/>
+                <img src="img/EventPics/Hackathon-2nd-Prize.jpg" alt="Samadhan Hackathon 2nd Prize Winner" style={{width: "100%"}}/>
                 <div className="caption">
                   <p><strong>Hackathon 2nd Prize</strong></p>
                 </div>
@@ -76,7 +76,7 @@ const Samadhan = () => {
           </div>
           <div className="col-md-4">
             <div className="thumbnail">
-                <img src="img/EventPics/Coding-1st-Prize.jpg" alt="Fjords" style={{width: "100%"}}/>
+                <img src="img/EventPics/Coding-1st-Prize.jpg" alt="Samadhan Coding Competion 1st Winner" style={{width: "100%"}}/>
                 <div className="caption">
                   <p><strong>Coding Competition 1st Prize</strong></p>
                 </div>
@@ -89,7 +89,7 @@ const Samadhan = () => {
         <div className="row">
           <div className="col-md-4">
             <div className="thumbnail">
-                <img src="img/EventPics/Ideathon-1st-Prize.jpg" alt="Lights" style={{width: "100%"}}/>
+                <img src="img/EventPics/Ideathon-1st-Prize.jpg" alt="Samadhan Ideathon 1st Prize Winner" style={{width: "100%"}}/>
                 <div className="caption">
                   <p><strong>Ideathon 1st Prize</strong></p>
                 </div>
@@ -97,7 +97,7 @@ const Samadhan = () => {
           </div>
           <div className="col-md-4">
             <div className="thumbnail">
-                <img src="img/EventPics/Ideathon-2nd-Prize.jpg" alt="Nature" style={{width: "100%"}}/>
+                <img src="img/EventPics/Ideathon-2nd-Prize.jpg" alt="Samadhan Ideathon 2nd Prize Winner" style={{width: "100%"}}/>
                 <div className="caption">
                   <p><strong>Ideathon 2nd Prize</strong></p>
                 </div>
@@ -105,7 +105,7 @@ const Samadhan = () => {
           </div>
           <div className="col-md-4">
             <div className="thumbnail">
-                <img src="img/EventPics/Ideathon-3rd-Prize.jpg" alt="Fjords" style={{width: "100%"}}/>
+                <img src="img/EventPics/Ideathon-3rd-Prize.jpg" alt="Samadhan Ideathon 3rd Prize Winner" style={{width: "100%"}}/>
                 <div className="caption">
                   <p><strong>Ideathon 2nd Prize</strong></p>
                 </div>

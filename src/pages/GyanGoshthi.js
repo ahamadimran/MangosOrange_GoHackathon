@@ -9,7 +9,7 @@ const Gyan_Goshthi = () => {
         <Menu/>
         <body id="body">
     <div class="evebanner">
-        <img src="img/banner/Gyan_Goshthi.png" alt="" />
+        <img src="img/banner/Gyan_Goshthi.png" alt="Gyan Goshthi Banner" />
       </div>
         
             <div class="container">
@@ -34,7 +34,7 @@ const Gyan_Goshthi = () => {
                         </p> 
                     </div>
                     <div class="imgofabout col-lg-5">
-                    <img class="imgofabout" src="img/event/gyan-02.png" style={{height: "150%", width: "100%"}} alt="Dev" />
+                    <img class="imgofabout" src="img/event/gyan-02.png" style={{height: "150%", width: "100%"}} alt="Gyan Goshthi" />
                     </div>
                 </div>
             </div>

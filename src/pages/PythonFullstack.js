@@ -10,7 +10,7 @@ const Python_Fullstack = () => {
         <Menu />
         <body id="body">
             <div className="evebanner">
-                <img src="img/banner/python-postgres.png" alt=""/>
+                <img src="img/banner/python-postgres.png" alt="Pyhton Fullstack Banner"/>
             </div>
             <div className='container'>
                 <div className='row'>
@@ -29,7 +29,7 @@ const Python_Fullstack = () => {
                         </p>
                     </div>
                     <div className='imgofabout col-lg-5'>
-                        <img className='imgofabout' src='img/courses/python-sql.jpeg' alt='Dev'></img>
+                        <img className='imgofabout' src='img/courses/python-sql.jpeg' alt='Python Development'></img>
                     </div>
                 </div>
             </div>

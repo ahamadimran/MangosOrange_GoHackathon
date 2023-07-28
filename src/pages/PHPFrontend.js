@@ -10,7 +10,7 @@ const PHP_Frontend = () => {
         <Menu />
         <body id="body">
             <div className="evebanner">
-                <img src="img/banner/php.png" alt=""/>
+                <img src="img/banner/php.png" alt="PHP Frontend Banner"/>
             </div>
             <div className='container'>
                 <div className='row'>
@@ -27,7 +27,7 @@ const PHP_Frontend = () => {
                         </p>
                     </div>
                     <div className='imgofabout col-lg-5'>
-                        <img className='imgofabout' src='img/courses/php.jpeg' alt='Dev'></img>
+                        <img className='imgofabout' src='img/courses/php.jpeg' alt='PHP Frontend Development'></img>
                     </div>
                 </div>
             </div>

@@ -9,7 +9,7 @@ const about = () => {
 
 <body id="body">
     <div class="evebanner">
-        <img src="img/banner/About.png" alt="" />
+        <img src="img/banner/About.png" alt="About Banner" />
       </div>
         
             <div class="container">
@@ -30,7 +30,7 @@ const about = () => {
                         </p> 
                     </div>
                     <div class="imgofabout col-lg-5">
-                        <img class="imgofabout" src="img/development2" alt="Dev" />
+                        <img class="imgofabout" src="img/development2" alt="About Header" />
                     </div>
                 </div>
             </div>
