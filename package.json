@@ -1,7 +1,7 @@
 {
   "name": "gohackathon",
   "version": "0.1.0",
-  "homepage": "https://gohackathon.in/",
+  "homepage": "https://gohackathon.in",
   "private": true,
   "dependencies": {
     "@auth0/auth0-react": "^2.0.1",
