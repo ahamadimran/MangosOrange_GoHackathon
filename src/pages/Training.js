@@ -100,7 +100,7 @@ const training = () => {
                     </div>
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
-                        <Link to="/Python_Frontend"><img src="img/courses/python.jpg" alt="Python Frontend Training" height="200px" width="100%"/></Link>
+                        <Link to="/Python_Frontend"><img src="img/courses/python.jpeg" alt="Python Frontend Training" height="200px" width="100%"/></Link>
                             <div class="card-body">
                             <h4>Python</h4>
                             </div>
@@ -149,7 +149,7 @@ const training = () => {
                     </div>
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
-                           <Link to="/Python_Backend"><img src="img/courses/python.jpg" alt="Python Backend Training" height="200px" width="100%"/></Link>
+                           <Link to="/Python_Backend"><img src="img/courses/python-01.jpg" alt="Python Backend Training" height="200px" width="100%"/></Link>
                             <div class="card-body">
                                 <h4>Python</h4>
                             </div>
