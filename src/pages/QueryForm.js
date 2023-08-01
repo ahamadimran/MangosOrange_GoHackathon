@@ -2,7 +2,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
-const ContactForm = () => {
+const QueryForm = () => {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
@@ -31,6 +31,17 @@ const ContactForm = () => {
         <input type="number" name="number" id="number" className="form-control" placeholder='Enter Your Phone No.' required />
       </div>
       <div className="form-group">
+        <label htmlFor="select_solution"><strong>Select Solution:</strong></label>
+        <select className="form-control">
+            <option value="">Select one</option>
+            <option value="erp">ERP</option>
+            <option value="crm">CRM</option>
+            <option value="hrms">HRMS</option>
+            <option value="e-commerce">E-Commerce</option>
+            <option value="others">Others</option>
+        </select>
+      </div>
+      <div className="form-group">
         <label htmlFor="message"><strong>Subject:</strong></label>
         <textarea id="message" name="message" className="form-control" placeholder='Enter Your Message' required />
       </div>
@@ -41,4 +52,4 @@ const ContactForm = () => {
   );
 };
 
-export default ContactForm;
+export default QueryForm;

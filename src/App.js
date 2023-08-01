@@ -52,6 +52,7 @@ import ELPTurmericCultivation from './pages/ELPTurmericCultivation';
 import ELPMushroomCultivation from './pages/ELPMushroomCultivation';
 import ELPHydroponics from './pages/ELPHydroponics';
 import Login from './pages/Login';
+import SoftwareDevelopment from './pages/SoftwareDevelopment';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
@@ -122,6 +123,7 @@ function App() {
           <Route path='/elp-mushroom-cultivation' element={<ELPMushroomCultivation />} />
           <Route path='/elp-hydroponics' element={<ELPHydroponics />} />
           <Route path='/login' element={<Login />} />
+          <Route path='/software-development' element={<SoftwareDevelopment />} />
         </Routes>
       </Router>
       
