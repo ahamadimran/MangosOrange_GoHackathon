@@ -2,7 +2,6 @@ import React, {Fragment} from 'react';
 import Menu from './Menu';
 import Footer from './Footer';
 import { Link } from 'react-router-dom';
-import ContactForm from './ContactForm';
 import ReactGA from 'react-ga4';
 
 const training = () => {
@@ -16,16 +15,75 @@ const training = () => {
       
     <main>
 
+    <div class="album py-5 bg-light">
+            <div class="container"> 
+                <h2 class="text-center mx-auto text-white bg-info rounded p-2 m-3">Full Stack Development</h2> <br/> <br/>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 text-center">
+                <div class="col-lg-4">
+                        <div class="card shadow-sm">
+                           <Link to="/React_Fullstack"><img src="img/courses/FullStack.jpg" alt="React, NodeJS, Mongo DB Training" height="200px" width="100%"/></Link>
+                            <div class="card-body">
+                                <h4>HTML, CSS, JS, React, Node Js, Sql Server</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card shadow-sm">
+                           <Link to="/java_fullstack"><img src="img/courses/fullstack.jpeg" alt="Java,  Mongo DB/ MS Sql Server Training" height="200px" width="100%"/></Link>
+                            <div class="card-body">
+                                <h4>HTML, CSS, JS, Java, Sql Server</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card shadow-sm">
+                        <Link to="/HTML_CSS_Js_BS_AN_SQL_fullstack"><img src="img/courses/hcjbam.jpeg" alt="HTML,CSS, JavaScript, BootStrap, ASP.Net, MySql Training" height="200px" width="100%"/></Link>
+                            <div class="card-body">
+                            <h4>HTML, CSS, JavaScript, ASP.Net, Sql Server</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="album py-5 bg-light">
+            <div class="container"> 
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 text-center">
+                <div class="col-lg-4">
+                        <div class="card shadow-sm">
+                        <Link to="/Python_Fullstack"><img src="img/courses/python-sql.jpeg" alt="Python, Mongo DB/ MS Sql Server Training" height="200px" width="100%"/></Link>
+                            <div class="card-body">
+                            <h4>HTML, CSS, Javascript, Python, Postgres</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card shadow-sm">
+                           <Link to="/PHP_MySQL_Fullstack"><img src="img/courses/php-ms-sql-server.jpeg" alt="PHP, MS Sql Server Training" height="200px" width="100%"/></Link>
+                            <div class="card-body">
+                                <h4>HTML, CSS, JS, PHP, MySql</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div className='container trainingheading'>
             <h2>BUDDING TECH PROFESSIONALS</h2>
         </div>
         <div className='container'>
             <div className='row'>
+                <div class="imgoftraining col-lg-5">
+                    <img class="imgoftraining" src="img/courses/fullstackposter.png" alt="About Header" />
+                </div>
                 <div className='col-lg-7'>
-                    <h2>Summer Internship</h2> <br/>
-                    <p>Inviting students to work on client project for summer internship. Additionally, all the 
-                        students will be groomed on Entrepreneural Skills, and Startup Formation. Interested 
-                        Students or Student Group will be provided Mentorship for their startup IDEAS.
+                    <h2>FullStack Web Development Training</h2> <br/>
+                    <p>Inviting students to work on live project using MERN. Additionally, all the 
+                        students will be skilled on Feature Listing, Prototyping, Business Documentation, 
+                        Version Control, Security, Application Testing and Deployment. Interested Students 
+                        or Student Group will be provided Mentorship for their startup IDEAS.
                     </p>
                     <p>Attention all aspiring students and tech enthusiasts! GoHackathon is excited to announce the 
                         launch of our new courses on Web Development, AI/ML, and Cloud Computing. Whether you're a 
@@ -45,30 +103,28 @@ const training = () => {
                     </ul>
 
                 </div>
-                <div className='col-lg-5'>
-                    <ContactForm/>
-                </div>
+                
             </div>
         </div>
 
         <div className="container">
           <div className="">
-          <p>Registration fees is &nbsp;
-            <a href={URL}><button className="btn btn-primary px-5 py-2 primary-btn" id="contact">₹ 500</button></a>&nbsp;
-            (Except Git & Figma)     
-          </p>
+        
+            <a href="https://forms.gle/uW35kNWfoSYxvKNb8"><button className="btn btn-primary px-5 py-2 primary-btn" id="contact">Register Now</button></a>     
+          
           </div>
         </div>
 
         <div class="album py-5 bg-light">
-            <div class="container"> 
+            <div class="container">
+            <h2 class="text-center mx-auto text-white bg-info rounded p-2 m-3">Version Control and Prototyping</h2> <br/> <br/>
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 text-center">
                 <div class="col-lg-2"></div>
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
                            <Link to="/Git_hub"><img src="img/courses/github.jpeg" alt="GiT & GiTHub Training" height="200px" width="100%"/></Link>
                             <div class="card-body">
-                                <h4>GiT & GiTHub</h4>
+                                <h4>Git & GitHub</h4>
                             </div>
                         </div>
                     </div>
@@ -190,60 +246,7 @@ const training = () => {
             </div>
         </div>
 
-        <div class="album py-5 bg-light">
-            <div class="container"> 
-                <h2 class="text-center mx-auto text-white bg-info rounded p-2 m-3">Full Stack Development</h2> <br/> <br/>
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 text-center">
-                <div class="col-lg-4">
-                        <div class="card shadow-sm">
-                           <Link to="/React_Fullstack"><img src="img/courses/FullStack.jpg" alt="React, NodeJS, Mongo DB Training" height="200px" width="100%"/></Link>
-                            <div class="card-body">
-                                <h4>HTML, CSS, JS, React, Node Js, Sql Server</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card shadow-sm">
-                           <Link to="/java_fullstack"><img src="img/courses/fullstack.jpeg" alt="Java,  Mongo DB/ MS Sql Server Training" height="200px" width="100%"/></Link>
-                            <div class="card-body">
-                                <h4>HTML, CSS, JS, Java, Sql Server</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card shadow-sm">
-                        <Link to="/HTML_CSS_Js_BS_AN_SQL_fullstack"><img src="img/courses/hcjbam.jpeg" alt="HTML,CSS, JavaScript, BootStrap, ASP.Net, MySql Training" height="200px" width="100%"/></Link>
-                            <div class="card-body">
-                            <h4>HTML, CSS, JavaScript, ASP.Net, Sql Server</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="album py-5 bg-light">
-            <div class="container"> 
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 text-center">
-                <div class="col-lg-4">
-                        <div class="card shadow-sm">
-                        <Link to="/Python_Fullstack"><img src="img/courses/python-sql.jpeg" alt="Python, Mongo DB/ MS Sql Server Training" height="200px" width="100%"/></Link>
-                            <div class="card-body">
-                            <h4>HTML, CSS, Javascript, Python, Postgres</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card shadow-sm">
-                           <Link to="/PHP_MySQL_Fullstack"><img src="img/courses/php-ms-sql-server.jpeg" alt="PHP, MS Sql Server Training" height="200px" width="100%"/></Link>
-                            <div class="card-body">
-                                <h4>HTML, CSS, JS, PHP, MySql</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
 
         <div class="album py-5 bg-light">
             <div class="container">

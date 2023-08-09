@@ -52,7 +52,7 @@ const footer = () => {
                                   </div>
                                     <div className="topic">
                                             <i className="fa fa-map-marker"></i>
-                                        &nbsp;&nbsp;&nbsp;&nbsp;<strong>AAG–11, Shipra Krishna Azure, Kaushambi, Ghaziabad, U.P 201010</strong>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;<strong>H-87, Sector-63, Noida, U.P, 201301</strong>
                                     </div>
                                 </div> <br />
                                 <div className="phone-details">

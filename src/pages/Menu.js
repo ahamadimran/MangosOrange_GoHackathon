@@ -24,13 +24,17 @@ const Menu = () => {
             <li className="nav-item">
               <a className="nav-link active" href="/about">ABOUT US</a>
             </li>
+
+            <li className="nav-item">
+              <a className="nav-link" href="/software-development">SERVICES</a>
+            </li>
             
             <li className="nav-item dropdown">
               <div className="dropdown">
                 <a href="/event" className="nav-link">EVENTS</a>
                 <div className="dropdown-content">
                   <a href="/live_event">Live Events</a>
-                  <a href="/upcoming_event">Upcoming</a>
+                  {/* <a href="/upcoming_event">Upcoming</a> */}
                   <a href="/past_event">Past Events</a>
                  </div>
               </div>
@@ -51,7 +55,7 @@ const Menu = () => {
             </li>
             
             <li className="nav-item">
-              <a className="nav-link" href="/contact">CONTACT US</a>
+              <a className="nav-link" href="/contact">CONTACT</a>
             </li>
             
             <li>

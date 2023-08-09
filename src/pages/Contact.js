@@ -19,8 +19,7 @@ const contact = () => {
               <i className="fas fa-map-marker-alt"></i>
               <div className="topic"><strong>Address</strong></div>
               <div className="text-one">
-                <a href="https://goo.gl/maps/pbUCwkLDEffmwu7y5">
-                AAG – 11, Shipra Krishna Azure <br /> Kaushambi, Ghaziabad, UP – 201010</a>
+                <a href="https://goo.gl/maps/pbUCwkLDEffmwu7y5">H-87, Sector-63, Noida, U.P, 201301</a>
               </div>
               <div className="text-two"></div>
             </div>
@@ -43,21 +42,21 @@ const contact = () => {
           </div>
           <div className="right-side">
             <div className="topic-text">Send us a message</div>
-          <form action="#">
+          <form action="form/contact.php" method='post'>
             <div className="input-box">
-              <input type="text" placeholder="Enter your name" />
+              <input type="text" name="name" placeholder="Enter your name" required />
             </div>
             <div className="input-box">
-              <input type="text" placeholder="Enter your email" />
+              <input type="email" name="email" placeholder="Enter your email" required />
             </div>
             <div className="input-box">
-                <input type="text" placeholder="Enter your number" />
+                <input type="number" name="number" placeholder="Enter your number" required />
               </div>
             <div className="input-box">
-                <input type="text" placeholder="Enter your message" />
+                <input type="text" name="message" placeholder="Enter your message" required />
             </div>
             <div className="button">
-              <input type="button" value="Send Now" />
+              <input type="submit" name='submit' value="Submit" />
             </div>
           </form>
         </div>

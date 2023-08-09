@@ -16,7 +16,7 @@ const index = () => {
                 <div className="col-lg-7  bannertext">
                     <h1>GOHACKATHON</h1>
                     <h6>Presents</h6>
-                    <h2><strong>Project Based Summer Internship</strong></h2>
+                    <h2><strong>FullStack Web Development Training</strong></h2>
                     <p><strong>Collaborate, Innovate, and Hack Your Way to Success!</strong><br />
                         We are trying to build a community where everyone can connect, learn, and grow together.
                     </p> <br /> 
