@@ -3,10 +3,16 @@ import Menu from './Menu';
 import Footer from './Footer';
 import ContactForm from './ContactForm';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 const AI_MachineLearning = () => {
   return (
     <Fragment>
+        <div className='ai-machine-learning'>
+            <Helmet>
+                <title>Unleash Your AI Potential With GoHackathon</title>
+                <meta name="description" content="Join GoHackathon's AI & Machine Learning challenge and showcase your coding prowess."/>
+            </Helmet>
         <Menu />
         <body id="body">
             <div className="evebanner">
@@ -94,6 +100,7 @@ const AI_MachineLearning = () => {
             </div>
         </body>
         <Footer />
+        </div>
     </Fragment>
   )
 }

@@ -1,8 +1,21 @@
-import React, {Fragment} from 'react';
+import React, {Fragment, useRef} from 'react';
 import Menu from './Menu';
 import Footer from './Footer';
+import emailjs from '@emailjs/browser';
 
 const contact = () => {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_zdasi0h', 'template_37f5djs', form.current, 's30AsxsMtJubgeV9B')
+      .then((result) => {
+          console.log(result.text);
+          alert("Thank you for query. We will connect with you shortly");
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
   return (
     <Fragment>
       <body>
@@ -42,7 +55,7 @@ const contact = () => {
           </div>
           <div className="right-side">
             <div className="topic-text">Send us a message</div>
-          <form action="form/contact.php" method='post'>
+          <form id="contact_form" ref={form} onSubmit={sendEmail}>
             <div className="input-box">
               <input type="text" name="name" placeholder="Enter your name" required />
             </div>

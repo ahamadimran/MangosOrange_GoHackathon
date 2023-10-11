@@ -3,10 +3,16 @@ import Menu from './Menu';
 import Footer from './Footer';
 import ContactForm from './ContactForm';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 const PHP_Frontend = () => {
   return (
     <Fragment>
+        <div className='php-frontend'>
+            <Helmet>
+                <title>GoHackathon: Unleash the Power of PHP in Frontend Innovation</title>
+                <meta name="description" content="Join the GoHackathon for an exciting journey into the world of frontend development with PHP. Showcase your creativity and technical skills."/>
+            </Helmet>
         <Menu />
         <body id="body">
             <div className="evebanner">
@@ -92,6 +98,7 @@ const PHP_Frontend = () => {
         </body>
 
         <Footer />
+        </div>
     </Fragment>
   )
 }

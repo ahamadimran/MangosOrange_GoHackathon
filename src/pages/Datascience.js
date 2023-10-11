@@ -3,10 +3,16 @@ import Menu from './Menu';
 import Footer from './Footer';
 import ContactForm from './ContactForm';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 const Datascience = () => {
   return (
     <Fragment>
+        <div className='data-science'>
+            <Helmet>
+                <title>Dive into Data Science Excellence at GoHackathon</title>
+                <meta name="description" content="Participate in GoHackathon's Data Science challenge and demonstrate your data analysis prowess."/>
+            </Helmet>
         <Menu />
         <body id="body">
             <div className="evebanner">
@@ -91,6 +97,7 @@ const Datascience = () => {
             </div>
         </body>
         <Footer />
+        </div>
     </Fragment>
   )
 }

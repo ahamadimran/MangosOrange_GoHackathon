@@ -14,13 +14,13 @@ const index = () => {
         <div className="container">
             <div className="row">
                 <div className="col-lg-7  bannertext">
-                    <h1>GOHACKATHON</h1>
+                    <h1>GOHACKATHON</h1> <br/>
                     <h6>Presents</h6>
-                    <h2><strong>FullStack Web Development Training</strong></h2>
+                    <h3><strong>FullStack Web Development Internship</strong></h3>
                     <p><strong>Collaborate, Innovate, and Hack Your Way to Success!</strong><br />
                         We are trying to build a community where everyone can connect, learn, and grow together.
                     </p> <br /> 
-                    <NavLink to="https://forms.gle/DRSMSzoRDhKqxQ8X7"><button className="btn btn-primary px-5 py-2 primary-btn">REGISTER NOW</button></NavLink>
+                    <NavLink to="https://forms.gle/uW35kNWfoSYxvKNb8"><button className="btn btn-primary px-5 py-2 primary-btn">Register Now</button></NavLink>
                 </div>
                 <div className="col-lg-5 bannertext">
                     <img src="img/development2" alt="Fullstack Web Development" />
@@ -31,12 +31,110 @@ const index = () => {
     
     <section className="section-2  p-0">
         <div className="purchase text-center">
-            <h1>Budding Tech Professional</h1>
-            <p className="text-secondary">
-                Learn, Practice, and Test Your Skills with Our Training.
-            </p>
+            <h2>Empowering Your Vision</h2>
+            <p className="text-secondary">Empowering Your Digital Vision with Cutting-Edge Solutions</p>
         </div>
-        <section className="articles">
+
+        <div className='container'>
+            <div class="row">
+
+                <div class="col-sm-3">
+                    <div class="card card-section">
+                        <a href="/software-development" style={{textDecoration: 'none', color: 'black'}}>
+                            <div class="card-body">
+                                <img src='img/resources/web-icon.png' alt='Web Development'></img>
+                                <h5 class="card-title">Web</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="card card-section">
+                        <a href="/software-development" style={{textDecoration: 'none', color: 'black'}}>
+                            <div class="card-body">
+                                <img src='img/resources/app-icon.png' alt='App Development'></img>
+                                <h5 class="card-title">App</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="card card-section">
+                        <a href="/software-development" style={{textDecoration: 'none', color: 'black'}}>
+                            <div class="card-body">
+                                <img src='img/resources/cloud-icon.png' alt='Cloud Infrastructure'></img>
+                                <h5 class="card-title">Cloud</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="card card-section">
+                        <a href="/software-development" style={{textDecoration: 'none', color: 'black'}}>
+                            <div class="card-body">
+                                <img src='img/resources/open-source-icon.png' alt='Open Source Customization'></img>
+                                <h5 class="card-title">Open Source</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div className='container service-section'>
+            <div class="row">
+
+                <div class="col-sm-3">
+                    <div class="card card-section">
+                        <a href="/software-development" style={{textDecoration: 'none', color: 'black'}}>
+                            <div class="card-body">
+                                <img src='img/resources/custom-software-icon.png' alt='Custom Software Development'></img>
+                                <h5 class="card-title">Custom Software</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="card card-section">
+                        <a href="/software-development" style={{textDecoration: 'none', color: 'black'}}>
+                            <div class="card-body">
+                                <img src='img/resources/tech-assist-icon.png' alt='Tech Assistance for Startup'></img>
+                                <h5 class="card-title">Tech Assistance</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="card card-section">
+                        <a href="/software-development" style={{textDecoration: 'none', color: 'black'}}>
+                            <div class="card-body">
+                                <img src='img/resources/ui-ux-icon.png' alt='UI/UX Design'></img>
+                                <h5 class="card-title">UI/UX Design</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="card card-section">
+                        <a href="/software-development" style={{textDecoration: 'none', color: 'black'}}>
+                            <div class="card-body">
+                                <img src='img/resources/ecommerce-icon.png' alt='E-Commerce Development'></img>
+                                <h5 class="card-title">E-Commerce</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        {/* <section className="articles">
             <article>
                 <div className="article-wrapper">
                     <figure>
@@ -85,40 +183,71 @@ const index = () => {
                     </div>
                 </div>
             </article>
-        </section>
+        </section> */}
     </section>
 
     <section className="section-2  p-0">
         <div className="purchase text-center">
-            <h1>Popular Courses</h1>
-            <p className="text-secondary">
-                Learn, Practice, and Test Your Skills with Our courses.
-            </p>
+            <h2>Popular Skills</h2>
+            <p className="text-secondary">Learn, Practice, and Test Your Skills with Our Courses</p>
         </div>
-        <section className="articles">
-            <article>
-                <div className="article-wrapper">
-                    <figure>
-                        <img width="368" height="207" src="img/courses/datascience.jpeg" alt="AI and ML Training" />
-                    </figure>
-                    <div className="article-body">
-                        <h3>AI and Machine Learning</h3>
-                        <p>
-                            This course provides students with a comprehensive introduction to data science and
-                             machine learning. Students will learn how to extract insights and knowledge from 
-                             large data sets using popular data analysis and machine learning techniques. 
-                        </p>
-                       <a className="btn btn-primary" href="/ai_machine_learning" role="button">Know More</a>
+
+        <div className='container'>
+            <div className='row'>
+                <div class="card-deck">
+                    <div class="card">
+                        <img class="card-img-top" src="img/courses/FullStack.jpg" alt="Card cap"/>
+                        <div class="card-body">
+                            <h5 class="card-title">Full Stack Development</h5>
+                            <p class="card-text">Students receive a thorough introduction to database and full stack 
+                            development in this course. With the technical understanding of front-end and back-end 
+                            programming, students will discover the nuances of data structures and algorithms.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <a className="btn btn-outline-info btn-block" href="/React_Fullstack" role="button">Know More</a>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <img class="card-img-top" src="img/courses/cloud-infra.jpg" alt="Card cap"/>
+                        <div class="card-body">
+                            <h5 class="card-title">Cloud Infrastructures</h5>
+                            <p class="card-text">Develop your knowledge of containers, deployment strategies, and 
+                            immutable infrastructure. Create a portfolio for cloud computing containing labs, projects, 
+                            and a capstone project. Discover AWS, Azure, GCP, and more.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <a className="btn btn-outline-info btn-block" href="/aws" role="button">Know More</a>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <img class="card-img-top" src="img/courses/digital-marketing.jpg" alt="Card cap"/>
+                        <div class="card-body">
+                            <h5 class="card-title">Digital Marketing</h5>
+                            <p class="card-text">Are you ready to harness the power of Digital Marketing to supercharge 
+                            your brand's online presence? Our Comprehensive Digital Marketing Mastery course is designed 
+                            to equip you with the skills, strategies, and insights needed to excel in the dynamic world 
+                            of digital marketing.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <a className="btn btn-outline-info btn-block" href={"URL"} role="button">Know More</a>
+                        </div>
                     </div>
                 </div>
-            </article>
+            </div>
+        </div>
+        {/* <section className="articles">
             <article>
                 <div className="article-wrapper">
                     <figure>
                         <img width="368" height="207" src="img/courses/FullStack.jpg" alt="Fullstack Web Development Training" />
                     </figure>
                     <div className="article-body">
-                        <h3>Full Stack Development</h3>
+                        <h3>Web / App Development</h3>
                         <p>
                             Students receive a thorough introduction to database and full stack development in 
                             this course. With the technical understanding of front-end and back-end programming, 
@@ -138,34 +267,99 @@ const index = () => {
                         <p>
                             Develop your knowledge of containers, deployment strategies, and immutable infrastructure. 
                             Create a portfolio for cloud computing containing labs, projects, and a capstone project. 
-                            Discover AWS, DevOps, and more. 
+                            Discover AWS, Azure, GCP, and more. 
                         </p>
                        <a className="btn btn-primary" href="/aws" role="button">Know More</a>
                     </div>
                 </div>
             </article>
-        </section>
+
+            <article>
+                <div className="article-wrapper">
+                    <figure>
+                        <img width="368" height="207" src="img/courses/digital-marketing.jpg" alt="Digital Marketing" />
+                    </figure>
+                    <div className="article-body">
+                        <h3>Digital Marketing</h3>
+                        <p>Are you ready to harness the power of Digital Marketing to supercharge your brand's online presence? 
+                            Our Comprehensive Digital Marketing Mastery course is designed to equip you with the 
+                            skills, strategies, and insights needed to excel in the dynamic world of digital marketing.  
+                        </p>
+                       <a className="btn btn-primary" href="{URL}" role="button">Know More</a>
+                    </div>
+                </div>
+            </article>
+        </section> */}
     </section>
 
-    <section className="section-4">
-        <div className="container text-center">
-            <h1 className="text-dark">Industrial Partners</h1>
-            <p className="text-secondary">Some of our collaborations with top Industry</p>
+    <section className="section-2  p-0">
+        <div className="purchase text-center">
+            <h2>Our U.S.P</h2>
+            <p className="text-secondary">Elevating Solutions, Empowering Success</p>
         </div>
+
+        <div className='container'>
+            <div className='row'>
+                <div className='card-deck'>
+                    <div className='card'>
+                        <div class="bg-dark text-white">
+                            <img class="card-img" src="img/resources/budding-tech.jpg" alt="Budding Tech Professionals"/>
+                            {/* <div class="card-img-overlay">
+                                <h3 class="card-title">Budding Tech Professionals</h3>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <a href={"URL"}><p class="card-text">Know More</p></a>
+                            </div> */}
+                        </div>
+                    </div>
+
+                    <div className='card'>
+                        <div class="bg-dark text-white">
+                            <img class="card-img" src="img/resources/startup-tech.jpg" alt="Startup Tech Assistance"/>
+                            {/* <div class="card-img-overlay">
+                                <h3 class="card-title">Startup Tech Assistance</h3>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <a href={"URL"}><p class="card-text">Know More</p></a>
+                            </div> */}
+                        </div>
+                    </div>
+
+                    <div className='card'>
+                        <div class="bg-dark text-white">
+                            <img class="card-img" src="img/resources/hackathon-event.jpg" alt="Startup Tech Assistance"/>
+                            {/* <div class="card-img-overlay">
+                                <h3 class="card-title">Hackathon Events</h3>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <a href={"URL"}><p class="card-text">Know More</p></a>
+                            </div> */}
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+        </div> 
+    </section>
+    
+
+    <section className="section-4">
+        <div className="purchase text-center">
+            <h2>Corporate and Educational Partners</h2>
+            <p className="text-secondary">Some of our collaborations with top Industries and Educational Institutes</p>
+        </div>
+        <div className='container'>
         <div className="row team">
             <div className="col-md-4 col-12 text-center">
                 <div className="card d-inline-block shadow-lg">
                     <div className="card-img-top">
                         <img src="img/resources/appsquadz-logo.png" className="img-fluid p-4" alt="Appsquadz Logo" />
                     </div>
-                    <div   className="card-body">
+                    {/* <div   className="card-body">
                         <h3 className="card-title">AppSquadz</h3>
                         <p className="card-text-index">
                             As a leading Mobile & Web App Development Company, our professional expertise lies 
                             in IoT, Blockchain, web app development, AR/VR, cross-platform. Our dedication and 
                             commitment to 100% client satisfaction is the chief reason for our global presence
                         </p>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <div className="col-md-4 col-12 text-center">
@@ -173,14 +367,14 @@ const index = () => {
                     <div className="card-img-top">
                         <img src="img/resources/MTS.png" className="img-fluid p-4" alt="Migratech Logo" />
                     </div>
-                    <div   className="card-body">
+                    {/* <div   className="card-body">
                         <h3 className="card-title">Migratech</h3>
                         <p className="card-text-index">
                             we been delivering software development and related IT services.Our professional team 
                             works closely with you to understand your exact requirement and respond with the best 
                             eye-catching web-designs and most innovative web development solutions for you.
                         </p>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             
@@ -189,16 +383,67 @@ const index = () => {
                     <div className="card-img-top">
                         <img src="img/resources/gennext-logo.png" className="img-fluid p-4" alt="Gennext Logo" />
                     </div>
-                    <div className="card-body">
+                    {/* <div className="card-body">
                         <h3 className="card-title">GenNext</h3>
                         <p className="card-text-index">
                             Gennext Is An Emerging Leader Of Next-Generation Information Technology Services 
                             And Solutions. To Provide Innovative Solutions To Our Customers Through Best-In-Class 
                             Technology And Industry Solutions. We Leverage Our Domain Expertise To Deliver.
                         </p>
-                    </div>
+                    </div> */}
                 </div>
             </div>
+
+            <div className="col-md-4 col-12 text-center">
+                <div className="card d-inline-block shadow-lg">
+                    <div className="card-img-top">
+                        <img src="img/collaborator1.png" className="img-fluid p-4" alt="BTKIT Logo" />
+                    </div>
+                    {/* <div   className="card-body">
+                        <h3 className="card-title">BTKIT DWARAHAT</h3>
+                        <p className="card-text-index">
+                            GoHackathon works with BTKIT's Training and Placement cell to provide technical and 
+                            professional exposure, enhance student skills and bring better job opportunities to 
+                            the institute.
+                           <a className="btn btn-primary" href="https://kecua.ac.in/" role="button">Know More</a>
+                        </p>
+                    </div> */}
+                </div>
+            </div>
+
+            <div className="col-md-4 col-12 text-center">
+                <div className="card d-inline-block shadow-lg">
+                    <div className="card-img-top">
+                        <img src="img/resources/graphic-era-logo.png" className="img-fluid p-4" alt="Graphic Era Logo" />
+                    </div>
+                    {/* <div className="card-body">
+                        <h3 className="card-title">GRAPHIC ERA</h3>
+                        <p className="card-text-index">
+                            GoHackathon works with Graphic Era Hill University to provide research platform for students, industry, alumni, 
+                            start-ups, small and medium enterprises, faculty and researchers by helping them 
+                            technology innovations.
+                           <a className="btn btn-primary" href="https://graphicerauniversity.co.in/" role="button">Know More</a>
+                        </p>
+                    </div> */}
+                </div>
+            </div>
+
+            <div className="col-md-4 col-12 text-center">
+                <div className="card d-inline-block shadow-lg">
+                    <div className="card-img-top">
+                        <img src="img/resources/coer-logo.png" className="img-fluid p-4" alt="Coer Logo" />
+                    </div>
+                    {/* <div className="card-body">
+                        <h3 className="card-title">COER UNIVERSITY</h3>
+                        <p className="card-text-index">
+                            GoHackathon works with Coer University to promote and enhance skill development and employment generation 
+                            activities with relevant skills & On the Job Training required for making them employable.
+                           <a className="btn btn-primary" href="https://coer.ac.in/" role="button">Know More</a>
+                        </p>
+                    </div> */}
+                </div>
+            </div>
+        </div>
         </div>
     </section>
     <hr/>
@@ -225,71 +470,6 @@ const index = () => {
             </div>
         </div>
     </div>
-    <hr/>
-
-    <section className="section-4">
-        <div className="container text-center">
-            <h1 className="text-dark">Institutional Partners</h1>
-            <p className="text-secondary">Some of our collaborations with top colleges</p>
-        </div>
-        <div className="row team">
-            <div className="col-md-4 col-12 text-center">
-                <div className="card d-inline-block shadow-lg">
-                    <div className="card-img-top">
-                        <img src="img/collaborator1.png" className="img-fluid p-4" alt="BTKIT Logo" />
-                    </div>
-                    <div   className="card-body">
-                        <h3 className="card-title">BTKIT DWARAHAT</h3>
-                        <p className="card-text-index">
-                            GoHackathon works with BTKIT's Training and Placement cell to provide technical and 
-                            professional exposure, enhance student skills and bring better job opportunities to 
-                            the institute.
-                        </p>
-                       
-                        <p>
-                           <a className="btn btn-primary" href="https://kecua.ac.in/" role="button">Know More</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div className="col-md-4 col-12 text-center">
-                <div className="card d-inline-block shadow-lg">
-                    <div className="card-img-top">
-                        <img src="img/resources/graphic-era-logo.png" className="img-fluid p-4" alt="Graphic Era Logo" />
-                    </div>
-                    <div   className="card-body">
-                        <h3 className="card-title">GRAPHIC ERA</h3>
-                        <p className="card-text-index">
-                            GoHackathon works with Graphic Era Hill University to provide research platform for students, industry, alumni, 
-                            start-ups, small and medium enterprises, faculty and researchers by helping them 
-                            technology innovations.
-                        </p>
-                        <p>
-                           <a className="btn btn-primary" href="https://graphicerauniversity.co.in/" role="button">Know More</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            
-            <div className="col-md-4 col-12 text-center">
-                <div className="card d-inline-block shadow-lg">
-                    <div className="card-img-top">
-                        <img src="img/resources/coer-logo.png" className="img-fluid p-4" alt="Coer Logo" />
-                    </div>
-                    <div className="card-body">
-                        <h3 className="card-title">COER UNIVERSITY</h3>
-                        <p className="card-text-index">
-                            GoHackathon works with Coer University to promote and enhance skill development and employment generation 
-                            activities with relevant skills & On the Job Training required for making them employable.
-                        </p>
-                        <p>
-                           <a className="btn btn-primary" href="https://coer.ac.in/" role="button">Know More</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"

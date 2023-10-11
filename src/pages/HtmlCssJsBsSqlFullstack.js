@@ -3,10 +3,16 @@ import Menu from './Menu';
 import Footer from './Footer';
 import ContactForm from './ContactForm';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 const HTML_CSS_Js_BS_AN_SQL_fullstack = () => {
   return (
     <Fragment>
+        <div className='aspnet-fullstack'>
+            <Helmet>
+                <title>Learn HTML, CSS, JS, Bootstrap, Angular, SQL</title>
+                <meta name="description" content="Master the complete web development stack with GoHackathon HTML, CSS, JavaScript, Bootstrap, Angular, and SQL Fullstack course."/>
+            </Helmet>
         <Menu />
         <body id="body">
             <div className="evebanner">
@@ -146,6 +152,7 @@ const HTML_CSS_Js_BS_AN_SQL_fullstack = () => {
             </div>
         </body>
         <Footer />
+        </div>
     </Fragment>
   )
 }

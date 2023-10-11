@@ -3,10 +3,16 @@ import Menu from './Menu';
 import Footer from './Footer';
 import ContactForm from './ContactForm';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 const Python_Backend = () => {
   return (
     <Fragment>
+        <div className='python-backend'>
+            <Helmet>
+                <title>Power Up Your Python Backend with GoHackathon</title>
+                <meta name="description" content="Join the GoHackathon Python Backend challenge and showcase your coding prowess! Compete with fellow developers, build innovative Python backends."/>
+            </Helmet>
         <Menu />
         <body id="body">
             <div className="evebanner">
@@ -91,6 +97,7 @@ const Python_Backend = () => {
         </body>
 
         <Footer />
+        </div>
     </Fragment>
   )
 }

@@ -3,10 +3,16 @@ import Menu from './Menu';
 import Footer from './Footer';
 import ContactForm from './ContactForm';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 const Python_Frontend = () => {
   return (
     <Fragment>
+        <div className='python-frontend'>
+            <Helmet>
+                <title>Unleash the Power of Python in Frontend Development</title>
+                <meta name="description" content="Explore the limitless potential of Python in frontend development at GoHackathon. Join us for a creative coding challenge."/>
+            </Helmet>
         <Menu />
         <body id="body">
             <div className="evebanner">
@@ -92,6 +98,7 @@ const Python_Frontend = () => {
         </body>
 
         <Footer />
+        </div>
     </Fragment>
   )
 }

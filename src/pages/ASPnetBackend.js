@@ -3,10 +3,16 @@ import Menu from './Menu';
 import Footer from './Footer';
 import ContactForm from './ContactForm';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 const ASPnet_Backend = () => {
   return (
     <Fragment>
+        <div className='aspnet-backend'>
+            <Helmet>
+                <title>Elevate Your Backend Skills with ASP.NET</title>
+                <meta name="description" content="Join the GoHackathon and dive into the world of backend development with ASP.NET."/>
+            </Helmet>
         <Menu />
         <body id="body">
             <div className="evebanner">
@@ -90,6 +96,7 @@ const ASPnet_Backend = () => {
         </body>
 
         <Footer />
+        </div>
     </Fragment>
   )
 }

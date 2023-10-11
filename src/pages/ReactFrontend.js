@@ -3,10 +3,16 @@ import Menu from './Menu';
 import Footer from './Footer';
 import ContactForm from './ContactForm';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 const React_Frontend = () => {
   return (
     <Fragment>
+        <div className='react-frontend'>
+            <Helmet>
+                <title>Mastering React for Cutting-Edge Frontend Development</title>
+                <meta name="description" content="Unlock the full potential of React in frontend development. Dive into the world of modern web interfaces, showcasing your creativity and expertise."/>
+            </Helmet>
         <Menu />
         <body id="body">
             <div className="evebanner">
@@ -91,6 +97,7 @@ const React_Frontend = () => {
         </body>
 
         <Footer />
+        </div>
     </Fragment>
   )
 }

@@ -3,10 +3,16 @@ import Menu from './Menu';
 import Footer from './Footer';
 import ContactForm from './ContactForm';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 const React_Fullstack = () => {
   return (
     <Fragment>
+        <div className='react-fullstack'>
+            <Helmet>
+                <title>Unlock React Expertise: Join GoHackathon's Exclusive Course</title>
+                <meta name="description" content="Join GoHackathon React Course and level up your development skills. Explore React.js, build dynamic web applications, and advance your career."/>
+            </Helmet>
         <Menu />
         <body id="body">
             <div className="evebanner">
@@ -145,6 +151,7 @@ const React_Fullstack = () => {
             </div>
         </body>
         <Footer />
+        </div>
     </Fragment>
   )
 }

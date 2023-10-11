@@ -3,10 +3,16 @@ import Menu from './Menu';
 import Footer from './Footer';
 import ContactForm from './ContactForm';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 const Git_hub = () => {
   return (
     <Fragment>
+        <div className='github'>
+            <Helmet>
+                <title>Advanced GitHub Training: Streamline Development and Collaboration</title>
+                <meta name="description" content="Unlock the power of version control and collaboration with our GitHub training. Master branching, pull requests, collaboration strategies, and more. "/>
+            </Helmet>
         <Menu />
         <body id="body">
             <div className="evebanner">
@@ -77,8 +83,8 @@ const Git_hub = () => {
                             <li>Integrating Git with other development tools, such as Continuous Integration/Continuous Deployment (CI/CD) systems</li>
                             <li>Understanding Git internals, including the Git object model and how Git stores and retrieves data.</li>
                         </ul> <br/>
-                        <p><strong>Training Cost:- ₹ 1500/-</strong></p>
-                        <button className="btn btn-primary">Duration: 1-2 Weeks</button> &nbsp;
+                        <p><strong>Training Cost:- ₹ 149/-</strong></p>
+                        <button className="btn btn-primary">Duration: 1 Week</button> &nbsp;
                         <Link to="/payment"><button className="btn btn-primary">Buy Now</button></Link> &nbsp;
                         <Link to="/contact"><button className="btn btn-primary">Know More</button></Link>
                         
@@ -92,6 +98,7 @@ const Git_hub = () => {
         </body>
 
         <Footer />
+        </div>
     </Fragment>
   )
 }

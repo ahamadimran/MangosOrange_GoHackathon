@@ -3,10 +3,16 @@ import Menu from './Menu';
 import Footer from './Footer';
 import ContactForm from './ContactForm';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 const HTML_CSS_Js_Tailwind_Frontend = () => {
   return (
     <Fragment>
+        <div className='html-css-js-frontend'>
+            <Helmet>
+                <title>Elevate Your Skills: HTML, CSS, JS, and Bootstrap Frontend </title>
+                <meta name="description" content="Join GoHackathon comprehensive Frontend Training program and sharpen your skills in HTML, CSS, JavaScript, and Bootstrap. "/>
+            </Helmet>
         <Menu />
         <body id="body">
             <div className="evebanner">
@@ -15,7 +21,7 @@ const HTML_CSS_Js_Tailwind_Frontend = () => {
             <div className='container'>
                 <div className='row'>
                     <div className='aboutsection col-lg-7'>
-                        <h2>HTML,CSS, JavaScript, BootStrap, Tailwind</h2>
+                        <h2>HTML,CSS, Bootstrap, JavaScript</h2>
                         <p>Learn the basics of HTML, the markup language used to create web pages. Learn how 
                             to use CSS, the language used to style HTML documents and create visually appealing 
                             web pages. Learn the fundamentals of JavaScript, the programming language used to 
@@ -88,6 +94,7 @@ const HTML_CSS_Js_Tailwind_Frontend = () => {
         </body>
 
         <Footer />
+        </div>
     </Fragment>
   )
 }

@@ -3,10 +3,16 @@ import Menu from './Menu';
 import Footer from './Footer';
 import ContactForm from './ContactForm';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 const Java_Backend = () => {
   return (
     <Fragment>
+        <div className='java-backend'>
+            <Helmet>
+                <title>Master java backend development: gohackathon</title>
+                <meta name="description" content="Step into the Java backend arena at gohackathon. Compete with Java enthusiasts, craft robust and scalable backends."/>
+            </Helmet>
         <Menu />
         <body id="body">
             <div className="evebanner">
@@ -92,6 +98,7 @@ const Java_Backend = () => {
         </body>
 
         <Footer />
+        </div>
     </Fragment>
   )
 }

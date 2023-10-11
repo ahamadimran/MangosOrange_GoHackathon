@@ -3,11 +3,19 @@ import Menu from './Menu';
 import Footer from './Footer';
 import ContactForm from './ContactForm';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 const Figma = () => {
   return (
     <Fragment>
-        <Menu />
+       <div className='figma'>
+            <Helmet>
+                <title>Figma Training Course | Live Project Based Internship</title>
+                <meta name="description" content="Join our Figma Training Course with Live Project-Based Internship for hands-on design experience. Learn Figma from experts and enhance your design skills."/>
+                <link rel='canonical' href='http://localhost:3000/figma'></link>
+            </Helmet>
+
+            <Menu />
         <body id="body">
             <div className="evebanner">
                 <img src="img/banner/Figma.png" alt="Figma Banner"/>
@@ -67,8 +75,8 @@ const Figma = () => {
                             end of the course, students will have created several designs and prototypes using 
                             Figma.
                         </p> <br/>
-                        <p><strong>Training Cost:- ₹ 1500/-</strong></p>
-                        <button className="btn btn-primary">Duration: 1-2 Weeks</button> &nbsp;
+                        <p><strong>Training Cost:- ₹ 149/-</strong></p>
+                        <button className="btn btn-primary">Duration: 1 Week (Master Class)</button> &nbsp;
                         <Link to="/payment"><button className="btn btn-primary">Buy Now</button></Link> &nbsp;
                         <Link to="/contact"><button className="btn btn-primary">Know More</button></Link>
                     </div>
@@ -81,6 +89,7 @@ const Figma = () => {
         </body>
 
         <Footer />
+        </div>
     </Fragment>
   )
 }

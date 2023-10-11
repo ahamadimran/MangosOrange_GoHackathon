@@ -39,20 +39,9 @@ import Ideathon from './pages/Ideathon';
 import RegistrationForm from './pages/RegistrationForm';
 import Hackathon from './pages/Hackathon';
 import Payment from './pages/Payment';
-import PaymentAgitech from './pages/PaymentAgitech';
-import AgritechTraining from './pages/AgritechTraining';
-import RAWEApiculture from './pages/RAWEApiculture';
-import RAWEOrganicFarming from './pages/RAWEOrganicFarming';
-import RAWETurmericCultivation from './pages/RAWETurmericCultivation';
-import RAWEMushroomCultivation from './pages/RAWEMushroomCultivation';
-import RAWEHydroponics from './pages/RAWEHydroponics';
-import ELPApiculture from './pages/ELPApiculture';
-import ELPOrganicFarming from './pages/ELPOrganicFarming';
-import ELPTurmericCultivation from './pages/ELPTurmericCultivation';
-import ELPMushroomCultivation from './pages/ELPMushroomCultivation';
-import ELPHydroponics from './pages/ELPHydroponics';
 import Login from './pages/Login';
 import SoftwareDevelopment from './pages/SoftwareDevelopment';
+import OnlineExam from './pages/OnlineExam';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
@@ -85,45 +74,34 @@ function App() {
           <Route path='/git_github' element={<GitGithub />} />
           <Route path='/gyan_goshthi' element={<GyanGoshthi />} />
           <Route path='/contact_form' element={<ContactForm />} />
-          <Route path='/git_hub' element={<GitHub />} />
+          <Route path='/git-hub' element={<GitHub />} />
           <Route path='/figma' element={<Figma />} />
-          <Route path='/html_css_js_Tailwind_frontend' element={<HtmlCssJsBsFrontend />} />
-          <Route path='/python_frontend' element={<PythonFrontend />} />
+          <Route path='/html-css-javascript' element={<HtmlCssJsBsFrontend />} />
+          <Route path='/python-frontend' element={<PythonFrontend />} />
           <Route path='/java_frontend' element={<JavaFrontend />} />
-          <Route path='/php_frontend' element={<PHPFrontend />} />
-          <Route path='/react_frontend' element={<ReactFrontend />} />
-          <Route path='/aspnet_backend' element={<ASPnetBackend />} />
-          <Route path='/python_backend' element={<PythonBackend />} />
-          <Route path='/java_backend' element={<JavaBackend />} />
-          <Route path='/php_backend' element={<PHPBackend />} />
-          <Route path='/node_backend' element={<NodeBackend />} />
+          <Route path='/php-frontend' element={<PHPFrontend />} />
+          <Route path='/react-frontend' element={<ReactFrontend />} />
+          <Route path='/aspnet-backend' element={<ASPnetBackend />} />
+          <Route path='/python-backend' element={<PythonBackend />} />
+          <Route path='/java-backend' element={<JavaBackend />} />
+          <Route path='/php-backend' element={<PHPBackend />} />
+          <Route path='/node-backend' element={<NodeBackend />} />
           <Route path='/devops' element={<DEVOPS />} />
-          <Route path='/ai_machine_learning' element={<AIMachineLearning />} />
+          <Route path='/ai-machine-learning' element={<AIMachineLearning />} />
           <Route path='/aws' element={<AWS />} />
-          <Route path='/datascience' element={<Datascience />} />
-          <Route path='/html_css_js_bs_an_sql_fullstack' element={<HtmlCssJsBsSqlFullstack />} />
-          <Route path='/python_fullstack' element={<PythonFullstack />} />
-          <Route path='/java_fullstack' element={<JavaFullstack />} />
-          <Route path='/php_mysql_fullstack' element={<PHPMySqlFullstack />} />
-          <Route path='/react_fullstack' element={<ReactFullstack />} />
+          <Route path='/data-science' element={<Datascience />} />
+          <Route path='/html-css-js-angular-aspnet-fullstack' element={<HtmlCssJsBsSqlFullstack />} />
+          <Route path='/python-fullstack' element={<PythonFullstack />} />
+          <Route path='/java-fullstack' element={<JavaFullstack />} />
+          <Route path='/php-mysql-fullstack' element={<PHPMySqlFullstack />} />
+          <Route path='/react-fullstack' element={<ReactFullstack />} />
           <Route path='/ideathon' element={<Ideathon />} />
           <Route path='/registration_form' element={<RegistrationForm />} />
           <Route path='/hackathon' element={<Hackathon />} />
           <Route path='/payment' element={<Payment />} />
-          <Route path='/payment-agritech' element={<PaymentAgitech />} />
-          <Route path='/agritech-training' element={<AgritechTraining />} />
-          <Route path='/rawe-apiculture' element={<RAWEApiculture />} />
-          <Route path='/rawe-organic-farming' element={<RAWEOrganicFarming />} />
-          <Route path='/rawe-turmeric-cultivation' element={<RAWETurmericCultivation />} />
-          <Route path='/rawe-mushroom-cultivation' element={<RAWEMushroomCultivation />} />
-          <Route path='/rawe-hydroponics' element={<RAWEHydroponics />} />
-          <Route path='/elp-apiculture' element={<ELPApiculture />} />
-          <Route path='/elp-organic-farming' element={<ELPOrganicFarming />} />
-          <Route path='/elp-turmeric-cultivation' element={<ELPTurmericCultivation />} />
-          <Route path='/elp-mushroom-cultivation' element={<ELPMushroomCultivation />} />
-          <Route path='/elp-hydroponics' element={<ELPHydroponics />} />
           <Route path='/login' element={<Login />} />
           <Route path='/software-development' element={<SoftwareDevelopment />} />
+          <Route path='/online-exam' element={<OnlineExam />} />
         </Routes>
       </Router>
       

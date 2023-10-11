@@ -10,7 +10,7 @@ const ContactForm = () => {
     emailjs.sendForm('service_zdasi0h', 'template_37f5djs', form.current, 's30AsxsMtJubgeV9B')
       .then((result) => {
           console.log(result.text);
-          alert("Tahnk you for query. We will connect with you shortly");
+          alert("Thank you for query. We will connect with you shortly");
       }, (error) => {
           console.log(error.text);
       });

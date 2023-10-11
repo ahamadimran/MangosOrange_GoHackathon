@@ -14,72 +14,14 @@ const training = () => {
       </div>
       
     <main>
-
-    <div class="album py-5 bg-light">
-            <div class="container"> 
-                <h2 class="text-center mx-auto text-white bg-info rounded p-2 m-3">Full Stack Development</h2> <br/> <br/>
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 text-center">
-                <div class="col-lg-4">
-                        <div class="card shadow-sm">
-                           <Link to="/React_Fullstack"><img src="img/courses/FullStack.jpg" alt="React, NodeJS, Mongo DB Training" height="200px" width="100%"/></Link>
-                            <div class="card-body">
-                                <h4>HTML, CSS, JS, React, Node Js, Sql Server</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card shadow-sm">
-                           <Link to="/java_fullstack"><img src="img/courses/fullstack.jpeg" alt="Java,  Mongo DB/ MS Sql Server Training" height="200px" width="100%"/></Link>
-                            <div class="card-body">
-                                <h4>HTML, CSS, JS, Java, Sql Server</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card shadow-sm">
-                        <Link to="/HTML_CSS_Js_BS_AN_SQL_fullstack"><img src="img/courses/hcjbam.jpeg" alt="HTML,CSS, JavaScript, BootStrap, ASP.Net, MySql Training" height="200px" width="100%"/></Link>
-                            <div class="card-body">
-                            <h4>HTML, CSS, JavaScript, ASP.Net, Sql Server</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="album py-5 bg-light">
-            <div class="container"> 
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 text-center">
-                <div class="col-lg-4">
-                        <div class="card shadow-sm">
-                        <Link to="/Python_Fullstack"><img src="img/courses/python-sql.jpeg" alt="Python, Mongo DB/ MS Sql Server Training" height="200px" width="100%"/></Link>
-                            <div class="card-body">
-                            <h4>HTML, CSS, Javascript, Python, Postgres</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card shadow-sm">
-                           <Link to="/PHP_MySQL_Fullstack"><img src="img/courses/php-ms-sql-server.jpeg" alt="PHP, MS Sql Server Training" height="200px" width="100%"/></Link>
-                            <div class="card-body">
-                                <h4>HTML, CSS, JS, PHP, MySql</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div className='container trainingheading'>
-            <h2>BUDDING TECH PROFESSIONALS</h2>
-        </div>
+        
         <div className='container'>
             <div className='row'>
                 <div class="imgoftraining col-lg-5">
                     <img class="imgoftraining" src="img/courses/fullstackposter.png" alt="About Header" />
                 </div>
-                <div className='col-lg-7'>
-                    <h2>FullStack Web Development Training</h2> <br/>
+                <div className='col-lg-7 aboutsection'>
+                    <h2>BUDDING TECH PROFESSIONALS</h2> <br/>
                     <p>Inviting students to work on live project using MERN. Additionally, all the 
                         students will be skilled on Feature Listing, Prototyping, Business Documentation, 
                         Version Control, Security, Application Testing and Deployment. Interested Students 
@@ -94,7 +36,8 @@ const training = () => {
                         the most significant benefits:
                     </p>
                     <ul>
-                        <li>Gain practical experience</li>
+                        <li>Develop product from scratch</li>
+                        <li>Learn Technical Documentation</li>
                         <li>Network with professionals</li>
                         <li>Improve job prospects</li>
                         <li>Learn about different company cultures</li>
@@ -122,7 +65,7 @@ const training = () => {
                 <div class="col-lg-2"></div>
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
-                           <Link to="/Git_hub"><img src="img/courses/github.jpeg" alt="GiT & GiTHub Training" height="200px" width="100%"/></Link>
+                           <Link to="/git-hub"><img src="img/courses/github.jpeg" alt="GiT & GiTHub Training" height="200px" width="100%"/></Link>
                             <div class="card-body">
                                 <h4>Git & GitHub</h4>
                             </div>
@@ -142,21 +85,76 @@ const training = () => {
             </div>
         </div>
 
+    <div class="album py-5 bg-light">
+            <div class="container"> 
+                <h2 class="text-center mx-auto text-white bg-info rounded p-2 m-3">Full Stack Development</h2> <br/> <br/>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 text-center">
+                <div class="col-lg-4">
+                        <div class="card shadow-sm">
+                           <Link to="/react-fullstack"><img src="img/courses/FullStack.jpg" alt="React, NodeJS, Mongo DB Training" height="200px" width="100%"/></Link>
+                            <div class="card-body">
+                                <h4>MERN Stack</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card shadow-sm">
+                           <Link to="/java-fullstack"><img src="img/courses/fullstack.jpeg" alt="Java,  Mongo DB/ MS Sql Server Training" height="200px" width="100%"/></Link>
+                            <div class="card-body">
+                                <h4>Java Full Stack</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card shadow-sm">
+                        <Link to="/html-css-js-angular-aspnet-fullstack"><img src="img/courses/hcjbam.jpeg" alt="HTML,CSS, JavaScript, BootStrap, ASP.Net, MySql Training" height="200px" width="100%"/></Link>
+                            <div class="card-body">
+                            <h4>Asp.Net Full Stack</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="album py-5 bg-light">
+            <div class="container"> 
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 text-center">
+                <div class="col-lg-4">
+                        <div class="card shadow-sm">
+                        <Link to="/python-fullstack"><img src="img/courses/python-sql.jpeg" alt="Python, Mongo DB/ MS Sql Server Training" height="200px" width="100%"/></Link>
+                            <div class="card-body">
+                            <h4>Python Full Stack</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card shadow-sm">
+                           <Link to="/php-mysql-fullstack"><img src="img/courses/php-ms-sql-server.jpeg" alt="PHP, MS Sql Server Training" height="200px" width="100%"/></Link>
+                            <div class="card-body">
+                                <h4>PHP Full Stack</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="album py-5 bg-light">
             <div class="container"> 
             <h2 class="text-center mx-auto text-white bg-info rounded p-2 m-3">Frontend Web Development</h2> <br/> <br/>
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 text-center">
                 <div class="col-lg-4">
                         <div class="card shadow-sm">
-                           <Link to="/HTML_CSS_Js_Tailwind_Frontend"><img src="img/courses/html-css-js-tailwind.jpeg" alt="HTML,CSS, JavaScript, BootStrap, Tailwind Training" height="200px" width="100%"/></Link>
+                           <Link to="/html-css-javascript"><img src="img/courses/html-css-js-tailwind.jpeg" alt="HTML,CSS, JavaScript, BootStrap, Training" height="200px" width="100%"/></Link>
                             <div class="card-body">
-                                <h4>HTML,CSS, JS, BootStrap</h4>
+                                <h4>HTML,CSS, Bootstrap, JS</h4>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
-                        <Link to="/Python_Frontend"><img src="img/courses/python.jpeg" alt="Python Frontend Training" height="200px" width="100%"/></Link>
+                        <Link to="/python-frontend"><img src="img/courses/python.jpeg" alt="Python Frontend Training" height="200px" width="100%"/></Link>
                             <div class="card-body">
                             <h4>Python</h4>
                             </div>
@@ -164,7 +162,7 @@ const training = () => {
                     </div>
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
-                        <Link to="/php_frontend"><img src="img/courses/php.jpeg" alt="PHP Frontend Training" height="200px" width="100%"/></Link>
+                        <Link to="/php-frontend"><img src="img/courses/php.jpeg" alt="PHP Frontend Training" height="200px" width="100%"/></Link>
                             <div class="card-body">
                             <h4>PHP</h4>
                             </div>
@@ -180,7 +178,7 @@ const training = () => {
                     
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
-                           <Link to="/React_Frontend"><img src="img/courses/react.png" alt="React Frontend Training" height="200px" width="100%"/></Link>
+                           <Link to="/react-frontend"><img src="img/courses/react.png" alt="React Frontend Training" height="200px" width="100%"/></Link>
                             <div class="card-body">
                                 <h4>React</h4>
                             </div>
@@ -197,7 +195,7 @@ const training = () => {
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 text-center">
                 <div class="col-lg-4">
                         <div class="card shadow-sm">
-                           <Link to="/ASPnet_Backend"><img src="img/courses/FullStack.jpg" alt="ASP.Net Backend Training" height="200px" width="100%"/></Link>
+                           <Link to="/aspnet-backend"><img src="img/courses/FullStack.jpg" alt="ASP.Net Backend Training" height="200px" width="100%"/></Link>
                             <div class="card-body">
                                 <h4>ASP.Net</h4>
                             </div>
@@ -205,7 +203,7 @@ const training = () => {
                     </div>
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
-                           <Link to="/Python_Backend"><img src="img/courses/python-01.jpg" alt="Python Backend Training" height="200px" width="100%"/></Link>
+                           <Link to="/python-backend"><img src="img/courses/python-01.jpg" alt="Python Backend Training" height="200px" width="100%"/></Link>
                             <div class="card-body">
                                 <h4>Python</h4>
                             </div>
@@ -213,7 +211,7 @@ const training = () => {
                     </div>
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
-                        <Link to="/Java_Backend"><img src="img/courses/java.png" alt="Java Backend Training" height="200px" width="100%"/></Link>
+                        <Link to="/java-backend"><img src="img/courses/java.png" alt="Java Backend Training" height="200px" width="100%"/></Link>
                             <div class="card-body">
                             <h4>Java</h4>
                             </div>
@@ -228,7 +226,7 @@ const training = () => {
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 text-center">
                 <div class="col-lg-4">
                         <div class="card shadow-sm">
-                        <Link to="/PHP_backend"><img src="img/courses/php.jpeg" alt="PHP Backend Training" height="200px" width="100%"/></Link>
+                        <Link to="/php-backend"><img src="img/courses/php.jpeg" alt="PHP Backend Training" height="200px" width="100%"/></Link>
                             <div class="card-body">
                             <h4>PHP</h4>
                             </div>
@@ -236,7 +234,7 @@ const training = () => {
                     </div>
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
-                        <Link to="/Node_Backend"><img src="img/courses/node.png" alt="Node JS Training" height="200px" width="100%"/></Link>
+                        <Link to="/node-backend"><img src="img/courses/node.png" alt="Node JS Training" height="200px" width="100%"/></Link>
                             <div class="card-body">
                             <h4>Node JS</h4>
                             </div>
@@ -254,7 +252,7 @@ const training = () => {
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 text-center">
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
-                           <Link to="/ai_machine_learning"><img src="img/courses/AI-ML.png" alt="AI & Machine Learning Training" height="200px" width="100%"/></Link>
+                           <Link to="/ai-machine-learning"><img src="img/courses/AI-ML.png" alt="AI & Machine Learning Training" height="200px" width="100%"/></Link>
                             <div class="card-body">
                                 <h4>AI & Machine Learning</h4>
                             </div>
@@ -285,7 +283,7 @@ const training = () => {
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 text-center">
                     <div class="col-lg-4">
                         <div class="card shadow-sm">
-                        <Link to="/Datascience"><img src="img/courses/datascience.jpeg" alt="DATA Science Training" height="200px" width="100%"/></Link>
+                        <Link to="/data-science"><img src="img/courses/datascience.jpeg" alt="DATA Science Training" height="200px" width="100%"/></Link>
                             <div class="card-body">
                             <h4>DATA Science</h4>
                             </div>

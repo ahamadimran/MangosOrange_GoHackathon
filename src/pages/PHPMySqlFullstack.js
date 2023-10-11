@@ -3,10 +3,16 @@ import Menu from './Menu';
 import Footer from './Footer';
 import ContactForm from './ContactForm';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 const PHP_MYSQL_Fullstack = () => {
   return (
     <Fragment>
+        <div className='php-fullstack'>
+            <Helmet>
+                <title>Become a fullstack expert with gohackathon's php,mysql Program</title>
+                <meta name="description" content="Unlock the power of dynamic web development with GoHackathon PHP, MySQL Fullstack course."/>
+            </Helmet>
         <Menu />
         <body id="body">
             <div className="evebanner">
@@ -146,6 +152,7 @@ const PHP_MYSQL_Fullstack = () => {
         </body>
 
         <Footer />
+        </div>
     </Fragment>
   )
 }

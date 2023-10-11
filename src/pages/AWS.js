@@ -3,10 +3,16 @@ import Menu from './Menu';
 import Footer from './Footer';
 import ContactForm from './ContactForm';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 const AWS = () => {
   return (
     <Fragment>
+        <div className='aws'>
+            <Helmet>
+                <title>Mastering aws at gohackathon: your gateway to cloud excellence</title>
+                <meta name="description" content="Participate in GoHackathon's AWS Cloud challenge and demonstrate your cloud computing expertise."/>
+            </Helmet>
         <Menu />
         <body id="body">
             <div className="evebanner">
@@ -91,6 +97,7 @@ const AWS = () => {
             </div>
         </body>
         <Footer />
+        </div>
     </Fragment>
   )
 }

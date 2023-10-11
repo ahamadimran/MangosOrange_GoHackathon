@@ -3,10 +3,16 @@ import Menu from './Menu';
 import Footer from './Footer';
 import ContactForm from './ContactForm';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 const Java_Fullstack = () => {
   return (
     <Fragment>
+        <div className='java_fullstack'>
+            <Helmet>
+                <title>Elevate Your Career with GoHackathon's Java Fullstack Training</title>
+                <meta name="description" content="Embark on a journey to fullstack expertise with GoHackathon Java Fullstack course. Learn the ins and outs of Java, front-end, and back-end development."/>
+            </Helmet>
         <Menu />
         <body id="body">
             <div className="evebanner">
@@ -144,6 +150,7 @@ const Java_Fullstack = () => {
             </div>
         </body>
         <Footer />
+        </div>
     </Fragment>
   )
 }

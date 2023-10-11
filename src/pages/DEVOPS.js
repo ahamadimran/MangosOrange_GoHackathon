@@ -3,10 +3,16 @@ import Menu from './Menu';
 import Footer from './Footer';
 import ContactForm from './ContactForm';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 const DEVOPS = () => {
   return (
     <Fragment>
+        <div className='devops'>
+            <Helmet>
+                <title>Unleash Your DevOps Skills at GoHackathon</title>
+                <meta name="description" content="Join gohackathon Devops challenge and showcase your operational prowess. Compete, automate, and elevate your Devops skills in this thrilling coding event."/>
+            </Helmet>
         <Menu />
         <body id="body">
             <div className="evebanner">
@@ -89,6 +95,7 @@ const DEVOPS = () => {
         </body>
 
         <Footer />
+        </div>
     </Fragment>
   )
 }

@@ -3,10 +3,16 @@ import Menu from './Menu';
 import Footer from './Footer';
 import ContactForm from './ContactForm';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 const Node_Backend = () => {
   return (
     <Fragment>
+        <div className='node-backend'>
+            <Helmet>
+                <title>Elevate your node backend skills with Gohackathon</title>
+                <meta name="description" content="Participate in GoHackathon's Node Backend challenge and test your coding mettle. Showcase your Node.js skills."/>
+            </Helmet>
         <Menu />
         <body id="body">
             <div className="evebanner">
@@ -92,6 +98,7 @@ const Node_Backend = () => {
             </div>
         </body>
         <Footer />
+        </div>
     </Fragment>
   )
 }
