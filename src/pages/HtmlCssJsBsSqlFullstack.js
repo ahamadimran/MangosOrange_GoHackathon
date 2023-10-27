@@ -12,6 +12,7 @@ const HTML_CSS_Js_BS_AN_SQL_fullstack = () => {
             <Helmet>
                 <title>Learn HTML, CSS, JS, Bootstrap, Angular, SQL</title>
                 <meta name="description" content="Master the complete web development stack with GoHackathon HTML, CSS, JavaScript, Bootstrap, Angular, and SQL Fullstack course."/>
+                <link rel='canonical' href='http://gohackathon.in/html-css-js-angular-aspnet-fullstack'></link>
             </Helmet>
         <Menu />
         <body id="body">

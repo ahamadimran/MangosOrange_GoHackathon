@@ -12,6 +12,7 @@ const AWS = () => {
             <Helmet>
                 <title>Mastering aws at gohackathon: your gateway to cloud excellence</title>
                 <meta name="description" content="Participate in GoHackathon's AWS Cloud challenge and demonstrate your cloud computing expertise."/>
+                <link rel='canonical' href='http://gohackathon.in/aws'></link>
             </Helmet>
         <Menu />
         <body id="body">

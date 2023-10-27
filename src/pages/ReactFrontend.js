@@ -12,6 +12,7 @@ const React_Frontend = () => {
             <Helmet>
                 <title>Mastering React for Cutting-Edge Frontend Development</title>
                 <meta name="description" content="Unlock the full potential of React in frontend development. Dive into the world of modern web interfaces, showcasing your creativity and expertise."/>
+                <link rel='canonical' href='http://gohackathon.in/react-frontend'></link>
             </Helmet>
         <Menu />
         <body id="body">

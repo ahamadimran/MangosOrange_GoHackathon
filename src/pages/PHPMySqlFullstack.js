@@ -12,6 +12,7 @@ const PHP_MYSQL_Fullstack = () => {
             <Helmet>
                 <title>Become a fullstack expert with gohackathon's php,mysql Program</title>
                 <meta name="description" content="Unlock the power of dynamic web development with GoHackathon PHP, MySQL Fullstack course."/>
+                <link rel='canonical' href='http://gohackathon.in/php-mysql-fullstack'></link>
             </Helmet>
         <Menu />
         <body id="body">

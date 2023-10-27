@@ -12,6 +12,7 @@ const ASPnet_Backend = () => {
             <Helmet>
                 <title>Elevate Your Backend Skills with ASP.NET</title>
                 <meta name="description" content="Join the GoHackathon and dive into the world of backend development with ASP.NET."/>
+                <link rel='canonical' href='http://gohackathon.in/aspnet-backend'></link>
             </Helmet>
         <Menu />
         <body id="body">

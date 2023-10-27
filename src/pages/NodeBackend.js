@@ -12,6 +12,7 @@ const Node_Backend = () => {
             <Helmet>
                 <title>Elevate your node backend skills with Gohackathon</title>
                 <meta name="description" content="Participate in GoHackathon's Node Backend challenge and test your coding mettle. Showcase your Node.js skills."/>
+                <link rel='canonical' href='http://gohackathon.in/node-backend'></link>
             </Helmet>
         <Menu />
         <body id="body">

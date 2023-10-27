@@ -12,6 +12,7 @@ const Python_Frontend = () => {
             <Helmet>
                 <title>Unleash the Power of Python in Frontend Development</title>
                 <meta name="description" content="Explore the limitless potential of Python in frontend development at GoHackathon. Join us for a creative coding challenge."/>
+                <link rel='canonical' href='http://gohackathon.in/pyhon-frontend'></link>
             </Helmet>
         <Menu />
         <body id="body">

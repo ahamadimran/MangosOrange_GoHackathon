@@ -12,6 +12,7 @@ const Python_Fullstack = () => {
             <Helmet>
                 <title>Elevate your career with python fullstack expertise</title>
                 <meta name="description" content="Embark on a transformative journey into the world of web development with GoHackathon Python Fullstack program."/>
+                <link rel='canonical' href='http://gohackathon.in/python-fullstack'></link>
             </Helmet>
         <Menu />
         <body id="body">

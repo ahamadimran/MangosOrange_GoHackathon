@@ -12,7 +12,7 @@ const Figma = () => {
             <Helmet>
                 <title>Figma Training Course | Live Project Based Internship</title>
                 <meta name="description" content="Join our Figma Training Course with Live Project-Based Internship for hands-on design experience. Learn Figma from experts and enhance your design skills."/>
-                <link rel='canonical' href='http://localhost:3000/figma'></link>
+                <link rel='canonical' href='http://gohackathon.in/figma'></link>
             </Helmet>
 
             <Menu />

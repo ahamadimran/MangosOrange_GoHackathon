@@ -12,6 +12,7 @@ const React_Fullstack = () => {
             <Helmet>
                 <title>Unlock React Expertise: Join GoHackathon's Exclusive Course</title>
                 <meta name="description" content="Join GoHackathon React Course and level up your development skills. Explore React.js, build dynamic web applications, and advance your career."/>
+                <link rel='canonical' href='http://gohackathon.in/react-fullstack'></link>
             </Helmet>
         <Menu />
         <body id="body">

@@ -12,6 +12,7 @@ const PHP_Frontend = () => {
             <Helmet>
                 <title>GoHackathon: Unleash the Power of PHP in Frontend Innovation</title>
                 <meta name="description" content="Join the GoHackathon for an exciting journey into the world of frontend development with PHP. Showcase your creativity and technical skills."/>
+                <link rel='canonical' href='http://gohackathon.in/php-frontend'></link>
             </Helmet>
         <Menu />
         <body id="body">

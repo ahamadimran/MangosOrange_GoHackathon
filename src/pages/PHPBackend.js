@@ -12,6 +12,7 @@ const PHP_backend = () => {
             <Helmet>
                 <title>Unlock PHP Backend Skills at GoHackathon</title>
                 <meta name="description" content="Join GoHackathon's PHP Backend challenge and showcase your development prowess. Compete, learn, and excel in PHP backend development."/>
+                <link rel='canonical' href='http://gohackathon.in/php-backend'></link>
             </Helmet>
         <Menu />
         <body id="body">

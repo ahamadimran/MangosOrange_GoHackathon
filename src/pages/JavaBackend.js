@@ -12,6 +12,7 @@ const Java_Backend = () => {
             <Helmet>
                 <title>Master java backend development: gohackathon</title>
                 <meta name="description" content="Step into the Java backend arena at gohackathon. Compete with Java enthusiasts, craft robust and scalable backends."/>
+                <link rel='canonical' href='http://gohackathon.in/java-backend'></link>
             </Helmet>
         <Menu />
         <body id="body">

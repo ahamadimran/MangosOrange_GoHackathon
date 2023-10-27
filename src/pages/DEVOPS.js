@@ -12,6 +12,7 @@ const DEVOPS = () => {
             <Helmet>
                 <title>Unleash Your DevOps Skills at GoHackathon</title>
                 <meta name="description" content="Join gohackathon Devops challenge and showcase your operational prowess. Compete, automate, and elevate your Devops skills in this thrilling coding event."/>
+                <link rel='canonical' href='http://gohackathon.in/devops'></link>
             </Helmet>
         <Menu />
         <body id="body">

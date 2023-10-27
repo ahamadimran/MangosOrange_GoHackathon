@@ -12,6 +12,7 @@ const Datascience = () => {
             <Helmet>
                 <title>Dive into Data Science Excellence at GoHackathon</title>
                 <meta name="description" content="Participate in GoHackathon's Data Science challenge and demonstrate your data analysis prowess."/>
+                <link rel='canonical' href='http://gohackathon.in/data-science'></link>
             </Helmet>
         <Menu />
         <body id="body">

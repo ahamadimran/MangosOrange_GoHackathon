@@ -12,6 +12,7 @@ const Java_Fullstack = () => {
             <Helmet>
                 <title>Elevate Your Career with GoHackathon's Java Fullstack Training</title>
                 <meta name="description" content="Embark on a journey to fullstack expertise with GoHackathon Java Fullstack course. Learn the ins and outs of Java, front-end, and back-end development."/>
+                <link rel='canonical' href='http://gohackathon.in/java-fullstack'></link>
             </Helmet>
         <Menu />
         <body id="body">

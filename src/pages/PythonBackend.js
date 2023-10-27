@@ -12,6 +12,7 @@ const Python_Backend = () => {
             <Helmet>
                 <title>Power Up Your Python Backend with GoHackathon</title>
                 <meta name="description" content="Join the GoHackathon Python Backend challenge and showcase your coding prowess! Compete with fellow developers, build innovative Python backends."/>
+                <link rel='canonical' href='http://gohackathon.in/python-backend'></link>
             </Helmet>
         <Menu />
         <body id="body">

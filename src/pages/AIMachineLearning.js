@@ -12,6 +12,7 @@ const AI_MachineLearning = () => {
             <Helmet>
                 <title>Unleash Your AI Potential With GoHackathon</title>
                 <meta name="description" content="Join GoHackathon's AI & Machine Learning challenge and showcase your coding prowess."/>
+                <link rel='canonical' href='http://gohackathon.in/ai-machine-learning'></link>
             </Helmet>
         <Menu />
         <body id="body">

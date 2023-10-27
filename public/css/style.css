@@ -836,3 +836,7 @@ i{
   width: 360px;
   text-align: left;
 }
+
+.error {
+  text-align: center;
+}

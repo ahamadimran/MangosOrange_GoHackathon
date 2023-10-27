@@ -12,6 +12,7 @@ const Git_hub = () => {
             <Helmet>
                 <title>Advanced GitHub Training: Streamline Development and Collaboration</title>
                 <meta name="description" content="Unlock the power of version control and collaboration with our GitHub training. Master branching, pull requests, collaboration strategies, and more. "/>
+                <link rel='canonical' href='http://gohackathon.in/git-hub'></link>
             </Helmet>
         <Menu />
         <body id="body">

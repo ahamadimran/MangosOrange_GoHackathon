@@ -12,6 +12,7 @@ const HTML_CSS_Js_Tailwind_Frontend = () => {
             <Helmet>
                 <title>Elevate Your Skills: HTML, CSS, JS, and Bootstrap Frontend </title>
                 <meta name="description" content="Join GoHackathon comprehensive Frontend Training program and sharpen your skills in HTML, CSS, JavaScript, and Bootstrap. "/>
+                <link rel='canonical' href='http://gohackathon.in/html-css-javascript'></link>
             </Helmet>
         <Menu />
         <body id="body">
