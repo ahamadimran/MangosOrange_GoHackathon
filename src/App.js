@@ -43,6 +43,7 @@ import Login from './pages/Login';
 import SoftwareDevelopment from './pages/SoftwareDevelopment';
 import OnlineExam from './pages/OnlineExam';
 import PageNotFound from './PageNotFound';
+import WebDevelopment from './pages/WebDevelopment';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
@@ -104,6 +105,7 @@ function App() {
           <Route path='/login' element={<Login />} />
           <Route path='/software-development' element={<SoftwareDevelopment />} />
           <Route path='/online-exam' element={<OnlineExam />} />
+          <Route path='/web-development' element={<WebDevelopment />} />
         </Routes>
       </Router>
       

@@ -83,8 +83,8 @@ const ASPnet_Backend = () => {
                             course, students will have developed several web applications using ASP.NET and be 
                             able to effectively collaborate with other developers using Git for version control.
                         </p> <br/>
-                        <p><strong>Training Cost:- ₹ 6000/-</strong></p>
-                        <button className="btn btn-primary">Duration: 6-8 Weeks</button> &nbsp;
+                        <p><strong>Training Cost:- ₹ 30,000/-</strong></p>
+                        <button className="btn btn-primary">Duration: 6 Months</button> &nbsp;
                         <Link to="/payment"><button className="btn btn-primary">Buy Now</button></Link> &nbsp;
                         <Link to="/contact"><button className="btn btn-primary">Know More</button></Link>
                     </div>

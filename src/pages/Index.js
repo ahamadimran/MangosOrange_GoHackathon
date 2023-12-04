@@ -20,7 +20,7 @@ const index = () => {
                     <p><strong>Collaborate, Innovate, and Hack Your Way to Success!</strong><br />
                         We are trying to build a community where everyone can connect, learn, and grow together.
                     </p> <br /> 
-                    <NavLink to="https://forms.gle/uW35kNWfoSYxvKNb8"><button className="btn btn-primary px-5 py-2 primary-btn">Register Now</button></NavLink>
+                    <NavLink to="https://forms.gle/vxWJZwdpfURqbUgM7"><button className="btn btn-primary px-5 py-2 primary-btn">Register Now</button></NavLink>
                 </div>
                 <div className="col-lg-5 bannertext">
                     <img src="img/development2" alt="Fullstack Web Development" />

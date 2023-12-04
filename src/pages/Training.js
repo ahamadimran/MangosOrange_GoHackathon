@@ -18,24 +18,28 @@ const training = () => {
         <div className='container'>
             <div className='row'>
                 <div class="imgoftraining col-lg-5">
-                    <img class="imgoftraining" src="img/courses/fullstackposter.png" alt="About Header" />
+                    <img class="imgoftraining" src="img/courses/Webinar.png" alt="About Header" /> <br/>
                 </div>
                 <div className='col-lg-7 aboutsection'>
-                    <h2>BUDDING TECH PROFESSIONALS</h2> <br/>
+                    <h2>4P Program for Budding Tech Professionals</h2> <br/>
+                    <p><strong>PREPRATION:-</strong> This is the basic and foundation level. <br/>
+                       <strong>PROJECT:-</strong> Here the candidate will apply their learning in small projects. <br/>
+                       <strong>PROFESSIONAL:-</strong> All candidate will work on client projects or thier Start-up ideas. <br/>
+                       <strong>PLACEMENT:-</strong> Exhaustive preparation for apptitute, interviews, GD and resume writting.
+                    </p>
                     <p>Inviting students to work on live project using MERN. Additionally, all the 
                         students will be skilled on Feature Listing, Prototyping, Business Documentation, 
                         Version Control, Security, Application Testing and Deployment. Interested Students 
                         or Student Group will be provided Mentorship for their startup IDEAS.
                     </p>
-                    <p>Attention all aspiring students and tech enthusiasts! GoHackathon is excited to announce the 
-                        launch of our new courses on Web Development, AI/ML, and Cloud Computing. Whether you're a 
-                        beginner or an experienced coder, we've got something for everyone. With expert instructors, 
+                    <p>we've got something for everyone. With expert instructors, 
                         hands-on projects, and cutting-edge tools, you'll gain the skills and knowledge needed to 
                         take your career to the next level. Don't miss out on this opportunity to join the ranks of 
                         the top tech talent. Enroll now and let's hack our way to success together. Here are some of 
                         the most significant benefits:
                     </p>
-                    <ul>
+                    <a href="https://forms.gle/vxWJZwdpfURqbUgM7"><button className="btn btn-primary px-5 py-2 primary-btn" id="contact">Click for Admission</button></a>
+                    {/* <ul>
                         <li>Develop product from scratch</li>
                         <li>Learn Technical Documentation</li>
                         <li>Network with professionals</li>
@@ -43,20 +47,20 @@ const training = () => {
                         <li>Learn about different company cultures</li>
                         <li>Explore different career paths</li>
                         <li>Earn academic credit</li>
-                    </ul>
+                    </ul> */}
 
                 </div>
                 
             </div>
         </div>
 
-        <div className="container">
+        {/* <div className="container">
           <div className="">
         
-            <a href="https://forms.gle/uW35kNWfoSYxvKNb8"><button className="btn btn-primary px-5 py-2 primary-btn" id="contact">Register Now</button></a>     
+            <a href="https://forms.gle/GrnFC9cQDCCJHppx8"><button className="btn btn-primary px-5 py-2 primary-btn" id="contact">Register Now</button></a>     
           
           </div>
-        </div>
+        </div> */}
 
         <div class="album py-5 bg-light">
             <div class="container">

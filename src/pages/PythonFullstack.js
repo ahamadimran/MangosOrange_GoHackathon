@@ -141,8 +141,8 @@ const Python_Fullstack = () => {
                             <li>Ability to deploy web applications to cloud platforms like AWS, Azure, or Google Cloud.</li>
                         </ul>
                         <br/>
-                        <p><strong>Training Cost:- ₹ 15,000/-</strong></p>
-                        <button className="btn btn-primary">Duration: 6-7 Months</button> &nbsp;
+                        <p><strong>Training Cost:- ₹ 30,000/-</strong></p>
+                        <button className="btn btn-primary">Duration: 6 Months</button> &nbsp;
                         <Link to="/payment"><button className="btn btn-primary">Buy Now</button></Link> &nbsp;
                         <Link to="/contact"><button className="btn btn-primary">Know More</button></Link>
                     </div>
