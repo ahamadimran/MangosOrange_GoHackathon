@@ -211,6 +211,15 @@ p{
 }
 
 .bannerimg {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.bannerimg {
   display: flex;
   width: auto;
   height: auto;

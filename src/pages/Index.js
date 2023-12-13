@@ -14,16 +14,16 @@ const index = () => {
         <div className="container">
             <div className="row">
                 <div className="col-lg-7  bannertext">
-                    <h1>GOHACKATHON</h1> <br/>
-                    <h6>Presents</h6>
-                    <h3><strong>FullStack Web Development Internship</strong></h3>
+                    <h1><strong>WEBINAR</strong></h1>
+                    <h6>ON</h6>
+                    <h3><strong>MERN FullStack Web Development</strong></h3>
                     <p><strong>Collaborate, Innovate, and Hack Your Way to Success!</strong><br />
                         We are trying to build a community where everyone can connect, learn, and grow together.
                     </p> <br /> 
                     <NavLink to="https://forms.gle/vxWJZwdpfURqbUgM7"><button className="btn btn-primary px-5 py-2 primary-btn">Register Now</button></NavLink>
                 </div>
-                <div className="col-lg-5 bannertext">
-                    <img src="img/development2" alt="Fullstack Web Development" />
+                <div className="col-lg-5">
+                    <img src="img/free-webinar.png" alt="Fullstack Web Development" className='bannerimg'/>
                 </div>
             </div>
         </div>
